@@ -6,13 +6,13 @@
 
 # AlarmClearButtons
 
-## 컨트롤 목적
+### 컨트롤 목적
 
 - 자동보고 창을 컨트롤 하기 위한 버튼 컨트롤입니다.
 
 ![](Button_Sample_AlarmClearButtons.gif)
 
-## 샘플 코드
+### 샘플 코드
 
 ```xml
 <Button Content="Show" Click="ButtonBase_OnClick" Width="100" Height="100"/>
@@ -45,13 +45,13 @@ private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
 
 # FilterOnOffButton
 
-## 컨트롤 목적
+### 컨트롤 목적
 
 - GridControl의 필터를 켜고 끌때 사용하는 버튼입니다.
 
 ![](Button_Sample_FilterOnOffButton.gif)
 
-## 샘플 코드
+### 샘플 코드
 
 ```xml
 <dxg:GridControl x:Name="GC_Alm" ItemsSource="{Binding SysAlmItems}" Margin="0">
@@ -80,13 +80,13 @@ private void BTN_AlmFilter_Click(object sender, RoutedEventArgs e)
 
 # FlatButton
 
-## 컨트롤 목적
+### 컨트롤 목적
 
 - FlatButton 입니다. Progress를 이용하여 동작시킬 수 있습니다.
 
 ![](Button_Sample_FlatButton.gif)
 
-## 샘플 코드
+### 샘플 코드
 
 ```xaml
 <buttons:FlatButton Width="200" Height="40"
@@ -133,13 +133,13 @@ private void FlatButton_OnClickProgressBar(object sender, RoutedEventArgs e)
 
 # OpenCloseButtons
 
-## 컨트롤 목적
+### 컨트롤 목적
 
 - 파일을 여는 버튼입니다. filePath를 지정하여, 해당 파일의 폴더나 파일을 열고 닫을 수 있습니다.
 
 ![](Button_Sample_OpenCloseButton.gif)
 
-## 샘플 코드
+### 샘플 코드
 
 ```xml
 <Button Content="Show" Click="ButtonBase_OnClick" Width="100" Height="100"/>
