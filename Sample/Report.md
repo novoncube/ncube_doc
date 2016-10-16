@@ -12,7 +12,7 @@
 
 ## Print
 
-1. 먼저 테이블을 읽어 hohSheet를 sheetData를 생성합니다.
+- 먼저 테이블을 읽어 hohSheet를 sheetData를 생성합니다.
 
 ```cs
 // 테이블을 읽어옵니다.
@@ -35,14 +35,14 @@ private void GetControl(List<HohSheetModel> hohSheetModles)
 }
 ```
 
-2. HohReportPrinter를 생성합니다.
+- HohReportPrinter를 생성합니다.
 
 ```cs
 var reportPrinter = new HohReportPrinter();
 reportPrinter.Add(sheetData);
 ```
 
-3. 컨트롤 자체를 캡쳐할 경우, 아래와 같은 코드를 이용합니다.
+- 컨트롤 자체를 캡쳐할 경우, 아래와 같은 코드를 이용합니다.
 
 ```cs
 // 컨트롤을 캡쳐합니다.
@@ -69,28 +69,28 @@ private void GetControl(List<HohSheetModel> hohSheetModles)
 }
 ```
 
-4. 프린트 문서를 생성합니다.
+- 프린트 문서를 생성합니다.
 
 ```cs
 var createDoc = await reportPrinter.CreateDocumentAsync();
 reportPrinter.ShowPreviewDialog();
 ```
 
-5. 결과물
+- 결과물
 
 ![](Report_SimpleGridControl_Print.png)
 
 
 ## Excel
 
-1. 마찬가지로 먼저 hohSheet를 위한 데이터를 생성합니다.
+- 마찬가지로 먼저 hohSheet를 위한 데이터를 생성합니다.
 
 ```cs
 var table = new HohSheetTable(TableSampleModels);
 var sheetData = await GetTable(table);
 ```
 
-2. 데이터를 넣고, 문서를 생성합니다.
+- 데이터를 넣고, 문서를 생성합니다.
 
 ```cs
 var spreadSheet = new HohSpreadSheet();
@@ -98,7 +98,7 @@ spreadSheet.Add(sheetData);
 await spreadSheet.CreateSheetAsync(tokenSrc.Token);
 ```
 
-3. 파일 명을 설정하고, 저장합니다.
+- 파일 명을 설정하고, 저장합니다.
 
 ```cs
 // 파일 이름 지정
@@ -111,7 +111,7 @@ string defaultFileName = $"{prefix}_저장_{nowStr}.xlsx";
 var path = spreadSheet.SaveDocumentAs(defaultFileName);
 ```
 
-4. 결과물
+- 결과물
 
 ![](Report_SimpleGridControl_Excel.png)
 
@@ -126,7 +126,7 @@ var path = spreadSheet.SaveDocumentAs(defaultFileName);
 
 ## 샘플 코드
 
-1. 이 샘플 프로젝트에서는 Print, ExportExcel 메서드에 어떤 HohSheetTable.TableTypes 을 파라미터로 넘기느냐에 따라 결과물이 다라지도록 구현되어 있습니다.
+- 이 샘플 프로젝트에서는 Print, ExportExcel 메서드에 어떤 HohSheetTable.TableTypes 을 파라미터로 넘기느냐에 따라 결과물이 다라지도록 구현되어 있습니다.
 
 ```xml
 <Button Grid.Column="0" Content="[TreeKey] 인쇄로 출력" Click="BTN_Print_OnClick"/>
@@ -157,7 +157,7 @@ private void BTN_CombineViewExcel_OnClick(object sender, RoutedEventArgs e)
 }
 ```
 
-2. 아래는 실제 동작하는 코드입니다.
+- 아래는 실제 동작하는 코드입니다.
 
 ```cs
 private async Task<HohSheetModel> GetTable(HohSheetTable table)
@@ -261,20 +261,20 @@ public async void ExportExcel(HohSheetTable.TableTypes tableType = HohSheetTable
 }
 ```
 
-4. 결과물
+## 결과물
 
-#### TreeKey 방식 Print
+### TreeKey 방식 Print
 
 ![](Report_TreeListControlPanel_TreeKey_Pinrt.png)
 
-#### TreeKey 방식 Excel
+### TreeKey 방식 Excel
 
 ![](Report_TreeListControlPanel_TreeKey_Excel.png)
 
-#### reeKeyCombineView 방식 Print
+### reeKeyCombineView 방식 Print
 
 ![](Report_TreeListControlPanel_TreeKeyCombineView_Print.png)
 
-#### reeKeyCombineView 방식 Excel
+### reeKeyCombineView 방식 Excel
 
 ![](Report_TreeListControlPanel_TreeKeyCombineView_Excel.png)
