@@ -59,7 +59,7 @@ namespace NCube.Sample.Report
 
 3. App.xaml에서 Startup 이밴트를 생성하고, AppStartup를 리소스로 등록합니다.
 
-```xaml
+```xml
 <Application x:Class="NCube.Sample.Report.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
