@@ -1,30 +1,36 @@
-# NCube 2.0
+# Summary
 
-## Summary
 - FlatPopup Class를 이용하여 Dialog를 생성합니다.
 
-### Dialog
----
-#### FlatPopup
-##### 컨트롤 목적
+# FlatPopup
+
+### 컨트롤 목적
+
 - NCube 기본 형태의 Dialog입니다. Content로 필요한 패널을 같이 넣어야 사용할 수 있습니다.
-##### 샘플 코드
+
+### 샘플 코드
+
 - FlatPopup을 이용하여 메인 Grid를 Lock하고 싶을 시, 아래 코드를 활용해야 합니다.
+
 ``` cs
 WindowLockHelper.LockedGrid = GRID;
 ```
 
 
+# FlatPopup & MsgBoxPopupPageView
 
----
-#### FlatPopup & MsgBoxPopupPageView
-![](Dialog_ShowMsgBox_Ok.gif)
-##### 컨트롤 목적
+### 컨트롤 목적
+
 - 
-##### 샘플 코드
-```xaml
+
+![](Dialog_ShowMsgBox_Ok.gif)
+
+### 샘플 코드
+
+```xml
 <Button Click="ButtonBase_ShowMsgBoxOk" Content="ShowMsgBox Ok" />
 ``` 
+
 ```cs
 private void ButtonBase_ShowMsgBoxOk(object sender, RoutedEventArgs e)
 {
@@ -40,16 +46,20 @@ private void ButtonBase_ShowMsgBoxOk(object sender, RoutedEventArgs e)
 ```
 
 
+# FlatPopup & MsgBoxPopupPageView 2
 
----
-#### FlatPopup & MsgBoxPopupPageView 2
-![](Dialog_ShowMsgBox_YesNo.gif)
-##### 컨트롤 목적
+### 컨트롤 목적
+
 - 
-##### 샘플 코드
-```xaml
+
+![](Dialog_ShowMsgBox_YesNo.gif)
+
+### 샘플 코드
+
+```xml
 <Button Click="ButtonBase_ShowMsgBoxYesNo" Content="ShowMsgBox Yes/No" />
 ``` 
+
 ```cs
 private void ButtonBase_ShowMsgBoxYesNo(object sender, RoutedEventArgs e)
 {
@@ -76,16 +86,20 @@ private void ButtonBase_ShowMsgBoxYesNo(object sender, RoutedEventArgs e)
 ```
 
 
+# FlatPopup & SysCfgRestoreConfirmPopupPageView
 
----
-#### FlatPopup & SysCfgRestoreConfirmPopupPageView
-![](Dialog_ShowSysCfgRestoreConfirm.gif)
-##### 컨트롤 목적
+### 컨트롤 목적
+
 - 
-##### 샘플 코드
-```xaml
+
+![](Dialog_ShowSysCfgRestoreConfirm.gif)
+
+### 샘플 코드
+
+```xml
 <Button Click="ButtonBase_ShowSysCfgRestoreConfirm" Content="ShowSysCfgRestoreConfirm" />
 ``` 
+
 ```cs
 private void ButtonBase_ShowSysCfgRestoreConfirm(object sender, RoutedEventArgs e)
 {
@@ -107,16 +121,19 @@ private void ButtonBase_ShowSysCfgRestoreConfirm(object sender, RoutedEventArgs 
 ```
 
 
+# FlatPopup & InitSysColdConfirmPopupPageView
 
----
-#### FlatPopup & InitSysColdConfirmPopupPageView
+### 컨트롤 목적
+
+-
+
 ![](Dialog_ShowInitSysColdConfirm.gif)
-##### 컨트롤 목적
-- 
-##### 샘플 코드
-```xaml
+
+### 샘플 코드
+```xml
 <Button Click="ButtonBase_ShowInitSysColdConfirm" Content="ShowInitSysColdConfirm" />
 ``` 
+
 ```cs
 ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
 SimpleIoc.Default.Register<ILoginUserModel, DefaultLoginUserModel>();
@@ -147,16 +164,20 @@ private void ButtonBase_ShowInitSysColdConfirm(object sender, RoutedEventArgs e)
 ```
 
 
+# FlatPopup & RdlRebootConfirmPopupPageView
 
----
-#### FlatPopup & RdlRebootConfirmPopupPageView
-![](Dialog_ShowRdlRebootConfirm.gif)
-##### 컨트롤 목적
+### 컨트롤 목적
+
 - 
-##### 샘플 코드
-```xaml
+
+![](Dialog_ShowRdlRebootConfirm.gif)
+
+### 샘플 코드
+
+```xml
 <Button Click="ButtonBase_ShowRdlRebootConfirm" Content="ShowRdlRebootConfirm" />
 ``` 
+
 ```cs
 ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
 SimpleIoc.Default.Register<ILoginUserModel, DefaultLoginUserModel>();

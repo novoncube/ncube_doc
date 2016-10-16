@@ -1,18 +1,22 @@
-# NCube 2.0
+# Summary
 
-## Summary
+- 
 
-### Controls
----
-#### CategoryChartControl
-![](Chart_CategoryChartPanel.png)
-##### 컨트롤 목적
+# CategoryChartControl
+
+### 컨트롤 목적
+
 - 카테고리 형식으로 차트를 보여줍니다. Max, Avg, Min 각각 색ㅇ르 설정할 수도 있습니다.
-##### 샘플 코드
-```xaml
+
+![](Chart_CategoryChartControl.png)
+
+### 샘플 코드
+
+```xml
 <charts:CategoryChartControl x:Name="chart"
                                  AverageValueBrush="Green" MaxValueBrush="Red" MinValueBrush="Blue" />
 ``` 
+
 ```cs
 chart.Items = new ObservableCollection<CategoryChartModel>();
 
@@ -45,16 +49,20 @@ private void InitItems()
 ```
 
 
+# CvLogChartControl
 
----
-#### CvLogChartControl
-![](Chart_CvLogChartPanel.png)
-##### 컨트롤 목적
+### 컨트롤 목적
+
 - CvLog를 보여주기 위한 차트입니다.
-##### 샘플 코드
-```xaml
+
+![](Chart_CvLogChartPanel.png)
+
+### 샘플 코드
+
+```xml
 <charts:CvLogChartControl x:Name="chart" />
 ``` 
+
 ```cs
 chart.Items = new ObservableCollection<CvLogChartModel>();
 
@@ -90,16 +98,20 @@ private void InitItems()
 ```
 
 
+# EthLogChartControl
 
----
-#### EthLogChartControl
-![](Chart_EthLogChartControl.png)
-##### 컨트롤 목적
+### 컨트롤 목적
+
 - EthLog를 보여주기 위한 차트입니다.
-##### 샘플 코드
-```xaml
+
+![](Chart_EthLogChartControl.png)
+
+### 샘플 코드
+
+```xml
 chart.Items = new ObservableCollection<EthLogChartModel>();
 ``` 
+
 ```cs
 chart.Items = new ObservableCollection<EthLogChartModel>();
 
@@ -133,15 +145,20 @@ private void InitItems()
 
 
 
----
-#### OtdrLogChartControl
-![](Chart_OtdrLogChartControl.png)
-##### 컨트롤 목적
+# OtdrLogChartControl
+
+### 컨트롤 목적
+
 - Otdr Log를 보여주기 위한 차트입니다.
-##### 샘플 코드
-```xaml
+
+![](Chart_OtdrLogChartControl.png)
+
+### 샘플 코드
+
+```xml
 <charts:OtdrLogChartControl x:Name="chart" />
 ``` 
+
 ```cs
 chart.Items = new ObservableCollection<OtdrChartModel>();
 
@@ -177,16 +194,20 @@ private void InitItems()
 ```
 
 
+# OtdrTestChartControl
 
----
-#### OtdrTestChartControl
-![](Chart_OtdrTestChartControl.png)
-##### 컨트롤 목적
+### 컨트롤 목적
+
 - Otdr Test Log를 보여주기 위한 차트입니다.
-##### 샘플 코드
-```xaml
+
+![](Chart_OtdrTestChartControl.png)
+
+### 샘플 코드
+
+```xml
 <charts:OtdrTestChartControl x:Name="chart" BendValueBrush="Red" />
 ``` 
+
 ```cs
 chart.Items = new ObservableCollection<OtdrChartModel>();
 
@@ -213,14 +234,17 @@ private void InitItems()
 ```
 
 
+# PieAreaChart
 
----
-#### PieAreaChart
-![](Chart_PieAreaChartControl.gif)
-##### 컨트롤 목적
+### 컨트롤 목적
+
 - CPU 및 메모리를 표현하기 위한 파이차트입니다.
-##### 샘플 코드
-```xaml
+
+![](Chart_PieAreaChartControl.gif)
+
+### 샘플 코드
+
+```xml
 <chart:PieAreaChart x:Name="chart1"
                     Grid.Column="0"
                     Margin="10"
@@ -249,6 +273,7 @@ private void InitItems()
                     XMaxValue="{Binding Path=XMaxValue}"
                     XMinValue="{Binding Path=XMinValue}" />
 ``` 
+
 ```cs
 DataContext = new PieAreaChartPanelViewModel();
 
@@ -257,12 +282,17 @@ DataContext = new PieAreaChartPanelViewModel();
 ```
 
 
+# RealTimeChartControl
 
----
-#### RealTimeChartControl
-![](Chart_RealTimeChartControl.gif)
 ##### 컨트롤 목적
-- 
+
+- 실시간 차트를 표현합니다.
+- Threshold를 설정할 수 있습니다.
+- 각 Series의 색을 지정할 수 있습니다.
+- Sereis 표현을 Line, Area 로 표현가능합니다.
+
+![](Chart_RealTimeChartControl.gif)
+
 ##### 샘플 코드
 ```xaml
 <charts:RealTimeChartControl x:Name="chart1"
@@ -274,6 +304,7 @@ DataContext = new PieAreaChartPanelViewModel();
 <charts:RealTimeChartControl x:Name="chart3"
                                 AverageValueBrush="Green" SeriesCount="200" ThresholdViewType="None" ValueViewType="SingleLine" />
 ``` 
+
 ```cs
 private async void ItemsInit()
 {
