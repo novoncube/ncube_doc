@@ -88,7 +88,7 @@ private void BTN_AlmFilter_Click(object sender, RoutedEventArgs e)
 
 ### 샘플 코드
 
-```xaml
+```xml
 <buttons:FlatButton Width="200" Height="40"
                             Click="FlatButton_OnClick" Content="FlatButton" />
 <buttons:FlatButton Width="200" Height="40"
