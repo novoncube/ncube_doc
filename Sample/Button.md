@@ -1,14 +1,16 @@
 # Summary
 
+- Panel 내에 삽입하여 쓰는 버튼입니다.
+
 ![](Button_main.png)
 
 # AlarmClearButtons
 
-![](Button_Sample_AlarmClearButtons.gif)
-
 ## 컨트롤 목적
 
 - 자동보고 창을 컨트롤 하기 위한 버튼 컨트롤입니다.
+
+![](Button_Sample_AlarmClearButtons.gif)
 
 ## 샘플 코드
 
@@ -43,11 +45,11 @@ private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
 
 # FilterOnOffButton
 
-![](Button_Sample_FilterOnOffButton.gif)
-
 ## 컨트롤 목적
 
 - GridControl의 필터를 켜고 끌때 사용하는 버튼입니다.
+
+![](Button_Sample_FilterOnOffButton.gif)
 
 ## 샘플 코드
 
@@ -78,11 +80,11 @@ private void BTN_AlmFilter_Click(object sender, RoutedEventArgs e)
 
 # FlatButton
 
-![](Button_Sample_FlatButton.gif)
-
 ## 컨트롤 목적
 
 - FlatButton 입니다. Progress를 이용하여 동작시킬 수 있습니다.
+
+![](Button_Sample_FlatButton.gif)
 
 ## 샘플 코드
 
@@ -129,13 +131,13 @@ private void FlatButton_OnClickProgressBar(object sender, RoutedEventArgs e)
 
 
 
-# OpenCloseButton
-
-![](Button_Sample_OpenCloseButton.gif)
+# OpenCloseButtons
 
 ## 컨트롤 목적
 
 - 파일을 여는 버튼입니다. filePath를 지정하여, 해당 파일의 폴더나 파일을 열고 닫을 수 있습니다.
+
+![](Button_Sample_OpenCloseButton.gif)
 
 ## 샘플 코드
 
