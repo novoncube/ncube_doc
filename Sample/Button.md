@@ -2,15 +2,11 @@
 
 ## Summary
 
-![](Button_main.png =100x20)
+![](Button_main.png)
 
-### Controls
-
-
+## AlarmClearButtons
 
 ---
-
-#### AlarmClearButtons
 
 ![](Button_Sample_AlarmClearButtons.gif)
 
@@ -49,8 +45,9 @@ private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
 
 
 
+## FilterOnOffButton
+
 ---
-#### FilterOnOffButton
 
 ![](Button_Sample_FilterOnOffButton.gif)
 
@@ -83,9 +80,11 @@ private void BTN_AlmFilter_Click(object sender, RoutedEventArgs e)
 }
 ```
 
----
 
-#### FlatButton
+
+## FlatButton
+
+---
 
 ![](Button_Sample_FlatButton.gif)
 
@@ -138,9 +137,9 @@ private void FlatButton_OnClickProgressBar(object sender, RoutedEventArgs e)
 
 
 
----
+## OpenCloseButton
 
-#### OpenCloseButton
+---
 
 ![](Button_Sample_OpenCloseButton.gif)
 
