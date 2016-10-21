@@ -5,7 +5,7 @@
             
 CategoryChartControl에 사용하기 위한 Model
         
-### Properties
+### *Properties*
 
 #### Name
 차트를 표현할 이름 CategoryChartControl에서는 콤보박스 Item에 표시됨
@@ -13,7 +13,7 @@ CategoryChartControl에 사용하기 위한 Model
 최대 값 리스트
 #### RxFcsPoints
 최소 값 리스트
-### Methods
+### *Methods*
 
 
 #### Constructor
