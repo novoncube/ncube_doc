@@ -53,7 +53,7 @@ NCube에 적용된 테마를 일부 Customize하게 사용하려 할 때, 필요
 </ResourceDictionary>
 ``` 
 
-- `Custom.xaml` 안에 `NCube.NormalFontSize` 키 값을 추가해줍니다. 기존 값은 `12`였으나, 18로 변경하기로 합니다.
+- `Custom.xaml` 안에 `NCube.NormalFontSize` 키 값을 추가해줍니다. 기존 값은 `12`였으나, `18`로 변경하기로 합니다.
 
 ```xml
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
