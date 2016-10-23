@@ -95,13 +95,13 @@
 | Type | Name | Value |
 | -------- | -------- | -------- |
 | FontFamily | NCube.GlobalFont | Segoe UI
-| FontFamily | NCube.PrintFontSize | 8
-| FontFamily | NCube.SmallFontSize | 11
-| FontFamily | NCube.NormalFontSize | 12
-| FontFamily | NCube.ButtonFontSize | 13
-| FontFamily | NCube.MenuFontSize | 14
-| FontFamily | NCube.SubTitleFontSize | 15
-| FontFamily | NCube.LargeFontSize | 17
-| FontFamily | NCube.ProgramTitleFontSize | 30
-| FontFamily | NCube.TopologyItemFontSize | 20
-| FontFamily | NCube.LoginTitleFontSize | 40
+| Double | NCube.PrintFontSize | 8
+| Double | NCube.SmallFontSize | 11
+| Double | NCube.NormalFontSize | 12
+| Double | NCube.ButtonFontSize | 13
+| Double | NCube.MenuFontSize | 14
+| Double | NCube.SubTitleFontSize | 15
+| Double | NCube.LargeFontSize | 17
+| Double | NCube.ProgramTitleFontSize | 30
+| Double | NCube.TopologyItemFontSize | 20
+| Double | NCube.LoginTitleFontSize | 40
