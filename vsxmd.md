@@ -15,7 +15,11 @@
 - [AlarmClearButtons](#T-NCube-Controls-Buttons-AlarmClearButtons 'NCube.Controls.Buttons.AlarmClearButtons')
   - [InitializeComponent()](#M-NCube-Controls-Buttons-AlarmClearButtons-InitializeComponent 'NCube.Controls.Buttons.AlarmClearButtons.InitializeComponent')
 - [AlarmCountControl](#T-NCube-Controls-AlarmCountControl 'NCube.Controls.AlarmCountControl')
+  - [#ctor()](#M-NCube-Controls-AlarmCountControl-#ctor 'NCube.Controls.AlarmCountControl.#ctor')
+  - [CriticalAlarmCount](#P-NCube-Controls-AlarmCountControl-CriticalAlarmCount 'NCube.Controls.AlarmCountControl.CriticalAlarmCount')
   - [IsHeaderVisiable](#P-NCube-Controls-AlarmCountControl-IsHeaderVisiable 'NCube.Controls.AlarmCountControl.IsHeaderVisiable')
+  - [MajorAlarmCount](#P-NCube-Controls-AlarmCountControl-MajorAlarmCount 'NCube.Controls.AlarmCountControl.MajorAlarmCount')
+  - [MinorAlarmCount](#P-NCube-Controls-AlarmCountControl-MinorAlarmCount 'NCube.Controls.AlarmCountControl.MinorAlarmCount')
   - [InitializeComponent()](#M-NCube-Controls-AlarmCountControl-InitializeComponent 'NCube.Controls.AlarmCountControl.InitializeComponent')
 - [AuditService](#T-NCube-Services-Audit-AuditService 'NCube.Services.Audit.AuditService')
 - [AuditServiceActionAsync](#T-NCube-Services-Audit-AuditServiceActionAsync 'NCube.Services.Audit.AuditServiceActionAsync')
@@ -25,16 +29,14 @@
   - [ActualDateTime](#P-NCube-Controls-Charts-BaseChartSeriesPoint-ActualDateTime 'NCube.Controls.Charts.BaseChartSeriesPoint.ActualDateTime')
   - [ActualValue](#P-NCube-Controls-Charts-BaseChartSeriesPoint-ActualValue 'NCube.Controls.Charts.BaseChartSeriesPoint.ActualValue')
 - [CategoryChartControl](#T-NCube-Controls-Charts-CategoryChartControl 'NCube.Controls.Charts.CategoryChartControl')
-  - [_enableZoom](#F-NCube-Controls-Charts-CategoryChartControl-_enableZoom 'NCube.Controls.Charts.CategoryChartControl._enableZoom')
   - [AverageValueBrush](#P-NCube-Controls-Charts-CategoryChartControl-AverageValueBrush 'NCube.Controls.Charts.CategoryChartControl.AverageValueBrush')
   - [CustomCrosshairTextAction](#P-NCube-Controls-Charts-CategoryChartControl-CustomCrosshairTextAction 'NCube.Controls.Charts.CategoryChartControl.CustomCrosshairTextAction')
   - [Items](#P-NCube-Controls-Charts-CategoryChartControl-Items 'NCube.Controls.Charts.CategoryChartControl.Items')
+  - [LogCharts](#P-NCube-Controls-Charts-CategoryChartControl-LogCharts 'NCube.Controls.Charts.CategoryChartControl.LogCharts')
   - [MaxValueBrush](#P-NCube-Controls-Charts-CategoryChartControl-MaxValueBrush 'NCube.Controls.Charts.CategoryChartControl.MaxValueBrush')
   - [MinValueBrush](#P-NCube-Controls-Charts-CategoryChartControl-MinValueBrush 'NCube.Controls.Charts.CategoryChartControl.MinValueBrush')
   - [MinViewValue](#P-NCube-Controls-Charts-CategoryChartControl-MinViewValue 'NCube.Controls.Charts.CategoryChartControl.MinViewValue')
   - [InitializeComponent()](#M-NCube-Controls-Charts-CategoryChartControl-InitializeComponent 'NCube.Controls.Charts.CategoryChartControl.InitializeComponent')
-  - [InitSeries(line,crosshairName,list,brush)](#M-NCube-Controls-Charts-CategoryChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'NCube.Controls.Charts.CategoryChartControl.InitSeries(DevExpress.Xpf.Charts.XYSeries@,System.String,System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint},System.Windows.Media.SolidColorBrush)')
-  - [LookUpEditBase_OnSelectedIndexChanged(sender,e)](#M-NCube-Controls-Charts-CategoryChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs- 'NCube.Controls.Charts.CategoryChartControl.LookUpEditBase_OnSelectedIndexChanged(System.Object,System.Windows.RoutedEventArgs)')
   - [RefreshLabel(maxArg,minArg)](#M-NCube-Controls-Charts-CategoryChartControl-RefreshLabel-System-String,System-String- 'NCube.Controls.Charts.CategoryChartControl.RefreshLabel(System.String,System.String)')
   - [ResetAxisX()](#M-NCube-Controls-Charts-CategoryChartControl-ResetAxisX 'NCube.Controls.Charts.CategoryChartControl.ResetAxisX')
   - [ShowChart()](#M-NCube-Controls-Charts-CategoryChartControl-ShowChart 'NCube.Controls.Charts.CategoryChartControl.ShowChart')
@@ -48,26 +50,24 @@
 - [ChartIcon](#T-NCube-Controls-Icons-ChartIcon 'NCube.Controls.Icons.ChartIcon')
   - [InitializeComponent()](#M-NCube-Controls-Icons-ChartIcon-InitializeComponent 'NCube.Controls.Icons.ChartIcon.InitializeComponent')
 - [ConfirmFlyPageView](#T-NCube-Controls-PageViews-ConfirmFlyPageView 'NCube.Controls.PageViews.ConfirmFlyPageView')
+  - [#ctor(fly)](#M-NCube-Controls-PageViews-ConfirmFlyPageView-#ctor-DevExpress-Xpf-Editors-Flyout-FlyoutControl- 'NCube.Controls.PageViews.ConfirmFlyPageView.#ctor(DevExpress.Xpf.Editors.Flyout.FlyoutControl)')
+  - [Message](#P-NCube-Controls-PageViews-ConfirmFlyPageView-Message 'NCube.Controls.PageViews.ConfirmFlyPageView.Message')
   - [InitializeComponent()](#M-NCube-Controls-PageViews-ConfirmFlyPageView-InitializeComponent 'NCube.Controls.PageViews.ConfirmFlyPageView.InitializeComponent')
 - [ControlStatus](#T-NCube-Controls-Buttons-FlatButton-ControlStatus 'NCube.Controls.Buttons.FlatButton.ControlStatus')
 - [CvLogChartControl](#T-NCube-Controls-Charts-CvLogChartControl 'NCube.Controls.Charts.CvLogChartControl')
-  - [_enableZoom](#F-NCube-Controls-Charts-CvLogChartControl-_enableZoom 'NCube.Controls.Charts.CvLogChartControl._enableZoom')
+  - [#ctor()](#M-NCube-Controls-Charts-CvLogChartControl-#ctor 'NCube.Controls.Charts.CvLogChartControl.#ctor')
   - [CustomCrosshairTextAction](#P-NCube-Controls-Charts-CvLogChartControl-CustomCrosshairTextAction 'NCube.Controls.Charts.CvLogChartControl.CustomCrosshairTextAction')
+  - [CustomCrosshairTextAction2](#P-NCube-Controls-Charts-CvLogChartControl-CustomCrosshairTextAction2 'NCube.Controls.Charts.CvLogChartControl.CustomCrosshairTextAction2')
   - [CvValueBrush](#P-NCube-Controls-Charts-CvLogChartControl-CvValueBrush 'NCube.Controls.Charts.CvLogChartControl.CvValueBrush')
   - [EsValueBrush](#P-NCube-Controls-Charts-CvLogChartControl-EsValueBrush 'NCube.Controls.Charts.CvLogChartControl.EsValueBrush')
   - [Items](#P-NCube-Controls-Charts-CvLogChartControl-Items 'NCube.Controls.Charts.CvLogChartControl.Items')
+  - [LogCharts](#P-NCube-Controls-Charts-CvLogChartControl-LogCharts 'NCube.Controls.Charts.CvLogChartControl.LogCharts')
   - [MinViewValue](#P-NCube-Controls-Charts-CvLogChartControl-MinViewValue 'NCube.Controls.Charts.CvLogChartControl.MinViewValue')
   - [SesValueBrush](#P-NCube-Controls-Charts-CvLogChartControl-SesValueBrush 'NCube.Controls.Charts.CvLogChartControl.SesValueBrush')
   - [UasValueBrush](#P-NCube-Controls-Charts-CvLogChartControl-UasValueBrush 'NCube.Controls.Charts.CvLogChartControl.UasValueBrush')
   - [InitializeComponent()](#M-NCube-Controls-Charts-CvLogChartControl-InitializeComponent 'NCube.Controls.Charts.CvLogChartControl.InitializeComponent')
-  - [InitSeries(line,crosshairName,list,brush)](#M-NCube-Controls-Charts-CvLogChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'NCube.Controls.Charts.CvLogChartControl.InitSeries(DevExpress.Xpf.Charts.XYSeries@,System.String,System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint},System.Windows.Media.SolidColorBrush)')
-  - [InitStrackBarSeries(line,crosshairName,list,brush)](#M-NCube-Controls-Charts-CvLogChartControl-InitStrackBarSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'NCube.Controls.Charts.CvLogChartControl.InitStrackBarSeries(DevExpress.Xpf.Charts.XYSeries@,System.String,System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint},System.Windows.Media.SolidColorBrush)')
-  - [LookUpEditBase_OnSelectedIndexChanged(sender,e)](#M-NCube-Controls-Charts-CvLogChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs- 'NCube.Controls.Charts.CvLogChartControl.LookUpEditBase_OnSelectedIndexChanged(System.Object,System.Windows.RoutedEventArgs)')
   - [RefreshLabel(maxArg,minArg)](#M-NCube-Controls-Charts-CvLogChartControl-RefreshLabel-DevExpress-Xpf-Charts-XYDiagram2D,DevExpress-Xpf-Charts-AxisX2D,System-String,System-String- 'NCube.Controls.Charts.CvLogChartControl.RefreshLabel(DevExpress.Xpf.Charts.XYDiagram2D,DevExpress.Xpf.Charts.AxisX2D,System.String,System.String)')
-  - [ResetAxisX()](#M-NCube-Controls-Charts-CvLogChartControl-ResetAxisX-DevExpress-Xpf-Charts-XYDiagram2D- 'NCube.Controls.Charts.CvLogChartControl.ResetAxisX(DevExpress.Xpf.Charts.XYDiagram2D)')
   - [SetChart2Range(min,max)](#M-NCube-Controls-Charts-CvLogChartControl-SetChart2Range-System-Int32,System-Int32- 'NCube.Controls.Charts.CvLogChartControl.SetChart2Range(System.Int32,System.Int32)')
-  - [ShowChart()](#M-NCube-Controls-Charts-CvLogChartControl-ShowChart 'NCube.Controls.Charts.CvLogChartControl.ShowChart')
-  - [ShowChart(CvLogChartModel)](#M-NCube-Controls-Charts-CvLogChartControl-ShowChart-NCube-Controls-Charts-CvLogChartModel- 'NCube.Controls.Charts.CvLogChartControl.ShowChart(NCube.Controls.Charts.CvLogChartModel)')
 - [CvLogChartModel](#T-NCube-Controls-Charts-CvLogChartModel 'NCube.Controls.Charts.CvLogChartModel')
   - [#ctor(name,uasList,sesList,esList)](#M-NCube-Controls-Charts-CvLogChartModel-#ctor-System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint}- 'NCube.Controls.Charts.CvLogChartModel.#ctor(System.String,System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint},System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint},System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint},System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint})')
   - [CvPoints](#P-NCube-Controls-Charts-CvLogChartModel-CvPoints 'NCube.Controls.Charts.CvLogChartModel.CvPoints')
@@ -78,24 +78,21 @@
 - [DefaultAuditMessage](#T-NCube-Services-Audit-DefaultAuditMessage 'NCube.Services.Audit.DefaultAuditMessage')
 - [DefaultAuditServiceAction](#T-NCube-Services-Audit-DefaultAuditServiceAction 'NCube.Services.Audit.DefaultAuditServiceAction')
 - [DisableControls](#T-NCube-Controls-DisableControls 'NCube.Controls.DisableControls')
+  - [#ctor(targets)](#M-NCube-Controls-DisableControls-#ctor-System-Windows-FrameworkElement[]- 'NCube.Controls.DisableControls.#ctor(System.Windows.FrameworkElement[])')
+  - [Dispose()](#M-NCube-Controls-DisableControls-Dispose 'NCube.Controls.DisableControls.Dispose')
 - [EncodingHelper](#T-NCube-Helpers-EncodingHelper 'NCube.Helpers.EncodingHelper')
   - [StringFromUtf8()](#M-NCube-Helpers-EncodingHelper-StringFromUtf8-System-String- 'NCube.Helpers.EncodingHelper.StringFromUtf8(System.String)')
   - [StringFromUtf8Ptr()](#M-NCube-Helpers-EncodingHelper-StringFromUtf8Ptr-System-IntPtr- 'NCube.Helpers.EncodingHelper.StringFromUtf8Ptr(System.IntPtr)')
 - [EthLogChartControl](#T-NCube-Controls-Charts-EthLogChartControl 'NCube.Controls.Charts.EthLogChartControl')
-  - [_enableZoom](#F-NCube-Controls-Charts-EthLogChartControl-_enableZoom 'NCube.Controls.Charts.EthLogChartControl._enableZoom')
   - [CustomCrosshairTextAction](#P-NCube-Controls-Charts-EthLogChartControl-CustomCrosshairTextAction 'NCube.Controls.Charts.EthLogChartControl.CustomCrosshairTextAction')
+  - [CustomCrosshairTextAction2](#P-NCube-Controls-Charts-EthLogChartControl-CustomCrosshairTextAction2 'NCube.Controls.Charts.EthLogChartControl.CustomCrosshairTextAction2')
   - [Items](#P-NCube-Controls-Charts-EthLogChartControl-Items 'NCube.Controls.Charts.EthLogChartControl.Items')
+  - [LogCharts](#P-NCube-Controls-Charts-EthLogChartControl-LogCharts 'NCube.Controls.Charts.EthLogChartControl.LogCharts')
   - [MinViewValue](#P-NCube-Controls-Charts-EthLogChartControl-MinViewValue 'NCube.Controls.Charts.EthLogChartControl.MinViewValue')
   - [RxFcsValueBrush](#P-NCube-Controls-Charts-EthLogChartControl-RxFcsValueBrush 'NCube.Controls.Charts.EthLogChartControl.RxFcsValueBrush')
   - [RxFrameValueBrush](#P-NCube-Controls-Charts-EthLogChartControl-RxFrameValueBrush 'NCube.Controls.Charts.EthLogChartControl.RxFrameValueBrush')
-  - [InitBarSeries(line,crosshairName,list,brush)](#M-NCube-Controls-Charts-EthLogChartControl-InitBarSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'NCube.Controls.Charts.EthLogChartControl.InitBarSeries(DevExpress.Xpf.Charts.XYSeries@,System.String,System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint},System.Windows.Media.SolidColorBrush)')
   - [InitializeComponent()](#M-NCube-Controls-Charts-EthLogChartControl-InitializeComponent 'NCube.Controls.Charts.EthLogChartControl.InitializeComponent')
-  - [InitSeries(line,crosshairName,list,brush)](#M-NCube-Controls-Charts-EthLogChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'NCube.Controls.Charts.EthLogChartControl.InitSeries(DevExpress.Xpf.Charts.XYSeries@,System.String,System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint},System.Windows.Media.SolidColorBrush)')
-  - [LookUpEditBase_OnSelectedIndexChanged(sender,e)](#M-NCube-Controls-Charts-EthLogChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs- 'NCube.Controls.Charts.EthLogChartControl.LookUpEditBase_OnSelectedIndexChanged(System.Object,System.Windows.RoutedEventArgs)')
   - [RefreshLabel(maxArg,minArg)](#M-NCube-Controls-Charts-EthLogChartControl-RefreshLabel-DevExpress-Xpf-Charts-XYDiagram2D,DevExpress-Xpf-Charts-AxisX2D,System-String,System-String- 'NCube.Controls.Charts.EthLogChartControl.RefreshLabel(DevExpress.Xpf.Charts.XYDiagram2D,DevExpress.Xpf.Charts.AxisX2D,System.String,System.String)')
-  - [ResetAxisX()](#M-NCube-Controls-Charts-EthLogChartControl-ResetAxisX-DevExpress-Xpf-Charts-XYDiagram2D- 'NCube.Controls.Charts.EthLogChartControl.ResetAxisX(DevExpress.Xpf.Charts.XYDiagram2D)')
-  - [ShowChart()](#M-NCube-Controls-Charts-EthLogChartControl-ShowChart 'NCube.Controls.Charts.EthLogChartControl.ShowChart')
-  - [ShowChart(chartModel)](#M-NCube-Controls-Charts-EthLogChartControl-ShowChart-NCube-Controls-Charts-EthLogChartModel- 'NCube.Controls.Charts.EthLogChartControl.ShowChart(NCube.Controls.Charts.EthLogChartModel)')
 - [EthLogChartModel](#T-NCube-Controls-Charts-EthLogChartModel 'NCube.Controls.Charts.EthLogChartModel')
   - [#ctor(name,rxFrameList,avrList,rxFcsList)](#M-NCube-Controls-Charts-EthLogChartModel-#ctor-System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint}- 'NCube.Controls.Charts.EthLogChartModel.#ctor(System.String,System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint},System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint})')
   - [Name](#P-NCube-Controls-Charts-EthLogChartModel-Name 'NCube.Controls.Charts.EthLogChartModel.Name')
@@ -113,7 +110,11 @@
   - [InitializeComponent()](#M-NCube-Controls-Buttons-FlatButton-InitializeComponent 'NCube.Controls.Buttons.FlatButton.InitializeComponent')
   - [OnThemeChanged(sender,e)](#M-NCube-Controls-Buttons-FlatButton-OnThemeChanged-System-Windows-DependencyObject,DevExpress-Xpf-Core-ThemeChangedRoutedEventArgs- 'NCube.Controls.Buttons.FlatButton.OnThemeChanged(System.Windows.DependencyObject,DevExpress.Xpf.Core.ThemeChangedRoutedEventArgs)')
 - [FlatPopup](#T-NCube-Controls-Popups-FlatPopup 'NCube.Controls.Popups.FlatPopup')
+  - [#ctor()](#M-NCube-Controls-Popups-FlatPopup-#ctor 'NCube.Controls.Popups.FlatPopup.#ctor')
+  - [Content](#P-NCube-Controls-Popups-FlatPopup-Content 'NCube.Controls.Popups.FlatPopup.Content')
+  - [IsLocked](#P-NCube-Controls-Popups-FlatPopup-IsLocked 'NCube.Controls.Popups.FlatPopup.IsLocked')
   - [InitializeComponent()](#M-NCube-Controls-Popups-FlatPopup-InitializeComponent 'NCube.Controls.Popups.FlatPopup.InitializeComponent')
+  - [ShowDialog()](#M-NCube-Controls-Popups-FlatPopup-ShowDialog 'NCube.Controls.Popups.FlatPopup.ShowDialog')
 - [GeneratedInternalTypeHelper](#T-XamlGeneratedNamespace-GeneratedInternalTypeHelper 'XamlGeneratedNamespace.GeneratedInternalTypeHelper')
   - [AddEventHandler()](#M-XamlGeneratedNamespace-GeneratedInternalTypeHelper-AddEventHandler-System-Reflection-EventInfo,System-Object,System-Delegate- 'XamlGeneratedNamespace.GeneratedInternalTypeHelper.AddEventHandler(System.Reflection.EventInfo,System.Object,System.Delegate)')
   - [CreateDelegate()](#M-XamlGeneratedNamespace-GeneratedInternalTypeHelper-CreateDelegate-System-Type,System-Object,System-String- 'XamlGeneratedNamespace.GeneratedInternalTypeHelper.CreateDelegate(System.Type,System.Object,System.String)')
@@ -121,10 +122,28 @@
   - [GetPropertyValue()](#M-XamlGeneratedNamespace-GeneratedInternalTypeHelper-GetPropertyValue-System-Reflection-PropertyInfo,System-Object,System-Globalization-CultureInfo- 'XamlGeneratedNamespace.GeneratedInternalTypeHelper.GetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Globalization.CultureInfo)')
   - [SetPropertyValue()](#M-XamlGeneratedNamespace-GeneratedInternalTypeHelper-SetPropertyValue-System-Reflection-PropertyInfo,System-Object,System-Object,System-Globalization-CultureInfo- 'XamlGeneratedNamespace.GeneratedInternalTypeHelper.SetPropertyValue(System.Reflection.PropertyInfo,System.Object,System.Object,System.Globalization.CultureInfo)')
 - [GSAlarmCountControl](#T-NCube-Controls-GSAlarmCountControl 'NCube.Controls.GSAlarmCountControl')
+  - [#ctor()](#M-NCube-Controls-GSAlarmCountControl-#ctor 'NCube.Controls.GSAlarmCountControl.#ctor')
+  - [CriticalAlarmCount](#P-NCube-Controls-GSAlarmCountControl-CriticalAlarmCount 'NCube.Controls.GSAlarmCountControl.CriticalAlarmCount')
+  - [MajorAlarmCount](#P-NCube-Controls-GSAlarmCountControl-MajorAlarmCount 'NCube.Controls.GSAlarmCountControl.MajorAlarmCount')
+  - [MinorAlarmCount](#P-NCube-Controls-GSAlarmCountControl-MinorAlarmCount 'NCube.Controls.GSAlarmCountControl.MinorAlarmCount')
   - [InitializeComponent()](#M-NCube-Controls-GSAlarmCountControl-InitializeComponent 'NCube.Controls.GSAlarmCountControl.InitializeComponent')
 - [GSGroupControl](#T-NCube-Controls-GSGroupControl 'NCube.Controls.GSGroupControl')
+  - [#ctor()](#M-NCube-Controls-GSGroupControl-#ctor 'NCube.Controls.GSGroupControl.#ctor')
+  - [AlarmStatus](#P-NCube-Controls-GSGroupControl-AlarmStatus 'NCube.Controls.GSGroupControl.AlarmStatus')
+  - [CriticalAlarmCount](#P-NCube-Controls-GSGroupControl-CriticalAlarmCount 'NCube.Controls.GSGroupControl.CriticalAlarmCount')
+  - [GroupName](#P-NCube-Controls-GSGroupControl-GroupName 'NCube.Controls.GSGroupControl.GroupName')
+  - [IsVisiable](#P-NCube-Controls-GSGroupControl-IsVisiable 'NCube.Controls.GSGroupControl.IsVisiable')
+  - [MajorAlarmCount](#P-NCube-Controls-GSGroupControl-MajorAlarmCount 'NCube.Controls.GSGroupControl.MajorAlarmCount')
+  - [MinorAlarmCount](#P-NCube-Controls-GSGroupControl-MinorAlarmCount 'NCube.Controls.GSGroupControl.MinorAlarmCount')
   - [InitializeComponent()](#M-NCube-Controls-GSGroupControl-InitializeComponent 'NCube.Controls.GSGroupControl.InitializeComponent')
 - [GSNodeControl](#T-NCube-Controls-GSNodeControl 'NCube.Controls.GSNodeControl')
+  - [#ctor()](#M-NCube-Controls-GSNodeControl-#ctor 'NCube.Controls.GSNodeControl.#ctor')
+  - [AlarmStatus](#P-NCube-Controls-GSNodeControl-AlarmStatus 'NCube.Controls.GSNodeControl.AlarmStatus')
+  - [CriticalAlarmCount](#P-NCube-Controls-GSNodeControl-CriticalAlarmCount 'NCube.Controls.GSNodeControl.CriticalAlarmCount')
+  - [IsVisiable](#P-NCube-Controls-GSNodeControl-IsVisiable 'NCube.Controls.GSNodeControl.IsVisiable')
+  - [MajorAlarmCount](#P-NCube-Controls-GSNodeControl-MajorAlarmCount 'NCube.Controls.GSNodeControl.MajorAlarmCount')
+  - [MinorAlarmCount](#P-NCube-Controls-GSNodeControl-MinorAlarmCount 'NCube.Controls.GSNodeControl.MinorAlarmCount')
+  - [NodeName](#P-NCube-Controls-GSNodeControl-NodeName 'NCube.Controls.GSNodeControl.NodeName')
   - [InitializeComponent()](#M-NCube-Controls-GSNodeControl-InitializeComponent 'NCube.Controls.GSNodeControl.InitializeComponent')
 - [HohCellModel](#T-NCube-Services-Report-HohCellModel 'NCube.Services.Report.HohCellModel')
   - [CommonFont](#F-NCube-Services-Report-HohCellModel-CommonFont 'NCube.Services.Report.HohCellModel.CommonFont')
@@ -188,21 +207,36 @@
   - [UserID](#P-NCube-Services-Account-ILoginUserModel-UserID 'NCube.Services.Account.ILoginUserModel.UserID')
   - [UserIP](#P-NCube-Services-Account-ILoginUserModel-UserIP 'NCube.Services.Account.ILoginUserModel.UserIP')
 - [InitSysColdConfirmPopupPageView](#T-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView 'NCube.Controls.PageViews.InitSysColdConfirmPopupPageView')
+  - [#ctor()](#M-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView-#ctor 'NCube.Controls.PageViews.InitSysColdConfirmPopupPageView.#ctor')
+  - [IsPasswordMatched](#P-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView-IsPasswordMatched 'NCube.Controls.PageViews.InitSysColdConfirmPopupPageView.IsPasswordMatched')
   - [InitializeComponent()](#M-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView-InitializeComponent 'NCube.Controls.PageViews.InitSysColdConfirmPopupPageView.InitializeComponent')
 - [InnerDialog](#T-NCube-Controls-Popups-Dialogs-InnerDialog 'NCube.Controls.Popups.Dialogs.InnerDialog')
+  - [#ctor()](#M-NCube-Controls-Popups-Dialogs-InnerDialog-#ctor 'NCube.Controls.Popups.Dialogs.InnerDialog.#ctor')
   - [#ctor(content,background)](#M-NCube-Controls-Popups-Dialogs-InnerDialog-#ctor-System-Windows-Controls-Control,System-Windows-Media-Brush- 'NCube.Controls.Popups.Dialogs.InnerDialog.#ctor(System.Windows.Controls.Control,System.Windows.Media.Brush)')
+  - [Content](#P-NCube-Controls-Popups-Dialogs-InnerDialog-Content 'NCube.Controls.Popups.Dialogs.InnerDialog.Content')
+  - [Close()](#M-NCube-Controls-Popups-Dialogs-InnerDialog-Close 'NCube.Controls.Popups.Dialogs.InnerDialog.Close')
+  - [Show()](#M-NCube-Controls-Popups-Dialogs-InnerDialog-Show 'NCube.Controls.Popups.Dialogs.InnerDialog.Show')
 - [InputErrorFlyPageView](#T-NCube-Controls-PageViews-InputErrorFlyPageView 'NCube.Controls.PageViews.InputErrorFlyPageView')
+  - [#ctor()](#M-NCube-Controls-PageViews-InputErrorFlyPageView-#ctor 'NCube.Controls.PageViews.InputErrorFlyPageView.#ctor')
+  - [Message](#P-NCube-Controls-PageViews-InputErrorFlyPageView-Message 'NCube.Controls.PageViews.InputErrorFlyPageView.Message')
   - [InitializeComponent()](#M-NCube-Controls-PageViews-InputErrorFlyPageView-InitializeComponent 'NCube.Controls.PageViews.InputErrorFlyPageView.InitializeComponent')
 - [InputNameFlyPageView](#T-NCube-Controls-PageViews-InputNameFlyPageView 'NCube.Controls.PageViews.InputNameFlyPageView')
+  - [#ctor(fly,target)](#M-NCube-Controls-PageViews-InputNameFlyPageView-#ctor-DevExpress-Xpf-Editors-Flyout-FlyoutControl,System-Windows-UIElement- 'NCube.Controls.PageViews.InputNameFlyPageView.#ctor(DevExpress.Xpf.Editors.Flyout.FlyoutControl,System.Windows.UIElement)')
+  - [NewName](#P-NCube-Controls-PageViews-InputNameFlyPageView-NewName 'NCube.Controls.PageViews.InputNameFlyPageView.NewName')
+  - [Target](#P-NCube-Controls-PageViews-InputNameFlyPageView-Target 'NCube.Controls.PageViews.InputNameFlyPageView.Target')
   - [InitializeComponent()](#M-NCube-Controls-PageViews-InputNameFlyPageView-InitializeComponent 'NCube.Controls.PageViews.InputNameFlyPageView.InitializeComponent')
 - [Iris3Header](#T-NCube-Novo-Core-Iris3Header 'NCube.Novo.Core.Iris3Header')
 - [JsonAuditMessage](#T-NCube-Services-Audit-JsonAuditMessage 'NCube.Services.Audit.JsonAuditMessage')
 - [JsonAuditServiceAction](#T-NCube-Services-Audit-JsonAuditServiceAction 'NCube.Services.Audit.JsonAuditServiceAction')
 - [JsonAuditServiceActionAsync](#T-NCube-Services-Audit-JsonAuditServiceActionAsync 'NCube.Services.Audit.JsonAuditServiceActionAsync')
 - [LedControl](#T-NCube-Controls-LedControl 'NCube.Controls.LedControl')
+  - [#ctor()](#M-NCube-Controls-LedControl-#ctor 'NCube.Controls.LedControl.#ctor')
+  - [Color](#P-NCube-Controls-LedControl-Color 'NCube.Controls.LedControl.Color')
   - [IsON](#P-NCube-Controls-LedControl-IsON 'NCube.Controls.LedControl.IsON')
   - [InitializeComponent()](#M-NCube-Controls-LedControl-InitializeComponent 'NCube.Controls.LedControl.InitializeComponent')
 - [LoadingScreen](#T-NCube-Controls-LoadingScreen 'NCube.Controls.LoadingScreen')
+  - [#ctor()](#M-NCube-Controls-LoadingScreen-#ctor 'NCube.Controls.LoadingScreen.#ctor')
+  - [LoadingText](#P-NCube-Controls-LoadingScreen-LoadingText 'NCube.Controls.LoadingScreen.LoadingText')
   - [InitializeComponent()](#M-NCube-Controls-LoadingScreen-InitializeComponent 'NCube.Controls.LoadingScreen.InitializeComponent')
 - [LockTimeoutException](#T-NCube-Services-Threading-LockTimeoutException 'NCube.Services.Threading.LockTimeoutException')
   - [#ctor(lockTarget)](#M-NCube-Services-Threading-LockTimeoutException-#ctor-System-Object- 'NCube.Services.Threading.LockTimeoutException.#ctor(System.Object)')
@@ -220,26 +254,74 @@
   - [#ctor(argument,viewArgument)](#M-NCube-Controls-Charts-LogSeriesPoint-#ctor-System-String,System-DateTime,System-String- 'NCube.Controls.Charts.LogSeriesPoint.#ctor(System.String,System.DateTime,System.String)')
   - [ActualDateTime](#P-NCube-Controls-Charts-LogSeriesPoint-ActualDateTime 'NCube.Controls.Charts.LogSeriesPoint.ActualDateTime')
   - [ActualValue](#P-NCube-Controls-Charts-LogSeriesPoint-ActualValue 'NCube.Controls.Charts.LogSeriesPoint.ActualValue')
+  - [Label](#P-NCube-Controls-Charts-LogSeriesPoint-Label 'NCube.Controls.Charts.LogSeriesPoint.Label')
 - [MessageBoxPanel](#T-NCube-Controls-Popups-Dialogs-MessageBoxPanel 'NCube.Controls.Popups.Dialogs.MessageBoxPanel')
+  - [#ctor()](#M-NCube-Controls-Popups-Dialogs-MessageBoxPanel-#ctor 'NCube.Controls.Popups.Dialogs.MessageBoxPanel.#ctor')
+  - [AlertImage](#P-NCube-Controls-Popups-Dialogs-MessageBoxPanel-AlertImage 'NCube.Controls.Popups.Dialogs.MessageBoxPanel.AlertImage')
+  - [Message](#P-NCube-Controls-Popups-Dialogs-MessageBoxPanel-Message 'NCube.Controls.Popups.Dialogs.MessageBoxPanel.Message')
+  - [MessageType](#P-NCube-Controls-Popups-Dialogs-MessageBoxPanel-MessageType 'NCube.Controls.Popups.Dialogs.MessageBoxPanel.MessageType')
+  - [Result](#P-NCube-Controls-Popups-Dialogs-MessageBoxPanel-Result 'NCube.Controls.Popups.Dialogs.MessageBoxPanel.Result')
   - [GetResultAsync()](#M-NCube-Controls-Popups-Dialogs-MessageBoxPanel-GetResultAsync 'NCube.Controls.Popups.Dialogs.MessageBoxPanel.GetResultAsync')
   - [InitializeComponent()](#M-NCube-Controls-Popups-Dialogs-MessageBoxPanel-InitializeComponent 'NCube.Controls.Popups.Dialogs.MessageBoxPanel.InitializeComponent')
 - [MessageBoxWindow](#T-NCube-Controls-Popups-Dialogs-MessageBoxWindow 'NCube.Controls.Popups.Dialogs.MessageBoxWindow')
+  - [#ctor()](#M-NCube-Controls-Popups-Dialogs-MessageBoxWindow-#ctor 'NCube.Controls.Popups.Dialogs.MessageBoxWindow.#ctor')
+  - [AlertImage](#P-NCube-Controls-Popups-Dialogs-MessageBoxWindow-AlertImage 'NCube.Controls.Popups.Dialogs.MessageBoxWindow.AlertImage')
+  - [Message](#P-NCube-Controls-Popups-Dialogs-MessageBoxWindow-Message 'NCube.Controls.Popups.Dialogs.MessageBoxWindow.Message')
+  - [MessageType](#P-NCube-Controls-Popups-Dialogs-MessageBoxWindow-MessageType 'NCube.Controls.Popups.Dialogs.MessageBoxWindow.MessageType')
+  - [Result](#P-NCube-Controls-Popups-Dialogs-MessageBoxWindow-Result 'NCube.Controls.Popups.Dialogs.MessageBoxWindow.Result')
   - [InitializeComponent()](#M-NCube-Controls-Popups-Dialogs-MessageBoxWindow-InitializeComponent 'NCube.Controls.Popups.Dialogs.MessageBoxWindow.InitializeComponent')
 - [MetaManager](#T-NCube-Services-MetaFacade-MetaManager 'NCube.Services.MetaFacade.MetaManager')
   - [TranRequestAsync(addr_str,req_pdu,ctag,timeout)](#M-NCube-Services-MetaFacade-MetaManager-TranRequestAsync-System-String,System-Byte[],System-Int32,System-Int32- 'NCube.Services.MetaFacade.MetaManager.TranRequestAsync(System.String,System.Byte[],System.Int32,System.Int32)')
   - [TranRequestTL1Async(addr_str,req_pdu,ctag,timeout)](#M-NCube-Services-MetaFacade-MetaManager-TranRequestTL1Async-System-String,System-String,System-Int32,System-Int32- 'NCube.Services.MetaFacade.MetaManager.TranRequestTL1Async(System.String,System.String,System.Int32,System.Int32)')
 - [MetroProgressBar](#T-NCube-Controls-MetroProgressBar 'NCube.Controls.MetroProgressBar')
+  - [#ctor()](#M-NCube-Controls-MetroProgressBar-#ctor 'NCube.Controls.MetroProgressBar.#ctor')
   - [EllipseDiameter](#P-NCube-Controls-MetroProgressBar-EllipseDiameter 'NCube.Controls.MetroProgressBar.EllipseDiameter')
   - [EllipseOffset](#P-NCube-Controls-MetroProgressBar-EllipseOffset 'NCube.Controls.MetroProgressBar.EllipseOffset')
 - [MmiMsgBoxPageView](#T-NCube-Controls-PageViews-MmiMsgBoxPageView 'NCube.Controls.PageViews.MmiMsgBoxPageView')
+  - [#ctor()](#M-NCube-Controls-PageViews-MmiMsgBoxPageView-#ctor 'NCube.Controls.PageViews.MmiMsgBoxPageView.#ctor')
+  - [Message](#P-NCube-Controls-PageViews-MmiMsgBoxPageView-Message 'NCube.Controls.PageViews.MmiMsgBoxPageView.Message')
+  - [MmiCommand](#P-NCube-Controls-PageViews-MmiMsgBoxPageView-MmiCommand 'NCube.Controls.PageViews.MmiMsgBoxPageView.MmiCommand')
+  - [MmiReason](#P-NCube-Controls-PageViews-MmiMsgBoxPageView-MmiReason 'NCube.Controls.PageViews.MmiMsgBoxPageView.MmiReason')
+  - [MsgIcon](#P-NCube-Controls-PageViews-MmiMsgBoxPageView-MsgIcon 'NCube.Controls.PageViews.MmiMsgBoxPageView.MsgIcon')
   - [InitializeComponent()](#M-NCube-Controls-PageViews-MmiMsgBoxPageView-InitializeComponent 'NCube.Controls.PageViews.MmiMsgBoxPageView.InitializeComponent')
+- [MsgBoxButton](#T-NCube-Controls-PageViews-MsgBoxButton 'NCube.Controls.PageViews.MsgBoxButton')
 - [MsgBoxPopupPageView](#T-NCube-Controls-PageViews-MsgBoxPopupPageView 'NCube.Controls.PageViews.MsgBoxPopupPageView')
+  - [#ctor()](#M-NCube-Controls-PageViews-MsgBoxPopupPageView-#ctor 'NCube.Controls.PageViews.MsgBoxPopupPageView.#ctor')
+  - [CustomButtons](#P-NCube-Controls-PageViews-MsgBoxPopupPageView-CustomButtons 'NCube.Controls.PageViews.MsgBoxPopupPageView.CustomButtons')
+  - [MsgButton](#P-NCube-Controls-PageViews-MsgBoxPopupPageView-MsgButton 'NCube.Controls.PageViews.MsgBoxPopupPageView.MsgButton')
+  - [MsgIcon](#P-NCube-Controls-PageViews-MsgBoxPopupPageView-MsgIcon 'NCube.Controls.PageViews.MsgBoxPopupPageView.MsgIcon')
+  - [MsgStr](#P-NCube-Controls-PageViews-MsgBoxPopupPageView-MsgStr 'NCube.Controls.PageViews.MsgBoxPopupPageView.MsgStr')
   - [InitializeComponent()](#M-NCube-Controls-PageViews-MsgBoxPopupPageView-InitializeComponent 'NCube.Controls.PageViews.MsgBoxPopupPageView.InitializeComponent')
+- [NCubeBuilder](#T-NCube-NCubeBuilder 'NCube.NCubeBuilder')
+  - [#ctor()](#M-NCube-NCubeBuilder-#ctor 'NCube.NCubeBuilder.#ctor')
+  - [Current](#P-NCube-NCubeBuilder-Current 'NCube.NCubeBuilder.Current')
+  - [StartUp(setting)](#M-NCube-NCubeBuilder-StartUp-NCube-NCubeSetting- 'NCube.NCubeBuilder.StartUp(NCube.NCubeSetting)')
+  - [UseCustomTheme(path)](#M-NCube-NCubeBuilder-UseCustomTheme-System-String- 'NCube.NCubeBuilder.UseCustomTheme(System.String)')
+  - [UseStartup\`\`1(key)](#M-NCube-NCubeBuilder-UseStartup``1-System-String- 'NCube.NCubeBuilder.UseStartup``1(System.String)')
+  - [UseTheme(themeName)](#M-NCube-NCubeBuilder-UseTheme-System-String- 'NCube.NCubeBuilder.UseTheme(System.String)')
+  - [UseTheme(selector)](#M-NCube-NCubeBuilder-UseTheme-NCube-NCubeThemeSelector- 'NCube.NCubeBuilder.UseTheme(NCube.NCubeThemeSelector)')
+- [NCubeSetting](#T-NCube-NCubeSetting 'NCube.NCubeSetting')
+  - [#ctor(frame)](#M-NCube-NCubeSetting-#ctor-System-Windows-FrameworkElement- 'NCube.NCubeSetting.#ctor(System.Windows.FrameworkElement)')
+  - [CloseEvent](#P-NCube-NCubeSetting-CloseEvent 'NCube.NCubeSetting.CloseEvent')
+  - [Height](#P-NCube-NCubeSetting-Height 'NCube.NCubeSetting.Height')
+  - [IconPath](#P-NCube-NCubeSetting-IconPath 'NCube.NCubeSetting.IconPath')
+  - [MainFrame](#P-NCube-NCubeSetting-MainFrame 'NCube.NCubeSetting.MainFrame')
+  - [Title](#P-NCube-NCubeSetting-Title 'NCube.NCubeSetting.Title')
+  - [Width](#P-NCube-NCubeSetting-Width 'NCube.NCubeSetting.Width')
+- [NCubeStartup](#T-NCube-Builder-NCubeStartup 'NCube.Builder.NCubeStartup')
+  - [Current](#P-NCube-Builder-NCubeStartup-Current 'NCube.Builder.NCubeStartup.Current')
+  - [Build(builder)](#M-NCube-Builder-NCubeStartup-Build-NCube-NCubeBuilder- 'NCube.Builder.NCubeStartup.Build(NCube.NCubeBuilder)')
+  - [Start(key)](#M-NCube-Builder-NCubeStartup-Start-System-String- 'NCube.Builder.NCubeStartup.Start(System.String)')
+- [NCubeThemeSelector](#T-NCube-NCubeThemeSelector 'NCube.NCubeThemeSelector')
+  - [FlatWhite](#F-NCube-NCubeThemeSelector-FlatWhite 'NCube.NCubeThemeSelector.FlatWhite')
 - [NetworkIcon](#T-NCube-Controls-Icons-NetworkIcon 'NCube.Controls.Icons.NetworkIcon')
   - [InitializeComponent()](#M-NCube-Controls-Icons-NetworkIcon-InitializeComponent 'NCube.Controls.Icons.NetworkIcon.InitializeComponent')
 - [OamIcon](#T-NCube-Controls-Icons-OamIcon 'NCube.Controls.Icons.OamIcon')
   - [InitializeComponent()](#M-NCube-Controls-Icons-OamIcon-InitializeComponent 'NCube.Controls.Icons.OamIcon.InitializeComponent')
 - [OkFlyPageView](#T-NCube-Controls-PageViews-OkFlyPageView 'NCube.Controls.PageViews.OkFlyPageView')
+  - [#ctor(parent)](#M-NCube-Controls-PageViews-OkFlyPageView-#ctor-DevExpress-Xpf-Editors-Flyout-FlyoutControl- 'NCube.Controls.PageViews.OkFlyPageView.#ctor(DevExpress.Xpf.Editors.Flyout.FlyoutControl)')
+  - [Message](#P-NCube-Controls-PageViews-OkFlyPageView-Message 'NCube.Controls.PageViews.OkFlyPageView.Message')
+  - [MsgIcon](#P-NCube-Controls-PageViews-OkFlyPageView-MsgIcon 'NCube.Controls.PageViews.OkFlyPageView.MsgIcon')
   - [InitializeComponent()](#M-NCube-Controls-PageViews-OkFlyPageView-InitializeComponent 'NCube.Controls.PageViews.OkFlyPageView.InitializeComponent')
 - [OneShotTimerHelper](#T-NCube-Services-Threading-OneShotTimerHelper 'NCube.Services.Threading.OneShotTimerHelper')
 - [OpenCloseButtons](#T-NCube-Controls-Buttons-OpenCloseButtons 'NCube.Controls.Buttons.OpenCloseButtons')
@@ -253,66 +335,110 @@
   - [Name](#P-NCube-Controls-Charts-OtdrChartModel-Name 'NCube.Controls.Charts.OtdrChartModel.Name')
   - [TotalPoints](#P-NCube-Controls-Charts-OtdrChartModel-TotalPoints 'NCube.Controls.Charts.OtdrChartModel.TotalPoints')
 - [OtdrLogChartControl](#T-NCube-Controls-Charts-OtdrLogChartControl 'NCube.Controls.Charts.OtdrLogChartControl')
-  - [_enableZoom](#F-NCube-Controls-Charts-OtdrLogChartControl-_enableZoom 'NCube.Controls.Charts.OtdrLogChartControl._enableZoom')
+  - [#ctor()](#M-NCube-Controls-Charts-OtdrLogChartControl-#ctor 'NCube.Controls.Charts.OtdrLogChartControl.#ctor')
   - [BendValueBrush](#P-NCube-Controls-Charts-OtdrLogChartControl-BendValueBrush 'NCube.Controls.Charts.OtdrLogChartControl.BendValueBrush')
   - [ConnValueBrush](#P-NCube-Controls-Charts-OtdrLogChartControl-ConnValueBrush 'NCube.Controls.Charts.OtdrLogChartControl.ConnValueBrush')
   - [CustomCrosshairTextAction](#P-NCube-Controls-Charts-OtdrLogChartControl-CustomCrosshairTextAction 'NCube.Controls.Charts.OtdrLogChartControl.CustomCrosshairTextAction')
+  - [CustomCrosshairTextAction2](#P-NCube-Controls-Charts-OtdrLogChartControl-CustomCrosshairTextAction2 'NCube.Controls.Charts.OtdrLogChartControl.CustomCrosshairTextAction2')
   - [DistValueBrush](#P-NCube-Controls-Charts-OtdrLogChartControl-DistValueBrush 'NCube.Controls.Charts.OtdrLogChartControl.DistValueBrush')
   - [Items](#P-NCube-Controls-Charts-OtdrLogChartControl-Items 'NCube.Controls.Charts.OtdrLogChartControl.Items')
+  - [LogCharts](#P-NCube-Controls-Charts-OtdrLogChartControl-LogCharts 'NCube.Controls.Charts.OtdrLogChartControl.LogCharts')
   - [MinViewValue](#P-NCube-Controls-Charts-OtdrLogChartControl-MinViewValue 'NCube.Controls.Charts.OtdrLogChartControl.MinViewValue')
   - [TotalValueBrush](#P-NCube-Controls-Charts-OtdrLogChartControl-TotalValueBrush 'NCube.Controls.Charts.OtdrLogChartControl.TotalValueBrush')
   - [InitializeComponent()](#M-NCube-Controls-Charts-OtdrLogChartControl-InitializeComponent 'NCube.Controls.Charts.OtdrLogChartControl.InitializeComponent')
-  - [InitSeries(line,crosshairName,list,brush)](#M-NCube-Controls-Charts-OtdrLogChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'NCube.Controls.Charts.OtdrLogChartControl.InitSeries(DevExpress.Xpf.Charts.XYSeries@,System.String,System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint},System.Windows.Media.SolidColorBrush)')
-  - [LookUpEditBase_OnSelectedIndexChanged(sender,e)](#M-NCube-Controls-Charts-OtdrLogChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs- 'NCube.Controls.Charts.OtdrLogChartControl.LookUpEditBase_OnSelectedIndexChanged(System.Object,System.Windows.RoutedEventArgs)')
   - [RefreshLabel(maxArg,minArg)](#M-NCube-Controls-Charts-OtdrLogChartControl-RefreshLabel-DevExpress-Xpf-Charts-XYDiagram2D,DevExpress-Xpf-Charts-AxisX2D,System-String,System-String- 'NCube.Controls.Charts.OtdrLogChartControl.RefreshLabel(DevExpress.Xpf.Charts.XYDiagram2D,DevExpress.Xpf.Charts.AxisX2D,System.String,System.String)')
-  - [ResetAxisX()](#M-NCube-Controls-Charts-OtdrLogChartControl-ResetAxisX-DevExpress-Xpf-Charts-XYDiagram2D- 'NCube.Controls.Charts.OtdrLogChartControl.ResetAxisX(DevExpress.Xpf.Charts.XYDiagram2D)')
-  - [ShowChart()](#M-NCube-Controls-Charts-OtdrLogChartControl-ShowChart 'NCube.Controls.Charts.OtdrLogChartControl.ShowChart')
-  - [ShowChart(OtdrLogChartModel)](#M-NCube-Controls-Charts-OtdrLogChartControl-ShowChart-NCube-Controls-Charts-OtdrChartModel- 'NCube.Controls.Charts.OtdrLogChartControl.ShowChart(NCube.Controls.Charts.OtdrChartModel)')
 - [OtdrSeriesPoint](#T-NCube-Controls-Charts-OtdrSeriesPoint 'NCube.Controls.Charts.OtdrSeriesPoint')
   - [#ctor(argument,value,viewArgument,viewValue)](#M-NCube-Controls-Charts-OtdrSeriesPoint-#ctor-System-Double,System-Nullable{System-Double},System-Double- 'NCube.Controls.Charts.OtdrSeriesPoint.#ctor(System.Double,System.Nullable{System.Double},System.Double)')
   - [ActualArgument](#P-NCube-Controls-Charts-OtdrSeriesPoint-ActualArgument 'NCube.Controls.Charts.OtdrSeriesPoint.ActualArgument')
   - [ActualValue](#P-NCube-Controls-Charts-OtdrSeriesPoint-ActualValue 'NCube.Controls.Charts.OtdrSeriesPoint.ActualValue')
 - [OtdrTestChartControl](#T-NCube-Controls-Charts-OtdrTestChartControl 'NCube.Controls.Charts.OtdrTestChartControl')
-  - [_enableZoom](#F-NCube-Controls-Charts-OtdrTestChartControl-_enableZoom 'NCube.Controls.Charts.OtdrTestChartControl._enableZoom')
+  - [#ctor()](#M-NCube-Controls-Charts-OtdrTestChartControl-#ctor 'NCube.Controls.Charts.OtdrTestChartControl.#ctor')
   - [BendValueBrush](#P-NCube-Controls-Charts-OtdrTestChartControl-BendValueBrush 'NCube.Controls.Charts.OtdrTestChartControl.BendValueBrush')
   - [ConnValueBrush](#P-NCube-Controls-Charts-OtdrTestChartControl-ConnValueBrush 'NCube.Controls.Charts.OtdrTestChartControl.ConnValueBrush')
+  - [CustomAxisXTextAction](#P-NCube-Controls-Charts-OtdrTestChartControl-CustomAxisXTextAction 'NCube.Controls.Charts.OtdrTestChartControl.CustomAxisXTextAction')
+  - [CustomCrosshairArgumentTextAction](#P-NCube-Controls-Charts-OtdrTestChartControl-CustomCrosshairArgumentTextAction 'NCube.Controls.Charts.OtdrTestChartControl.CustomCrosshairArgumentTextAction')
   - [CustomCrosshairTextAction](#P-NCube-Controls-Charts-OtdrTestChartControl-CustomCrosshairTextAction 'NCube.Controls.Charts.OtdrTestChartControl.CustomCrosshairTextAction')
   - [DistValueBrush](#P-NCube-Controls-Charts-OtdrTestChartControl-DistValueBrush 'NCube.Controls.Charts.OtdrTestChartControl.DistValueBrush')
   - [Items](#P-NCube-Controls-Charts-OtdrTestChartControl-Items 'NCube.Controls.Charts.OtdrTestChartControl.Items')
+  - [LogCharts](#P-NCube-Controls-Charts-OtdrTestChartControl-LogCharts 'NCube.Controls.Charts.OtdrTestChartControl.LogCharts')
   - [MinViewValue](#P-NCube-Controls-Charts-OtdrTestChartControl-MinViewValue 'NCube.Controls.Charts.OtdrTestChartControl.MinViewValue')
   - [InitializeComponent()](#M-NCube-Controls-Charts-OtdrTestChartControl-InitializeComponent 'NCube.Controls.Charts.OtdrTestChartControl.InitializeComponent')
-  - [InitSeries(line,crosshairName,list,brush)](#M-NCube-Controls-Charts-OtdrTestChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'NCube.Controls.Charts.OtdrTestChartControl.InitSeries(DevExpress.Xpf.Charts.XYSeries@,System.String,System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint},System.Windows.Media.SolidColorBrush)')
-  - [LookUpEditBase_OnSelectedIndexChanged(sender,e)](#M-NCube-Controls-Charts-OtdrTestChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs- 'NCube.Controls.Charts.OtdrTestChartControl.LookUpEditBase_OnSelectedIndexChanged(System.Object,System.Windows.RoutedEventArgs)')
   - [RefreshLabel(maxArg,minArg)](#M-NCube-Controls-Charts-OtdrTestChartControl-RefreshLabel-System-String,System-String- 'NCube.Controls.Charts.OtdrTestChartControl.RefreshLabel(System.String,System.String)')
-  - [ResetAxisX()](#M-NCube-Controls-Charts-OtdrTestChartControl-ResetAxisX 'NCube.Controls.Charts.OtdrTestChartControl.ResetAxisX')
-  - [ShowChart()](#M-NCube-Controls-Charts-OtdrTestChartControl-ShowChart 'NCube.Controls.Charts.OtdrTestChartControl.ShowChart')
-  - [ShowChart(OtdrChartModel)](#M-NCube-Controls-Charts-OtdrTestChartControl-ShowChart-NCube-Controls-Charts-OtdrChartModel- 'NCube.Controls.Charts.OtdrTestChartControl.ShowChart(NCube.Controls.Charts.OtdrChartModel)')
+- [PackPath](#T-NCube-PackPath 'NCube.PackPath')
+  - [App](#F-NCube-PackPath-App 'NCube.PackPath.App')
+  - [Currrent](#F-NCube-PackPath-Currrent 'NCube.PackPath.Currrent')
+  - [Name](#F-NCube-PackPath-Name 'NCube.PackPath.Name')
 - [PieAreaChart](#T-NCube-Controls-Charts-PieAreaChart 'NCube.Controls.Charts.PieAreaChart')
+  - [#ctor()](#M-NCube-Controls-Charts-PieAreaChart-#ctor 'NCube.Controls.Charts.PieAreaChart.#ctor')
+  - [AreaData](#P-NCube-Controls-Charts-PieAreaChart-AreaData 'NCube.Controls.Charts.PieAreaChart.AreaData')
+  - [CurrentUsage](#P-NCube-Controls-Charts-PieAreaChart-CurrentUsage 'NCube.Controls.Charts.PieAreaChart.CurrentUsage')
+  - [IsTooltipEnabled](#P-NCube-Controls-Charts-PieAreaChart-IsTooltipEnabled 'NCube.Controls.Charts.PieAreaChart.IsTooltipEnabled')
+  - [LightColor](#P-NCube-Controls-Charts-PieAreaChart-LightColor 'NCube.Controls.Charts.PieAreaChart.LightColor')
+  - [MaxTimeTitle](#P-NCube-Controls-Charts-PieAreaChart-MaxTimeTitle 'NCube.Controls.Charts.PieAreaChart.MaxTimeTitle')
+  - [NormalColor](#P-NCube-Controls-Charts-PieAreaChart-NormalColor 'NCube.Controls.Charts.PieAreaChart.NormalColor')
+  - [PieData](#P-NCube-Controls-Charts-PieAreaChart-PieData 'NCube.Controls.Charts.PieAreaChart.PieData')
+  - [TooltipAvailable](#P-NCube-Controls-Charts-PieAreaChart-TooltipAvailable 'NCube.Controls.Charts.PieAreaChart.TooltipAvailable')
+  - [TooltipInUse](#P-NCube-Controls-Charts-PieAreaChart-TooltipInUse 'NCube.Controls.Charts.PieAreaChart.TooltipInUse')
+  - [TooltipTotal](#P-NCube-Controls-Charts-PieAreaChart-TooltipTotal 'NCube.Controls.Charts.PieAreaChart.TooltipTotal')
+  - [XMaxValue](#P-NCube-Controls-Charts-PieAreaChart-XMaxValue 'NCube.Controls.Charts.PieAreaChart.XMaxValue')
+  - [XMinValue](#P-NCube-Controls-Charts-PieAreaChart-XMinValue 'NCube.Controls.Charts.PieAreaChart.XMinValue')
   - [InitializeComponent()](#M-NCube-Controls-Charts-PieAreaChart-InitializeComponent 'NCube.Controls.Charts.PieAreaChart.InitializeComponent')
 - [ProgressChartIcon](#T-NCube-Controls-Icons-ProgressChartIcon 'NCube.Controls.Icons.ProgressChartIcon')
   - [InitializeComponent()](#M-NCube-Controls-Icons-ProgressChartIcon-InitializeComponent 'NCube.Controls.Icons.ProgressChartIcon.InitializeComponent')
+- [ProgressRing](#T-NCube-Controls-ProgressRing 'NCube.Controls.ProgressRing')
+  - [#ctor()](#M-NCube-Controls-ProgressRing-#ctor 'NCube.Controls.ProgressRing.#ctor')
+  - [BindableWidth](#P-NCube-Controls-ProgressRing-BindableWidth 'NCube.Controls.ProgressRing.BindableWidth')
+  - [EllipseDiameter](#P-NCube-Controls-ProgressRing-EllipseDiameter 'NCube.Controls.ProgressRing.EllipseDiameter')
+  - [EllipseOffset](#P-NCube-Controls-ProgressRing-EllipseOffset 'NCube.Controls.ProgressRing.EllipseOffset')
+  - [IsActive](#P-NCube-Controls-ProgressRing-IsActive 'NCube.Controls.ProgressRing.IsActive')
+  - [IsLarge](#P-NCube-Controls-ProgressRing-IsLarge 'NCube.Controls.ProgressRing.IsLarge')
+  - [MaxSideLength](#P-NCube-Controls-ProgressRing-MaxSideLength 'NCube.Controls.ProgressRing.MaxSideLength')
 - [ProgressRingHolder](#T-NCube-Controls-ProgressRingHolder 'NCube.Controls.ProgressRingHolder')
+  - [#ctor(target,width,height)](#M-NCube-Controls-ProgressRingHolder-#ctor-System-Windows-Controls-Grid,System-Int32,System-Int32- 'NCube.Controls.ProgressRingHolder.#ctor(System.Windows.Controls.Grid,System.Int32,System.Int32)')
+  - [Dispose()](#M-NCube-Controls-ProgressRingHolder-Dispose 'NCube.Controls.ProgressRingHolder.Dispose')
 - [RdlRebootConfirmPopupPageView](#T-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView 'NCube.Controls.PageViews.RdlRebootConfirmPopupPageView')
+  - [#ctor()](#M-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView-#ctor 'NCube.Controls.PageViews.RdlRebootConfirmPopupPageView.#ctor')
+  - [IsPasswordMatched](#P-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView-IsPasswordMatched 'NCube.Controls.PageViews.RdlRebootConfirmPopupPageView.IsPasswordMatched')
   - [InitializeComponent()](#M-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView-InitializeComponent 'NCube.Controls.PageViews.RdlRebootConfirmPopupPageView.InitializeComponent')
 - [RealTimeChartControl](#T-NCube-Controls-Charts-RealTimeChartControl 'NCube.Controls.Charts.RealTimeChartControl')
+  - [#ctor()](#M-NCube-Controls-Charts-RealTimeChartControl-#ctor 'NCube.Controls.Charts.RealTimeChartControl.#ctor')
   - [AlwaysShowZeroLevel](#P-NCube-Controls-Charts-RealTimeChartControl-AlwaysShowZeroLevel 'NCube.Controls.Charts.RealTimeChartControl.AlwaysShowZeroLevel')
   - [AutoSideMargins](#P-NCube-Controls-Charts-RealTimeChartControl-AutoSideMargins 'NCube.Controls.Charts.RealTimeChartControl.AutoSideMargins')
+  - [AverageValueBrush](#P-NCube-Controls-Charts-RealTimeChartControl-AverageValueBrush 'NCube.Controls.Charts.RealTimeChartControl.AverageValueBrush')
   - [CustomCrosshairTextAction](#P-NCube-Controls-Charts-RealTimeChartControl-CustomCrosshairTextAction 'NCube.Controls.Charts.RealTimeChartControl.CustomCrosshairTextAction')
   - [HighBiasValue](#P-NCube-Controls-Charts-RealTimeChartControl-HighBiasValue 'NCube.Controls.Charts.RealTimeChartControl.HighBiasValue')
   - [IsNoDataVisibility](#P-NCube-Controls-Charts-RealTimeChartControl-IsNoDataVisibility 'NCube.Controls.Charts.RealTimeChartControl.IsNoDataVisibility')
   - [LowBiasValue](#P-NCube-Controls-Charts-RealTimeChartControl-LowBiasValue 'NCube.Controls.Charts.RealTimeChartControl.LowBiasValue')
+  - [MaxValueBrush](#P-NCube-Controls-Charts-RealTimeChartControl-MaxValueBrush 'NCube.Controls.Charts.RealTimeChartControl.MaxValueBrush')
+  - [MinValueBrush](#P-NCube-Controls-Charts-RealTimeChartControl-MinValueBrush 'NCube.Controls.Charts.RealTimeChartControl.MinValueBrush')
+  - [SeriesCount](#P-NCube-Controls-Charts-RealTimeChartControl-SeriesCount 'NCube.Controls.Charts.RealTimeChartControl.SeriesCount')
+  - [ShowBeginTime](#P-NCube-Controls-Charts-RealTimeChartControl-ShowBeginTime 'NCube.Controls.Charts.RealTimeChartControl.ShowBeginTime')
+  - [ThresholdMaxBrush](#P-NCube-Controls-Charts-RealTimeChartControl-ThresholdMaxBrush 'NCube.Controls.Charts.RealTimeChartControl.ThresholdMaxBrush')
+  - [ThresholdMaxValue](#P-NCube-Controls-Charts-RealTimeChartControl-ThresholdMaxValue 'NCube.Controls.Charts.RealTimeChartControl.ThresholdMaxValue')
+  - [ThresholdMinBrush](#P-NCube-Controls-Charts-RealTimeChartControl-ThresholdMinBrush 'NCube.Controls.Charts.RealTimeChartControl.ThresholdMinBrush')
+  - [ThresholdMinValue](#P-NCube-Controls-Charts-RealTimeChartControl-ThresholdMinValue 'NCube.Controls.Charts.RealTimeChartControl.ThresholdMinValue')
   - [ThresholdViewType](#P-NCube-Controls-Charts-RealTimeChartControl-ThresholdViewType 'NCube.Controls.Charts.RealTimeChartControl.ThresholdViewType')
   - [ValueViewType](#P-NCube-Controls-Charts-RealTimeChartControl-ValueViewType 'NCube.Controls.Charts.RealTimeChartControl.ValueViewType')
   - [InitializeComponent()](#M-NCube-Controls-Charts-RealTimeChartControl-InitializeComponent 'NCube.Controls.Charts.RealTimeChartControl.InitializeComponent')
   - [InitView()](#M-NCube-Controls-Charts-RealTimeChartControl-InitView 'NCube.Controls.Charts.RealTimeChartControl.InitView')
-  - [RefreshAxisXLabel(newestTimeStr)](#M-NCube-Controls-Charts-RealTimeChartControl-RefreshAxisXLabel-System-String- 'NCube.Controls.Charts.RealTimeChartControl.RefreshAxisXLabel(System.String)')
+  - [RefreshAxisXLabel()](#M-NCube-Controls-Charts-RealTimeChartControl-RefreshAxisXLabel-System-String- 'NCube.Controls.Charts.RealTimeChartControl.RefreshAxisXLabel(System.String)')
   - [RefreshSeriesPoints()](#M-NCube-Controls-Charts-RealTimeChartControl-RefreshSeriesPoints 'NCube.Controls.Charts.RealTimeChartControl.RefreshSeriesPoints')
-  - [SetThresholdMax(d)](#M-NCube-Controls-Charts-RealTimeChartControl-SetThresholdMax-System-Nullable{System-Double}- 'NCube.Controls.Charts.RealTimeChartControl.SetThresholdMax(System.Nullable{System.Double})')
-  - [SetThresholdMin(d)](#M-NCube-Controls-Charts-RealTimeChartControl-SetThresholdMin-System-Nullable{System-Double}- 'NCube.Controls.Charts.RealTimeChartControl.SetThresholdMin(System.Nullable{System.Double})')
 - [RealTimeChartModel](#T-NCube-Controls-Charts-RealTimeChartModel 'NCube.Controls.Charts.RealTimeChartModel')
   - [#ctor(time)](#M-NCube-Controls-Charts-RealTimeChartModel-#ctor-System-DateTime- 'NCube.Controls.Charts.RealTimeChartModel.#ctor(System.DateTime)')
+  - [Avg](#P-NCube-Controls-Charts-RealTimeChartModel-Avg 'NCube.Controls.Charts.RealTimeChartModel.Avg')
+  - [AvgView](#P-NCube-Controls-Charts-RealTimeChartModel-AvgView 'NCube.Controls.Charts.RealTimeChartModel.AvgView')
+  - [Max](#P-NCube-Controls-Charts-RealTimeChartModel-Max 'NCube.Controls.Charts.RealTimeChartModel.Max')
+  - [MaxView](#P-NCube-Controls-Charts-RealTimeChartModel-MaxView 'NCube.Controls.Charts.RealTimeChartModel.MaxView')
+  - [Min](#P-NCube-Controls-Charts-RealTimeChartModel-Min 'NCube.Controls.Charts.RealTimeChartModel.Min')
+  - [MinView](#P-NCube-Controls-Charts-RealTimeChartModel-MinView 'NCube.Controls.Charts.RealTimeChartModel.MinView')
+  - [Time](#P-NCube-Controls-Charts-RealTimeChartModel-Time 'NCube.Controls.Charts.RealTimeChartModel.Time')
+  - [Value](#P-NCube-Controls-Charts-RealTimeChartModel-Value 'NCube.Controls.Charts.RealTimeChartModel.Value')
+  - [ValueView](#P-NCube-Controls-Charts-RealTimeChartModel-ValueView 'NCube.Controls.Charts.RealTimeChartModel.ValueView')
 - [RealTimeLinePointModel](#T-NCube-Controls-Charts-RealTimeLinePointModel 'NCube.Controls.Charts.RealTimeLinePointModel')
   - [#ctor(argument,value)](#M-NCube-Controls-Charts-RealTimeLinePointModel-#ctor-System-DateTime,System-Nullable{System-Double}- 'NCube.Controls.Charts.RealTimeLinePointModel.#ctor(System.DateTime,System.Nullable{System.Double})')
+  - [Argument](#P-NCube-Controls-Charts-RealTimeLinePointModel-Argument 'NCube.Controls.Charts.RealTimeLinePointModel.Argument')
+  - [ArgumentStr](#P-NCube-Controls-Charts-RealTimeLinePointModel-ArgumentStr 'NCube.Controls.Charts.RealTimeLinePointModel.ArgumentStr')
+  - [Value](#P-NCube-Controls-Charts-RealTimeLinePointModel-Value 'NCube.Controls.Charts.RealTimeLinePointModel.Value')
 - [RealTimeLineSeries2D](#T-NCube-Controls-Charts-RealTimeLineSeries2D 'NCube.Controls.Charts.RealTimeLineSeries2D')
   - [#ctor()](#M-NCube-Controls-Charts-RealTimeLineSeries2D-#ctor 'NCube.Controls.Charts.RealTimeLineSeries2D.#ctor')
   - [MaxCount](#P-NCube-Controls-Charts-RealTimeLineSeries2D-MaxCount 'NCube.Controls.Charts.RealTimeLineSeries2D.MaxCount')
@@ -321,31 +447,56 @@
   - [Culture](#P-NCube-Properties-Resources-Culture 'NCube.Properties.Resources.Culture')
   - [ResourceManager](#P-NCube-Properties-Resources-ResourceManager 'NCube.Properties.Resources.ResourceManager')
 - [SampleBox](#T-NCube-Controls-Samples-SampleBox 'NCube.Controls.Samples.SampleBox')
+  - [#ctor()](#M-NCube-Controls-Samples-SampleBox-#ctor 'NCube.Controls.Samples.SampleBox.#ctor')
+  - [Description](#P-NCube-Controls-Samples-SampleBox-Description 'NCube.Controls.Samples.SampleBox.Description')
+  - [Header](#P-NCube-Controls-Samples-SampleBox-Header 'NCube.Controls.Samples.SampleBox.Header')
   - [InitializeComponent()](#M-NCube-Controls-Samples-SampleBox-InitializeComponent 'NCube.Controls.Samples.SampleBox.InitializeComponent')
 - [SavedFileOpenWindow](#T-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow 'NCube.Controls.Popups.Dialogs.SavedFileOpenWindow')
+  - [#ctor(filePath)](#M-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-#ctor-System-String- 'NCube.Controls.Popups.Dialogs.SavedFileOpenWindow.#ctor(System.String)')
+  - [AlertImage](#P-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-AlertImage 'NCube.Controls.Popups.Dialogs.SavedFileOpenWindow.AlertImage')
+  - [FilePath](#P-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-FilePath 'NCube.Controls.Popups.Dialogs.SavedFileOpenWindow.FilePath')
+  - [Message](#P-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-Message 'NCube.Controls.Popups.Dialogs.SavedFileOpenWindow.Message')
+  - [Result](#P-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-Result 'NCube.Controls.Popups.Dialogs.SavedFileOpenWindow.Result')
   - [InitializeComponent()](#M-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-InitializeComponent 'NCube.Controls.Popups.Dialogs.SavedFileOpenWindow.InitializeComponent')
 - [ScreenLock](#T-NCube-Controls-ScreenLock 'NCube.Controls.ScreenLock')
+  - [#ctor()](#M-NCube-Controls-ScreenLock-#ctor 'NCube.Controls.ScreenLock.#ctor')
+  - [ScreenHolder](#P-NCube-Controls-ScreenLock-ScreenHolder 'NCube.Controls.ScreenLock.ScreenHolder')
+  - [Dispose()](#M-NCube-Controls-ScreenLock-Dispose 'NCube.Controls.ScreenLock.Dispose')
 - [StaticImage](#T-NCube-Assets-Images-StaticImage 'NCube.Assets.Images.StaticImage')
   - [MessageBoxImageToBitmapImage(boxImage)](#M-NCube-Assets-Images-StaticImage-MessageBoxImageToBitmapImage-System-Windows-MessageBoxImage- 'NCube.Assets.Images.StaticImage.MessageBoxImageToBitmapImage(System.Windows.MessageBoxImage)')
 - [SysCfgRestoreConfirmPopupPageView](#T-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView 'NCube.Controls.PageViews.SysCfgRestoreConfirmPopupPageView')
+  - [#ctor()](#M-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView-#ctor 'NCube.Controls.PageViews.SysCfgRestoreConfirmPopupPageView.#ctor')
+  - [IsPasswordMatched](#P-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView-IsPasswordMatched 'NCube.Controls.PageViews.SysCfgRestoreConfirmPopupPageView.IsPasswordMatched')
   - [InitializeComponent()](#M-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView-InitializeComponent 'NCube.Controls.PageViews.SysCfgRestoreConfirmPopupPageView.InitializeComponent')
 - [TableGraphTab](#T-NCube-Controls-TableGraphTab 'NCube.Controls.TableGraphTab')
+  - [#ctor()](#M-NCube-Controls-TableGraphTab-#ctor 'NCube.Controls.TableGraphTab.#ctor')
+  - [TabVisibility](#P-NCube-Controls-TableGraphTab-TabVisibility 'NCube.Controls.TableGraphTab.TabVisibility')
   - [InitializeComponent()](#M-NCube-Controls-TableGraphTab-InitializeComponent 'NCube.Controls.TableGraphTab.InitializeComponent')
 - [TableTypes](#T-NCube-Services-Report-HohSheetTable-TableTypes 'NCube.Services.Report.HohSheetTable.TableTypes')
   - [GridControl](#F-NCube-Services-Report-HohSheetTable-TableTypes-GridControl 'NCube.Services.Report.HohSheetTable.TableTypes.GridControl')
   - [TreeKey](#F-NCube-Services-Report-HohSheetTable-TableTypes-TreeKey 'NCube.Services.Report.HohSheetTable.TableTypes.TreeKey')
   - [TreeKeyCombineView](#F-NCube-Services-Report-HohSheetTable-TableTypes-TreeKeyCombineView 'NCube.Services.Report.HohSheetTable.TableTypes.TreeKeyCombineView')
 - [ThemeWindow](#T-NCube-Controls-Windows-ThemeWindow 'NCube.Controls.Windows.ThemeWindow')
+  - [#ctor()](#M-NCube-Controls-Windows-ThemeWindow-#ctor 'NCube.Controls.Windows.ThemeWindow.#ctor')
   - [InitializeComponent()](#M-NCube-Controls-Windows-ThemeWindow-InitializeComponent 'NCube.Controls.Windows.ThemeWindow.InitializeComponent')
+- [ThresholdViewTypes](#T-NCube-Controls-Charts-RealTimeChartControl-ThresholdViewTypes 'NCube.Controls.Charts.RealTimeChartControl.ThresholdViewTypes')
 - [TimedLock](#T-NCube-Services-Threading-TimedLock 'NCube.Services.Threading.TimedLock')
   - [Dispose()](#M-NCube-Services-Threading-TimedLock-Dispose 'NCube.Services.Threading.TimedLock.Dispose')
   - [Lock(o)](#M-NCube-Services-Threading-TimedLock-Lock-System-Object- 'NCube.Services.Threading.TimedLock.Lock(System.Object)')
   - [Lock(o,timeout)](#M-NCube-Services-Threading-TimedLock-Lock-System-Object,System-TimeSpan- 'NCube.Services.Threading.TimedLock.Lock(System.Object,System.TimeSpan)')
 - [UnderConstructionFlyPageView](#T-NCube-Controls-PageViews-UnderConstructionFlyPageView 'NCube.Controls.PageViews.UnderConstructionFlyPageView')
+  - [#ctor()](#M-NCube-Controls-PageViews-UnderConstructionFlyPageView-#ctor 'NCube.Controls.PageViews.UnderConstructionFlyPageView.#ctor')
   - [InitializeComponent()](#M-NCube-Controls-PageViews-UnderConstructionFlyPageView-InitializeComponent 'NCube.Controls.PageViews.UnderConstructionFlyPageView.InitializeComponent')
 - [UndisposedLockException](#T-NCube-Services-Threading-UndisposedLockException 'NCube.Services.Threading.UndisposedLockException')
   - [#ctor(message)](#M-NCube-Services-Threading-UndisposedLockException-#ctor-System-String- 'NCube.Services.Threading.UndisposedLockException.#ctor(System.String)')
   - [#ctor(info,context)](#M-NCube-Services-Threading-UndisposedLockException-#ctor-System-Runtime-Serialization-SerializationInfo,System-Runtime-Serialization-StreamingContext- 'NCube.Services.Threading.UndisposedLockException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)')
+- [ValueViewTypes](#T-NCube-Controls-Charts-RealTimeChartControl-ValueViewTypes 'NCube.Controls.Charts.RealTimeChartControl.ValueViewTypes')
+- [WindowLock](#T-NCube-Controls-WindowLock 'NCube.Controls.WindowLock')
+  - [#ctor()](#M-NCube-Controls-WindowLock-#ctor 'NCube.Controls.WindowLock.#ctor')
+  - [WindowLockMainGrid](#P-NCube-Controls-WindowLock-WindowLockMainGrid 'NCube.Controls.WindowLock.WindowLockMainGrid')
+  - [Lock()](#M-NCube-Controls-WindowLock-Lock 'NCube.Controls.WindowLock.Lock')
+  - [LockMessage(message)](#M-NCube-Controls-WindowLock-LockMessage-System-String- 'NCube.Controls.WindowLock.LockMessage(System.String)')
+  - [Unlock()](#M-NCube-Controls-WindowLock-Unlock 'NCube.Controls.WindowLock.Unlock')
 - [WindowLockHelper](#T-NCube-Helpers-WindowLockHelper 'NCube.Helpers.WindowLockHelper')
 - [WizardIcon](#T-NCube-Controls-Icons-WizardIcon 'NCube.Controls.Icons.WizardIcon')
   - [InitializeComponent()](#M-NCube-Controls-Icons-WizardIcon-InitializeComponent 'NCube.Controls.Icons.WizardIcon.InitializeComponent')
@@ -491,12 +642,44 @@ NCube.Controls
 
 Interaction logic for AlarmCountTemplate.xaml
 
+<a name='M-NCube-Controls-AlarmCountControl-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-AlarmCountControl-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+AlarmCountControl 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-AlarmCountControl-CriticalAlarmCount'></a>
+### `property` CriticalAlarmCount [#](#P-NCube-Controls-AlarmCountControl-CriticalAlarmCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+CriticalAlarmCount
+
 <a name='P-NCube-Controls-AlarmCountControl-IsHeaderVisiable'></a>
 ### `property` IsHeaderVisiable [#](#P-NCube-Controls-AlarmCountControl-IsHeaderVisiable 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
 알람 Count위 Header를 표시할지 말지 결정합니다.
+
+<a name='P-NCube-Controls-AlarmCountControl-MajorAlarmCount'></a>
+### `property` MajorAlarmCount [#](#P-NCube-Controls-AlarmCountControl-MajorAlarmCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MajorAlarmCount
+
+<a name='P-NCube-Controls-AlarmCountControl-MinorAlarmCount'></a>
+### `property` MinorAlarmCount [#](#P-NCube-Controls-AlarmCountControl-MinorAlarmCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MinorAlarmCount
 
 <a name='M-NCube-Controls-AlarmCountControl-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-AlarmCountControl-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
@@ -597,13 +780,6 @@ NCube.Controls.Charts
 
 Interaction logic for CategoryChartControl.xaml
 
-<a name='F-NCube-Controls-Charts-CategoryChartControl-_enableZoom'></a>
-### `constants` _enableZoom [#](#F-NCube-Controls-Charts-CategoryChartControl-_enableZoom 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
-
 <a name='P-NCube-Controls-Charts-CategoryChartControl-AverageValueBrush'></a>
 ### `property` AverageValueBrush [#](#P-NCube-Controls-Charts-CategoryChartControl-AverageValueBrush 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -624,6 +800,13 @@ Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
 ##### Summary
 
 현재 차트에 보여줄 Item들을 설정
+
+<a name='P-NCube-Controls-Charts-CategoryChartControl-LogCharts'></a>
+### `property` LogCharts [#](#P-NCube-Controls-Charts-CategoryChartControl-LogCharts 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+LogCharts 값
 
 <a name='P-NCube-Controls-Charts-CategoryChartControl-MaxValueBrush'></a>
 ### `property` MaxValueBrush [#](#P-NCube-Controls-Charts-CategoryChartControl-MaxValueBrush 'Go To Here') [=](#contents 'Back To Contents')
@@ -656,36 +839,6 @@ InitializeComponent
 ##### Parameters
 
 This method has no parameters.
-
-<a name='M-NCube-Controls-Charts-CategoryChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush-'></a>
-### `method` InitSeries(line,crosshairName,list,brush) [#](#M-NCube-Controls-Charts-CategoryChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-그래프 선을 초기화 시킵니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| line | [DevExpress.Xpf.Charts.XYSeries@](#T-DevExpress-Xpf-Charts-XYSeries@ 'DevExpress.Xpf.Charts.XYSeries@') |  |
-| crosshairName | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') |  |
-| list | [System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}') |  |
-| brush | [System.Windows.Media.SolidColorBrush](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.Media.SolidColorBrush 'System.Windows.Media.SolidColorBrush') |  |
-
-<a name='M-NCube-Controls-Charts-CategoryChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs-'></a>
-### `method` LookUpEditBase_OnSelectedIndexChanged(sender,e) [#](#M-NCube-Controls-Charts-CategoryChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-콤보박스 Item이 변경되었을 때 동작합니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| sender | [System.Object](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Object 'System.Object') |  |
-| e | [System.Windows.RoutedEventArgs](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.RoutedEventArgs 'System.Windows.RoutedEventArgs') |  |
 
 <a name='M-NCube-Controls-Charts-CategoryChartControl-RefreshLabel-System-String,System-String-'></a>
 ### `method` RefreshLabel(maxArg,minArg) [#](#M-NCube-Controls-Charts-CategoryChartControl-RefreshLabel-System-String,System-String- 'Go To Here') [=](#contents 'Back To Contents')
@@ -822,7 +975,27 @@ NCube.Controls.PageViews
 
 ##### Summary
 
-ConfirmFlyPageView
+확인 PageView
+
+<a name='M-NCube-Controls-PageViews-ConfirmFlyPageView-#ctor-DevExpress-Xpf-Editors-Flyout-FlyoutControl-'></a>
+### `constructor` #ctor(fly) [#](#M-NCube-Controls-PageViews-ConfirmFlyPageView-#ctor-DevExpress-Xpf-Editors-Flyout-FlyoutControl- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+ConfirmFlyPageView 생성자
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| fly | [DevExpress.Xpf.Editors.Flyout.FlyoutControl](#T-DevExpress-Xpf-Editors-Flyout-FlyoutControl 'DevExpress.Xpf.Editors.Flyout.FlyoutControl') | FlyoutControl |
+
+<a name='P-NCube-Controls-PageViews-ConfirmFlyPageView-Message'></a>
+### `property` Message [#](#P-NCube-Controls-PageViews-ConfirmFlyPageView-Message 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Message
 
 <a name='M-NCube-Controls-PageViews-ConfirmFlyPageView-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-PageViews-ConfirmFlyPageView-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
@@ -857,12 +1030,16 @@ NCube.Controls.Charts
 
 Interaction logic for CvLogChartControl.xaml
 
-<a name='F-NCube-Controls-Charts-CvLogChartControl-_enableZoom'></a>
-### `constants` _enableZoom [#](#F-NCube-Controls-Charts-CvLogChartControl-_enableZoom 'Go To Here') [=](#contents 'Back To Contents')
+<a name='M-NCube-Controls-Charts-CvLogChartControl-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-Charts-CvLogChartControl-#ctor 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
-Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
+CvLogChartControl 생성자
+
+##### Parameters
+
+This constructor has no parameters.
 
 <a name='P-NCube-Controls-Charts-CvLogChartControl-CustomCrosshairTextAction'></a>
 ### `property` CustomCrosshairTextAction [#](#P-NCube-Controls-Charts-CvLogChartControl-CustomCrosshairTextAction 'Go To Here') [=](#contents 'Back To Contents')
@@ -870,6 +1047,13 @@ Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
 ##### Summary
 
 크로스헤어의 출력 값을 수정합니다.
+
+<a name='P-NCube-Controls-Charts-CvLogChartControl-CustomCrosshairTextAction2'></a>
+### `property` CustomCrosshairTextAction2 [#](#P-NCube-Controls-Charts-CvLogChartControl-CustomCrosshairTextAction2 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+크로스헤어2의 출력 값을 수정합니다.
 
 <a name='P-NCube-Controls-Charts-CvLogChartControl-CvValueBrush'></a>
 ### `property` CvValueBrush [#](#P-NCube-Controls-Charts-CvLogChartControl-CvValueBrush 'Go To Here') [=](#contents 'Back To Contents')
@@ -891,6 +1075,13 @@ Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
 ##### Summary
 
 현재 차트에 보여줄 Item들을 설정
+
+<a name='P-NCube-Controls-Charts-CvLogChartControl-LogCharts'></a>
+### `property` LogCharts [#](#P-NCube-Controls-Charts-CvLogChartControl-LogCharts 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+LogCharts
 
 <a name='P-NCube-Controls-Charts-CvLogChartControl-MinViewValue'></a>
 ### `property` MinViewValue [#](#P-NCube-Controls-Charts-CvLogChartControl-MinViewValue 'Go To Here') [=](#contents 'Back To Contents')
@@ -924,52 +1115,6 @@ InitializeComponent
 
 This method has no parameters.
 
-<a name='M-NCube-Controls-Charts-CvLogChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush-'></a>
-### `method` InitSeries(line,crosshairName,list,brush) [#](#M-NCube-Controls-Charts-CvLogChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-그래프 선을 초기화 시킵니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| line | [DevExpress.Xpf.Charts.XYSeries@](#T-DevExpress-Xpf-Charts-XYSeries@ 'DevExpress.Xpf.Charts.XYSeries@') |  |
-| crosshairName | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') |  |
-| list | [System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}') |  |
-| brush | [System.Windows.Media.SolidColorBrush](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.Media.SolidColorBrush 'System.Windows.Media.SolidColorBrush') |  |
-
-<a name='M-NCube-Controls-Charts-CvLogChartControl-InitStrackBarSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush-'></a>
-### `method` InitStrackBarSeries(line,crosshairName,list,brush) [#](#M-NCube-Controls-Charts-CvLogChartControl-InitStrackBarSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-그래프 선을 초기화 시킵니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| line | [DevExpress.Xpf.Charts.XYSeries@](#T-DevExpress-Xpf-Charts-XYSeries@ 'DevExpress.Xpf.Charts.XYSeries@') |  |
-| crosshairName | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') |  |
-| list | [System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}') |  |
-| brush | [System.Windows.Media.SolidColorBrush](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.Media.SolidColorBrush 'System.Windows.Media.SolidColorBrush') |  |
-
-<a name='M-NCube-Controls-Charts-CvLogChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs-'></a>
-### `method` LookUpEditBase_OnSelectedIndexChanged(sender,e) [#](#M-NCube-Controls-Charts-CvLogChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-콤보박스 Item이 변경되었을 때 동작합니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| sender | [System.Object](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Object 'System.Object') |  |
-| e | [System.Windows.RoutedEventArgs](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.RoutedEventArgs 'System.Windows.RoutedEventArgs') |  |
-
 <a name='M-NCube-Controls-Charts-CvLogChartControl-RefreshLabel-DevExpress-Xpf-Charts-XYDiagram2D,DevExpress-Xpf-Charts-AxisX2D,System-String,System-String-'></a>
 ### `method` RefreshLabel(maxArg,minArg) [#](#M-NCube-Controls-Charts-CvLogChartControl-RefreshLabel-DevExpress-Xpf-Charts-XYDiagram2D,DevExpress-Xpf-Charts-AxisX2D,System-String,System-String- 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -984,17 +1129,6 @@ This method has no parameters.
 | maxArg | [DevExpress.Xpf.Charts.XYDiagram2D](#T-DevExpress-Xpf-Charts-XYDiagram2D 'DevExpress.Xpf.Charts.XYDiagram2D') | 최대 Argument 값 |
 | minArg | [DevExpress.Xpf.Charts.AxisX2D](#T-DevExpress-Xpf-Charts-AxisX2D 'DevExpress.Xpf.Charts.AxisX2D') | 최소 Argment 값 |
 
-<a name='M-NCube-Controls-Charts-CvLogChartControl-ResetAxisX-DevExpress-Xpf-Charts-XYDiagram2D-'></a>
-### `method` ResetAxisX() [#](#M-NCube-Controls-Charts-CvLogChartControl-ResetAxisX-DevExpress-Xpf-Charts-XYDiagram2D- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-X축을 초기로 리셋
-
-##### Parameters
-
-This method has no parameters.
-
 <a name='M-NCube-Controls-Charts-CvLogChartControl-SetChart2Range-System-Int32,System-Int32-'></a>
 ### `method` SetChart2Range(min,max) [#](#M-NCube-Controls-Charts-CvLogChartControl-SetChart2Range-System-Int32,System-Int32- 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -1008,30 +1142,6 @@ This method has no parameters.
 | ---- | ---- | ----------- |
 | min | [System.Int32](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Int32 'System.Int32') | 최소 값 |
 | max | [System.Int32](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Int32 'System.Int32') | 최대 값 |
-
-<a name='M-NCube-Controls-Charts-CvLogChartControl-ShowChart'></a>
-### `method` ShowChart() [#](#M-NCube-Controls-Charts-CvLogChartControl-ShowChart 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-현재 적용된 값을 이용해 차트를 표현합니다.
-
-##### Parameters
-
-This method has no parameters.
-
-<a name='M-NCube-Controls-Charts-CvLogChartControl-ShowChart-NCube-Controls-Charts-CvLogChartModel-'></a>
-### `method` ShowChart(CvLogChartModel) [#](#M-NCube-Controls-Charts-CvLogChartControl-ShowChart-NCube-Controls-Charts-CvLogChartModel- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-현재 CvLogChartModel 적용된 값을 이용해 차트를 표현합니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| CvLogChartModel | [NCube.Controls.Charts.CvLogChartModel](#T-NCube-Controls-Charts-CvLogChartModel 'NCube.Controls.Charts.CvLogChartModel') | 적용할 CvLogChartModel |
 
 <a name='T-NCube-Controls-Charts-CvLogChartModel'></a>
 ## {+ type+} CvLogChartModel [#](#T-NCube-Controls-Charts-CvLogChartModel 'Go To Here') [=](#contents 'Back To Contents')
@@ -1124,6 +1234,30 @@ NCube.Controls
 
 한번에 여러 컨트롤을 비활성화 시켜주는 헬퍼 클래스
 
+<a name='M-NCube-Controls-DisableControls-#ctor-System-Windows-FrameworkElement[]-'></a>
+### `constructor` #ctor(targets) [#](#M-NCube-Controls-DisableControls-#ctor-System-Windows-FrameworkElement[]- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+DisableControls 생성자
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| targets | [System.Windows.FrameworkElement[]](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.FrameworkElement[] 'System.Windows.FrameworkElement[]') | FrameworkElement[] |
+
+<a name='M-NCube-Controls-DisableControls-Dispose'></a>
+### `method` Dispose() [#](#M-NCube-Controls-DisableControls-Dispose 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Target된 control을 다시 enble 시킵니다.
+
+##### Parameters
+
+This method has no parameters.
+
 <a name='T-NCube-Helpers-EncodingHelper'></a>
 ## {+ type+} EncodingHelper [#](#T-NCube-Helpers-EncodingHelper 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -1164,13 +1298,6 @@ NCube.Controls.Charts
 
 Interaction logic for EthLogChartControl.xaml
 
-<a name='F-NCube-Controls-Charts-EthLogChartControl-_enableZoom'></a>
-### `constants` _enableZoom [#](#F-NCube-Controls-Charts-EthLogChartControl-_enableZoom 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
-
 <a name='P-NCube-Controls-Charts-EthLogChartControl-CustomCrosshairTextAction'></a>
 ### `property` CustomCrosshairTextAction [#](#P-NCube-Controls-Charts-EthLogChartControl-CustomCrosshairTextAction 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -1178,12 +1305,26 @@ Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
 
 크로스헤어의 출력 값을 수정합니다.
 
+<a name='P-NCube-Controls-Charts-EthLogChartControl-CustomCrosshairTextAction2'></a>
+### `property` CustomCrosshairTextAction2 [#](#P-NCube-Controls-Charts-EthLogChartControl-CustomCrosshairTextAction2 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+크로스헤어2의 출력 값을 수정합니다.
+
 <a name='P-NCube-Controls-Charts-EthLogChartControl-Items'></a>
 ### `property` Items [#](#P-NCube-Controls-Charts-EthLogChartControl-Items 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
 현재 차트에 보여줄 Item들을 설정
+
+<a name='P-NCube-Controls-Charts-EthLogChartControl-LogCharts'></a>
+### `property` LogCharts [#](#P-NCube-Controls-Charts-EthLogChartControl-LogCharts 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+LogCharts
 
 <a name='P-NCube-Controls-Charts-EthLogChartControl-MinViewValue'></a>
 ### `property` MinViewValue [#](#P-NCube-Controls-Charts-EthLogChartControl-MinViewValue 'Go To Here') [=](#contents 'Back To Contents')
@@ -1206,22 +1347,6 @@ Y축에 최소로 보여줄 값을 설정합니다,
 
 최대 값의 색을 설정
 
-<a name='M-NCube-Controls-Charts-EthLogChartControl-InitBarSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush-'></a>
-### `method` InitBarSeries(line,crosshairName,list,brush) [#](#M-NCube-Controls-Charts-EthLogChartControl-InitBarSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-그래프 선을 초기화 시킵니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| line | [DevExpress.Xpf.Charts.XYSeries@](#T-DevExpress-Xpf-Charts-XYSeries@ 'DevExpress.Xpf.Charts.XYSeries@') |  |
-| crosshairName | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') |  |
-| list | [System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}') |  |
-| brush | [System.Windows.Media.SolidColorBrush](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.Media.SolidColorBrush 'System.Windows.Media.SolidColorBrush') |  |
-
 <a name='M-NCube-Controls-Charts-EthLogChartControl-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-Charts-EthLogChartControl-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -1232,36 +1357,6 @@ InitializeComponent
 ##### Parameters
 
 This method has no parameters.
-
-<a name='M-NCube-Controls-Charts-EthLogChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush-'></a>
-### `method` InitSeries(line,crosshairName,list,brush) [#](#M-NCube-Controls-Charts-EthLogChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-그래프 선을 초기화 시킵니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| line | [DevExpress.Xpf.Charts.XYSeries@](#T-DevExpress-Xpf-Charts-XYSeries@ 'DevExpress.Xpf.Charts.XYSeries@') |  |
-| crosshairName | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') |  |
-| list | [System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}') |  |
-| brush | [System.Windows.Media.SolidColorBrush](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.Media.SolidColorBrush 'System.Windows.Media.SolidColorBrush') |  |
-
-<a name='M-NCube-Controls-Charts-EthLogChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs-'></a>
-### `method` LookUpEditBase_OnSelectedIndexChanged(sender,e) [#](#M-NCube-Controls-Charts-EthLogChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-콤보박스 Item이 변경되었을 때 동작합니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| sender | [System.Object](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Object 'System.Object') |  |
-| e | [System.Windows.RoutedEventArgs](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.RoutedEventArgs 'System.Windows.RoutedEventArgs') |  |
 
 <a name='M-NCube-Controls-Charts-EthLogChartControl-RefreshLabel-DevExpress-Xpf-Charts-XYDiagram2D,DevExpress-Xpf-Charts-AxisX2D,System-String,System-String-'></a>
 ### `method` RefreshLabel(maxArg,minArg) [#](#M-NCube-Controls-Charts-EthLogChartControl-RefreshLabel-DevExpress-Xpf-Charts-XYDiagram2D,DevExpress-Xpf-Charts-AxisX2D,System-String,System-String- 'Go To Here') [=](#contents 'Back To Contents')
@@ -1276,41 +1371,6 @@ This method has no parameters.
 | ---- | ---- | ----------- |
 | maxArg | [DevExpress.Xpf.Charts.XYDiagram2D](#T-DevExpress-Xpf-Charts-XYDiagram2D 'DevExpress.Xpf.Charts.XYDiagram2D') | 최대 Argument 값 |
 | minArg | [DevExpress.Xpf.Charts.AxisX2D](#T-DevExpress-Xpf-Charts-AxisX2D 'DevExpress.Xpf.Charts.AxisX2D') | 최소 Argment 값 |
-
-<a name='M-NCube-Controls-Charts-EthLogChartControl-ResetAxisX-DevExpress-Xpf-Charts-XYDiagram2D-'></a>
-### `method` ResetAxisX() [#](#M-NCube-Controls-Charts-EthLogChartControl-ResetAxisX-DevExpress-Xpf-Charts-XYDiagram2D- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-X축을 초기로 리셋
-
-##### Parameters
-
-This method has no parameters.
-
-<a name='M-NCube-Controls-Charts-EthLogChartControl-ShowChart'></a>
-### `method` ShowChart() [#](#M-NCube-Controls-Charts-EthLogChartControl-ShowChart 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-현재 적용된 값을 이용해 차트를 표현합니다.
-
-##### Parameters
-
-This method has no parameters.
-
-<a name='M-NCube-Controls-Charts-EthLogChartControl-ShowChart-NCube-Controls-Charts-EthLogChartModel-'></a>
-### `method` ShowChart(chartModel) [#](#M-NCube-Controls-Charts-EthLogChartControl-ShowChart-NCube-Controls-Charts-EthLogChartModel- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-현재 EthLogChartModel에 적용된 값을 이용해 차트를 표현합니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| chartModel | [NCube.Controls.Charts.EthLogChartModel](#T-NCube-Controls-Charts-EthLogChartModel 'NCube.Controls.Charts.EthLogChartModel') | 적용할 EthLogChartModel |
 
 <a name='T-NCube-Controls-Charts-EthLogChartModel'></a>
 ## {+ type+} EthLogChartModel [#](#T-NCube-Controls-Charts-EthLogChartModel 'Go To Here') [=](#contents 'Back To Contents')
@@ -1484,12 +1544,52 @@ NCube.Controls.Popups
 
 Interaction logic for FlatPopup.xaml
 
+<a name='M-NCube-Controls-Popups-FlatPopup-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-Popups-FlatPopup-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+FlatPopup 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-Popups-FlatPopup-Content'></a>
+### `property` Content [#](#P-NCube-Controls-Popups-FlatPopup-Content 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Content
+
+<a name='P-NCube-Controls-Popups-FlatPopup-IsLocked'></a>
+### `property` IsLocked [#](#P-NCube-Controls-Popups-FlatPopup-IsLocked 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+IsLocked
+
 <a name='M-NCube-Controls-Popups-FlatPopup-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-Popups-FlatPopup-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
 InitializeComponent
+
+##### Parameters
+
+This method has no parameters.
+
+<a name='M-NCube-Controls-Popups-FlatPopup-ShowDialog'></a>
+### `method` ShowDialog() [#](#M-NCube-Controls-Popups-FlatPopup-ShowDialog 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+ShowDialog
+
+##### Returns
+
+bool?
 
 ##### Parameters
 
@@ -1572,6 +1672,38 @@ NCube.Controls
 
 Interaction logic for WorkingAlarmCountPanel.xaml
 
+<a name='M-NCube-Controls-GSAlarmCountControl-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-GSAlarmCountControl-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+GSAlarmCountControl 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-GSAlarmCountControl-CriticalAlarmCount'></a>
+### `property` CriticalAlarmCount [#](#P-NCube-Controls-GSAlarmCountControl-CriticalAlarmCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+CriticalAlarmCount
+
+<a name='P-NCube-Controls-GSAlarmCountControl-MajorAlarmCount'></a>
+### `property` MajorAlarmCount [#](#P-NCube-Controls-GSAlarmCountControl-MajorAlarmCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MajorAlarmCount
+
+<a name='P-NCube-Controls-GSAlarmCountControl-MinorAlarmCount'></a>
+### `property` MinorAlarmCount [#](#P-NCube-Controls-GSAlarmCountControl-MinorAlarmCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MinorAlarmCount
+
 <a name='M-NCube-Controls-GSAlarmCountControl-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-GSAlarmCountControl-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -1594,6 +1726,59 @@ NCube.Controls
 
 Interaction logic for WorkingGroupTemplate.xaml
 
+<a name='M-NCube-Controls-GSGroupControl-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-GSGroupControl-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+GSGroupControl 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-GSGroupControl-AlarmStatus'></a>
+### `property` AlarmStatus [#](#P-NCube-Controls-GSGroupControl-AlarmStatus 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+AlarmStatus
+
+<a name='P-NCube-Controls-GSGroupControl-CriticalAlarmCount'></a>
+### `property` CriticalAlarmCount [#](#P-NCube-Controls-GSGroupControl-CriticalAlarmCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+CriticalAlarmCount
+
+<a name='P-NCube-Controls-GSGroupControl-GroupName'></a>
+### `property` GroupName [#](#P-NCube-Controls-GSGroupControl-GroupName 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+GroupName
+
+<a name='P-NCube-Controls-GSGroupControl-IsVisiable'></a>
+### `property` IsVisiable [#](#P-NCube-Controls-GSGroupControl-IsVisiable 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+IsVisiable
+
+<a name='P-NCube-Controls-GSGroupControl-MajorAlarmCount'></a>
+### `property` MajorAlarmCount [#](#P-NCube-Controls-GSGroupControl-MajorAlarmCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MajorAlarmCount
+
+<a name='P-NCube-Controls-GSGroupControl-MinorAlarmCount'></a>
+### `property` MinorAlarmCount [#](#P-NCube-Controls-GSGroupControl-MinorAlarmCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MinorAlarmCount
+
 <a name='M-NCube-Controls-GSGroupControl-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-GSGroupControl-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -1615,6 +1800,59 @@ NCube.Controls
 ##### Summary
 
 Interaction logic for WorkingNodeTemplate.xaml
+
+<a name='M-NCube-Controls-GSNodeControl-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-GSNodeControl-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+GSNodeControl 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-GSNodeControl-AlarmStatus'></a>
+### `property` AlarmStatus [#](#P-NCube-Controls-GSNodeControl-AlarmStatus 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+AlarmStatus
+
+<a name='P-NCube-Controls-GSNodeControl-CriticalAlarmCount'></a>
+### `property` CriticalAlarmCount [#](#P-NCube-Controls-GSNodeControl-CriticalAlarmCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+CriticalAlarmCount
+
+<a name='P-NCube-Controls-GSNodeControl-IsVisiable'></a>
+### `property` IsVisiable [#](#P-NCube-Controls-GSNodeControl-IsVisiable 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+IsVisiable
+
+<a name='P-NCube-Controls-GSNodeControl-MajorAlarmCount'></a>
+### `property` MajorAlarmCount [#](#P-NCube-Controls-GSNodeControl-MajorAlarmCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MajorAlarmCount
+
+<a name='P-NCube-Controls-GSNodeControl-MinorAlarmCount'></a>
+### `property` MinorAlarmCount [#](#P-NCube-Controls-GSNodeControl-MinorAlarmCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MinorAlarmCount
+
+<a name='P-NCube-Controls-GSNodeControl-NodeName'></a>
+### `property` NodeName [#](#P-NCube-Controls-GSNodeControl-NodeName 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+NodeName
 
 <a name='M-NCube-Controls-GSNodeControl-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-GSNodeControl-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
@@ -2244,7 +2482,25 @@ NCube.Controls.PageViews
 
 ##### Summary
 
-InitSysColdConfirmPopupPageView
+서비스 명령 초기화 PageView
+
+<a name='M-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+InitSysColdConfirmPopupPageView 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView-IsPasswordMatched'></a>
+### `property` IsPasswordMatched [#](#P-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView-IsPasswordMatched 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+IsPasswordMatched
 
 <a name='M-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
@@ -2268,6 +2524,17 @@ NCube.Controls.Popups.Dialogs
 
 메인 윈도우 내부에 UserControl Dialog를 보여줍니다.
 
+<a name='M-NCube-Controls-Popups-Dialogs-InnerDialog-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-Popups-Dialogs-InnerDialog-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+
+
+##### Parameters
+
+This constructor has no parameters.
+
 <a name='M-NCube-Controls-Popups-Dialogs-InnerDialog-#ctor-System-Windows-Controls-Control,System-Windows-Media-Brush-'></a>
 ### `constructor` #ctor(content,background) [#](#M-NCube-Controls-Popups-Dialogs-InnerDialog-#ctor-System-Windows-Controls-Control,System-Windows-Media-Brush- 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -2282,6 +2549,35 @@ NCube.Controls.Popups.Dialogs
 | content | [System.Windows.Controls.Control](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.Controls.Control 'System.Windows.Controls.Control') | 보여줄 컨트롤 창 |
 | background | [System.Windows.Media.Brush](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.Media.Brush 'System.Windows.Media.Brush') | 컨트롤 창의 배경을 설정, null로 설정시 White로 기본 지정합니다. |
 
+<a name='P-NCube-Controls-Popups-Dialogs-InnerDialog-Content'></a>
+### `property` Content [#](#P-NCube-Controls-Popups-Dialogs-InnerDialog-Content 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+
+
+<a name='M-NCube-Controls-Popups-Dialogs-InnerDialog-Close'></a>
+### `method` Close() [#](#M-NCube-Controls-Popups-Dialogs-InnerDialog-Close 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+
+
+##### Parameters
+
+This method has no parameters.
+
+<a name='M-NCube-Controls-Popups-Dialogs-InnerDialog-Show'></a>
+### `method` Show() [#](#M-NCube-Controls-Popups-Dialogs-InnerDialog-Show 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+
+
+##### Parameters
+
+This method has no parameters.
+
 <a name='T-NCube-Controls-PageViews-InputErrorFlyPageView'></a>
 ## {+ type+} InputErrorFlyPageView [#](#T-NCube-Controls-PageViews-InputErrorFlyPageView 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -2292,6 +2588,24 @@ NCube.Controls.PageViews
 ##### Summary
 
 InputErrorFlyPageView
+
+<a name='M-NCube-Controls-PageViews-InputErrorFlyPageView-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-PageViews-InputErrorFlyPageView-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+InputErrorFlyPageView 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-PageViews-InputErrorFlyPageView-Message'></a>
+### `property` Message [#](#P-NCube-Controls-PageViews-InputErrorFlyPageView-Message 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Message
 
 <a name='M-NCube-Controls-PageViews-InputErrorFlyPageView-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-PageViews-InputErrorFlyPageView-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
@@ -2313,7 +2627,35 @@ NCube.Controls.PageViews
 
 ##### Summary
 
-InputNameFlyPageView
+이름 입력하는 PageView
+
+<a name='M-NCube-Controls-PageViews-InputNameFlyPageView-#ctor-DevExpress-Xpf-Editors-Flyout-FlyoutControl,System-Windows-UIElement-'></a>
+### `constructor` #ctor(fly,target) [#](#M-NCube-Controls-PageViews-InputNameFlyPageView-#ctor-DevExpress-Xpf-Editors-Flyout-FlyoutControl,System-Windows-UIElement- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+InputNameFlyPageView 생성자
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| fly | [DevExpress.Xpf.Editors.Flyout.FlyoutControl](#T-DevExpress-Xpf-Editors-Flyout-FlyoutControl 'DevExpress.Xpf.Editors.Flyout.FlyoutControl') |  |
+| target | [System.Windows.UIElement](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.UIElement 'System.Windows.UIElement') |  |
+
+<a name='P-NCube-Controls-PageViews-InputNameFlyPageView-NewName'></a>
+### `property` NewName [#](#P-NCube-Controls-PageViews-InputNameFlyPageView-NewName 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+NewName
+
+<a name='P-NCube-Controls-PageViews-InputNameFlyPageView-Target'></a>
+### `property` Target [#](#P-NCube-Controls-PageViews-InputNameFlyPageView-Target 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Target
 
 <a name='M-NCube-Controls-PageViews-InputNameFlyPageView-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-PageViews-InputNameFlyPageView-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
@@ -2379,7 +2721,29 @@ NCube.Controls
 
 ##### Summary
 
-LedControl
+
+
+<a name='M-NCube-Controls-LedControl-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-LedControl-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+LedControl 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-LedControl-Color'></a>
+### `property` Color [#](#P-NCube-Controls-LedControl-Color 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Color
+
+##### Remarks
+
+Red, Yellow, Green, Orange만 선택 가능합니다. 다른 색을 설정하면 DarkGrayLed가 됩니다.
 
 <a name='P-NCube-Controls-LedControl-IsON'></a>
 ### `property` IsON [#](#P-NCube-Controls-LedControl-IsON 'Go To Here') [=](#contents 'Back To Contents')
@@ -2409,6 +2773,24 @@ NCube.Controls
 ##### Summary
 
 Interaction logic for LoadingScreen.xaml
+
+<a name='M-NCube-Controls-LoadingScreen-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-LoadingScreen-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+LoadingScreen 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-LoadingScreen-LoadingText'></a>
+### `property` LoadingText [#](#P-NCube-Controls-LoadingScreen-LoadingText 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+로딩 시 나오는 텍스트
 
 <a name='M-NCube-Controls-LoadingScreen-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-LoadingScreen-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
@@ -2619,6 +3001,13 @@ SeriesPoint 값 이외에 실제 값을 저장하기 위한 용도로 사용하�
 
 출력 값의 실제 Value 값
 
+<a name='P-NCube-Controls-Charts-LogSeriesPoint-Label'></a>
+### `property` Label [#](#P-NCube-Controls-Charts-LogSeriesPoint-Label 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Label
+
 <a name='T-NCube-Controls-Popups-Dialogs-MessageBoxPanel'></a>
 ## {+ type+} MessageBoxPanel [#](#T-NCube-Controls-Popups-Dialogs-MessageBoxPanel 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -2629,6 +3018,45 @@ NCube.Controls.Popups.Dialogs
 ##### Summary
 
 Interaction logic for MessageBoxPanel.xaml
+
+<a name='M-NCube-Controls-Popups-Dialogs-MessageBoxPanel-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-Popups-Dialogs-MessageBoxPanel-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MessageBoxPanel 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-Popups-Dialogs-MessageBoxPanel-AlertImage'></a>
+### `property` AlertImage [#](#P-NCube-Controls-Popups-Dialogs-MessageBoxPanel-AlertImage 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+AlertImage
+
+<a name='P-NCube-Controls-Popups-Dialogs-MessageBoxPanel-Message'></a>
+### `property` Message [#](#P-NCube-Controls-Popups-Dialogs-MessageBoxPanel-Message 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Message
+
+<a name='P-NCube-Controls-Popups-Dialogs-MessageBoxPanel-MessageType'></a>
+### `property` MessageType [#](#P-NCube-Controls-Popups-Dialogs-MessageBoxPanel-MessageType 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MessageType
+
+<a name='P-NCube-Controls-Popups-Dialogs-MessageBoxPanel-Result'></a>
+### `property` Result [#](#P-NCube-Controls-Popups-Dialogs-MessageBoxPanel-Result 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Result
 
 <a name='M-NCube-Controls-Popups-Dialogs-MessageBoxPanel-GetResultAsync'></a>
 ### `method` GetResultAsync() [#](#M-NCube-Controls-Popups-Dialogs-MessageBoxPanel-GetResultAsync 'Go To Here') [=](#contents 'Back To Contents')
@@ -2666,6 +3094,45 @@ NCube.Controls.Popups.Dialogs
 ##### Summary
 
 Interaction logic for MessageBoxWindow.xaml
+
+<a name='M-NCube-Controls-Popups-Dialogs-MessageBoxWindow-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-Popups-Dialogs-MessageBoxWindow-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MessageBoxWindow 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-Popups-Dialogs-MessageBoxWindow-AlertImage'></a>
+### `property` AlertImage [#](#P-NCube-Controls-Popups-Dialogs-MessageBoxWindow-AlertImage 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+AlertImage
+
+<a name='P-NCube-Controls-Popups-Dialogs-MessageBoxWindow-Message'></a>
+### `property` Message [#](#P-NCube-Controls-Popups-Dialogs-MessageBoxWindow-Message 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Message
+
+<a name='P-NCube-Controls-Popups-Dialogs-MessageBoxWindow-MessageType'></a>
+### `property` MessageType [#](#P-NCube-Controls-Popups-Dialogs-MessageBoxWindow-MessageType 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MessageType
+
+<a name='P-NCube-Controls-Popups-Dialogs-MessageBoxWindow-Result'></a>
+### `property` Result [#](#P-NCube-Controls-Popups-Dialogs-MessageBoxWindow-Result 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Result
 
 <a name='M-NCube-Controls-Popups-Dialogs-MessageBoxWindow-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-Popups-Dialogs-MessageBoxWindow-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
@@ -2736,6 +3203,17 @@ NCube.Controls
 
 MahApps.Metro Project UserControl A metrofied ProgressBar. [ProgressBar](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.Controls.ProgressBar 'System.Windows.Controls.ProgressBar')
 
+<a name='M-NCube-Controls-MetroProgressBar-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-MetroProgressBar-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MetroProgressBar 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
 <a name='P-NCube-Controls-MetroProgressBar-EllipseDiameter'></a>
 ### `property` EllipseDiameter [#](#P-NCube-Controls-MetroProgressBar-EllipseDiameter 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -2761,6 +3239,45 @@ NCube.Controls.PageViews
 
 MmiMsgBoxPageView
 
+<a name='M-NCube-Controls-PageViews-MmiMsgBoxPageView-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-PageViews-MmiMsgBoxPageView-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MmiMsgBoxPageView 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-PageViews-MmiMsgBoxPageView-Message'></a>
+### `property` Message [#](#P-NCube-Controls-PageViews-MmiMsgBoxPageView-Message 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Message
+
+<a name='P-NCube-Controls-PageViews-MmiMsgBoxPageView-MmiCommand'></a>
+### `property` MmiCommand [#](#P-NCube-Controls-PageViews-MmiMsgBoxPageView-MmiCommand 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MmiCommand
+
+<a name='P-NCube-Controls-PageViews-MmiMsgBoxPageView-MmiReason'></a>
+### `property` MmiReason [#](#P-NCube-Controls-PageViews-MmiMsgBoxPageView-MmiReason 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MmiReason
+
+<a name='P-NCube-Controls-PageViews-MmiMsgBoxPageView-MsgIcon'></a>
+### `property` MsgIcon [#](#P-NCube-Controls-PageViews-MmiMsgBoxPageView-MsgIcon 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MsgIcon
+
 <a name='M-NCube-Controls-PageViews-MmiMsgBoxPageView-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-PageViews-MmiMsgBoxPageView-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -2771,6 +3288,17 @@ InitializeComponent
 ##### Parameters
 
 This method has no parameters.
+
+<a name='T-NCube-Controls-PageViews-MsgBoxButton'></a>
+## {+ type+} MsgBoxButton [#](#T-NCube-Controls-PageViews-MsgBoxButton 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Namespace
+
+NCube.Controls.PageViews
+
+##### Summary
+
+MsgBoxButton
 
 <a name='T-NCube-Controls-PageViews-MsgBoxPopupPageView'></a>
 ## {+ type+} MsgBoxPopupPageView [#](#T-NCube-Controls-PageViews-MsgBoxPopupPageView 'Go To Here') [=](#contents 'Back To Contents')
@@ -2783,6 +3311,45 @@ NCube.Controls.PageViews
 
 MsgBoxPopupPageView
 
+<a name='M-NCube-Controls-PageViews-MsgBoxPopupPageView-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-PageViews-MsgBoxPopupPageView-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MsgBoxPopupPageView 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-PageViews-MsgBoxPopupPageView-CustomButtons'></a>
+### `property` CustomButtons [#](#P-NCube-Controls-PageViews-MsgBoxPopupPageView-CustomButtons 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+CustomButtons
+
+<a name='P-NCube-Controls-PageViews-MsgBoxPopupPageView-MsgButton'></a>
+### `property` MsgButton [#](#P-NCube-Controls-PageViews-MsgBoxPopupPageView-MsgButton 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MsgButton
+
+<a name='P-NCube-Controls-PageViews-MsgBoxPopupPageView-MsgIcon'></a>
+### `property` MsgIcon [#](#P-NCube-Controls-PageViews-MsgBoxPopupPageView-MsgIcon 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MsgIcon
+
+<a name='P-NCube-Controls-PageViews-MsgBoxPopupPageView-MsgStr'></a>
+### `property` MsgStr [#](#P-NCube-Controls-PageViews-MsgBoxPopupPageView-MsgStr 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MsgStr
+
 <a name='M-NCube-Controls-PageViews-MsgBoxPopupPageView-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-PageViews-MsgBoxPopupPageView-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -2793,6 +3360,254 @@ InitializeComponent
 ##### Parameters
 
 This method has no parameters.
+
+<a name='T-NCube-NCubeBuilder'></a>
+## {+ type+} NCubeBuilder [#](#T-NCube-NCubeBuilder 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Namespace
+
+NCube
+
+##### Summary
+
+NCubeBuilder
+
+<a name='M-NCube-NCubeBuilder-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-NCubeBuilder-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+NCubeBuilder 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-NCubeBuilder-Current'></a>
+### `property` Current [#](#P-NCube-NCubeBuilder-Current 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+현재 실행중인 NCubeBuilder Current
+
+<a name='M-NCube-NCubeBuilder-StartUp-NCube-NCubeSetting-'></a>
+### `method` StartUp(setting) [#](#M-NCube-NCubeBuilder-StartUp-NCube-NCubeSetting- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Window와 함꼐 실행합니다.
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| setting | [NCube.NCubeSetting](#T-NCube-NCubeSetting 'NCube.NCubeSetting') | NCubeSetting |
+
+<a name='M-NCube-NCubeBuilder-UseCustomTheme-System-String-'></a>
+### `method` UseCustomTheme(path) [#](#M-NCube-NCubeBuilder-UseCustomTheme-System-String- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+사용자가 만든 테마를 적용
+
+##### Returns
+
+NCubeBuilder
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| path | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | app 상의 경로 |
+
+<a name='M-NCube-NCubeBuilder-UseStartup``1-System-String-'></a>
+### `method` UseStartup\`\`1(key) [#](#M-NCube-NCubeBuilder-UseStartup``1-System-String- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Application Resources에 동록된 NCubeBuilder를 로딩합니다.
+
+##### Returns
+
+NCubeBuilder
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| key | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | key 이름, default 값은 "builder" |
+
+##### Generic Types
+
+| Name | Description |
+| ---- | ----------- |
+| TStartup | NCubeStartup를 상속받은 class |
+
+<a name='M-NCube-NCubeBuilder-UseTheme-System-String-'></a>
+### `method` UseTheme(themeName) [#](#M-NCube-NCubeBuilder-UseTheme-System-String- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+테마를 적용합니다.
+
+##### Returns
+
+NCubeBuilder
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| themeName | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | 적용시킬 테마 string |
+
+<a name='M-NCube-NCubeBuilder-UseTheme-NCube-NCubeThemeSelector-'></a>
+### `method` UseTheme(selector) [#](#M-NCube-NCubeBuilder-UseTheme-NCube-NCubeThemeSelector- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+테마를 적용합니다.
+
+##### Returns
+
+NCubeBuilder
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| selector | [NCube.NCubeThemeSelector](#T-NCube-NCubeThemeSelector 'NCube.NCubeThemeSelector') | NCubeThemeSelector |
+
+<a name='T-NCube-NCubeSetting'></a>
+## {+ type+} NCubeSetting [#](#T-NCube-NCubeSetting 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Namespace
+
+NCube
+
+##### Summary
+
+NCubeBuilder를 위한 세팅 값을 설정합니다. Startup에서 실행할 윈도우의 속성을 지정합니다.
+
+<a name='M-NCube-NCubeSetting-#ctor-System-Windows-FrameworkElement-'></a>
+### `constructor` #ctor(frame) [#](#M-NCube-NCubeSetting-#ctor-System-Windows-FrameworkElement- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+생성자
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| frame | [System.Windows.FrameworkElement](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.FrameworkElement 'System.Windows.FrameworkElement') | Window 안에 넣을 Frame |
+
+<a name='P-NCube-NCubeSetting-CloseEvent'></a>
+### `property` CloseEvent [#](#P-NCube-NCubeSetting-CloseEvent 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Window가 닫힐 떄, 이벤트 발생
+
+<a name='P-NCube-NCubeSetting-Height'></a>
+### `property` Height [#](#P-NCube-NCubeSetting-Height 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Height
+
+<a name='P-NCube-NCubeSetting-IconPath'></a>
+### `property` IconPath [#](#P-NCube-NCubeSetting-IconPath 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+IconPath
+
+<a name='P-NCube-NCubeSetting-MainFrame'></a>
+### `property` MainFrame [#](#P-NCube-NCubeSetting-MainFrame 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Window 안에 넣을 Frame을 설정합니다.
+
+<a name='P-NCube-NCubeSetting-Title'></a>
+### `property` Title [#](#P-NCube-NCubeSetting-Title 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Title
+
+<a name='P-NCube-NCubeSetting-Width'></a>
+### `property` Width [#](#P-NCube-NCubeSetting-Width 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Width
+
+<a name='T-NCube-Builder-NCubeStartup'></a>
+## {+ type+} NCubeStartup [#](#T-NCube-Builder-NCubeStartup 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Namespace
+
+NCube.Builder
+
+##### Summary
+
+NCubeStartup
+
+<a name='P-NCube-Builder-NCubeStartup-Current'></a>
+### `property` Current [#](#P-NCube-Builder-NCubeStartup-Current 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Current
+
+<a name='M-NCube-Builder-NCubeStartup-Build-NCube-NCubeBuilder-'></a>
+### `method` Build(builder) [#](#M-NCube-Builder-NCubeStartup-Build-NCube-NCubeBuilder- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+NCubeStartup에서는 실행하지 않습니다. NCubeStartup를 상속받아, override 하여 사용하세요.
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| builder | [NCube.NCubeBuilder](#T-NCube-NCubeBuilder 'NCube.NCubeBuilder') | 현재 설정된 Builder |
+
+<a name='M-NCube-Builder-NCubeStartup-Start-System-String-'></a>
+### `method` Start(key) [#](#M-NCube-Builder-NCubeStartup-Start-System-String- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+NCubeBuilder를 동작시킵니다.
+
+##### Returns
+
+NCubeBuilder
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| key | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | Application Resrouce에 등록된 Key값 |
+
+<a name='T-NCube-NCubeThemeSelector'></a>
+## {+ type+} NCubeThemeSelector [#](#T-NCube-NCubeThemeSelector 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Namespace
+
+NCube
+
+##### Summary
+
+NCubeBuilder에서 테마를 선택하기 위한 enum
+
+<a name='F-NCube-NCubeThemeSelector-FlatWhite'></a>
+### `constants` FlatWhite [#](#F-NCube-NCubeThemeSelector-FlatWhite 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+기본 FlatWhite 테마
 
 <a name='T-NCube-Controls-Icons-NetworkIcon'></a>
 ## {+ type+} NetworkIcon [#](#T-NCube-Controls-Icons-NetworkIcon 'Go To Here') [=](#contents 'Back To Contents')
@@ -2849,6 +3664,33 @@ NCube.Controls.PageViews
 
 OkFlyPageView
 
+<a name='M-NCube-Controls-PageViews-OkFlyPageView-#ctor-DevExpress-Xpf-Editors-Flyout-FlyoutControl-'></a>
+### `constructor` #ctor(parent) [#](#M-NCube-Controls-PageViews-OkFlyPageView-#ctor-DevExpress-Xpf-Editors-Flyout-FlyoutControl- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+OkFlyPageView 생성자
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| parent | [DevExpress.Xpf.Editors.Flyout.FlyoutControl](#T-DevExpress-Xpf-Editors-Flyout-FlyoutControl 'DevExpress.Xpf.Editors.Flyout.FlyoutControl') |  |
+
+<a name='P-NCube-Controls-PageViews-OkFlyPageView-Message'></a>
+### `property` Message [#](#P-NCube-Controls-PageViews-OkFlyPageView-Message 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Message
+
+<a name='P-NCube-Controls-PageViews-OkFlyPageView-MsgIcon'></a>
+### `property` MsgIcon [#](#P-NCube-Controls-PageViews-OkFlyPageView-MsgIcon 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MsgIcon
+
 <a name='M-NCube-Controls-PageViews-OkFlyPageView-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-PageViews-OkFlyPageView-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -2902,6 +3744,10 @@ This method has no parameters.
 ##### Namespace
 
 NCube.Controls.Charts
+
+##### Summary
+
+
 
 <a name='M-NCube-Controls-Charts-OtdrChartModel-#ctor-System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint}-'></a>
 ### `constructor` #ctor(name,bendList,connList,distList) [#](#M-NCube-Controls-Charts-OtdrChartModel-#ctor-System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint}- 'Go To Here') [=](#contents 'Back To Contents')
@@ -2965,12 +3811,16 @@ NCube.Controls.Charts
 
 Interaction logic for OtdrLogChartControl.xaml
 
-<a name='F-NCube-Controls-Charts-OtdrLogChartControl-_enableZoom'></a>
-### `constants` _enableZoom [#](#F-NCube-Controls-Charts-OtdrLogChartControl-_enableZoom 'Go To Here') [=](#contents 'Back To Contents')
+<a name='M-NCube-Controls-Charts-OtdrLogChartControl-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-Charts-OtdrLogChartControl-#ctor 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
-Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
+OtdrLogChartControl 생성자
+
+##### Parameters
+
+This constructor has no parameters.
 
 <a name='P-NCube-Controls-Charts-OtdrLogChartControl-BendValueBrush'></a>
 ### `property` BendValueBrush [#](#P-NCube-Controls-Charts-OtdrLogChartControl-BendValueBrush 'Go To Here') [=](#contents 'Back To Contents')
@@ -2993,6 +3843,13 @@ Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
 
 크로스헤어의 출력 값을 수정합니다.
 
+<a name='P-NCube-Controls-Charts-OtdrLogChartControl-CustomCrosshairTextAction2'></a>
+### `property` CustomCrosshairTextAction2 [#](#P-NCube-Controls-Charts-OtdrLogChartControl-CustomCrosshairTextAction2 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+크로스헤어2의 출력 값을 수정합니다.
+
 <a name='P-NCube-Controls-Charts-OtdrLogChartControl-DistValueBrush'></a>
 ### `property` DistValueBrush [#](#P-NCube-Controls-Charts-OtdrLogChartControl-DistValueBrush 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -3006,6 +3863,13 @@ Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
 ##### Summary
 
 현재 차트에 보여줄 Item들을 설정
+
+<a name='P-NCube-Controls-Charts-OtdrLogChartControl-LogCharts'></a>
+### `property` LogCharts [#](#P-NCube-Controls-Charts-OtdrLogChartControl-LogCharts 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+LogCharts
 
 <a name='P-NCube-Controls-Charts-OtdrLogChartControl-MinViewValue'></a>
 ### `property` MinViewValue [#](#P-NCube-Controls-Charts-OtdrLogChartControl-MinViewValue 'Go To Here') [=](#contents 'Back To Contents')
@@ -3032,36 +3896,6 @@ InitializeComponent
 
 This method has no parameters.
 
-<a name='M-NCube-Controls-Charts-OtdrLogChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush-'></a>
-### `method` InitSeries(line,crosshairName,list,brush) [#](#M-NCube-Controls-Charts-OtdrLogChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-그래프 선을 초기화 시킵니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| line | [DevExpress.Xpf.Charts.XYSeries@](#T-DevExpress-Xpf-Charts-XYSeries@ 'DevExpress.Xpf.Charts.XYSeries@') |  |
-| crosshairName | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') |  |
-| list | [System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}') |  |
-| brush | [System.Windows.Media.SolidColorBrush](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.Media.SolidColorBrush 'System.Windows.Media.SolidColorBrush') |  |
-
-<a name='M-NCube-Controls-Charts-OtdrLogChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs-'></a>
-### `method` LookUpEditBase_OnSelectedIndexChanged(sender,e) [#](#M-NCube-Controls-Charts-OtdrLogChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-콤보박스 Item이 변경되었을 때 동작합니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| sender | [System.Object](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Object 'System.Object') |  |
-| e | [System.Windows.RoutedEventArgs](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.RoutedEventArgs 'System.Windows.RoutedEventArgs') |  |
-
 <a name='M-NCube-Controls-Charts-OtdrLogChartControl-RefreshLabel-DevExpress-Xpf-Charts-XYDiagram2D,DevExpress-Xpf-Charts-AxisX2D,System-String,System-String-'></a>
 ### `method` RefreshLabel(maxArg,minArg) [#](#M-NCube-Controls-Charts-OtdrLogChartControl-RefreshLabel-DevExpress-Xpf-Charts-XYDiagram2D,DevExpress-Xpf-Charts-AxisX2D,System-String,System-String- 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -3075,41 +3909,6 @@ This method has no parameters.
 | ---- | ---- | ----------- |
 | maxArg | [DevExpress.Xpf.Charts.XYDiagram2D](#T-DevExpress-Xpf-Charts-XYDiagram2D 'DevExpress.Xpf.Charts.XYDiagram2D') | 최대 Argument 값 |
 | minArg | [DevExpress.Xpf.Charts.AxisX2D](#T-DevExpress-Xpf-Charts-AxisX2D 'DevExpress.Xpf.Charts.AxisX2D') | 최소 Argment 값 |
-
-<a name='M-NCube-Controls-Charts-OtdrLogChartControl-ResetAxisX-DevExpress-Xpf-Charts-XYDiagram2D-'></a>
-### `method` ResetAxisX() [#](#M-NCube-Controls-Charts-OtdrLogChartControl-ResetAxisX-DevExpress-Xpf-Charts-XYDiagram2D- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-X축을 초기로 리셋
-
-##### Parameters
-
-This method has no parameters.
-
-<a name='M-NCube-Controls-Charts-OtdrLogChartControl-ShowChart'></a>
-### `method` ShowChart() [#](#M-NCube-Controls-Charts-OtdrLogChartControl-ShowChart 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-현재 적용된 값을 이용해 차트를 표현합니다.
-
-##### Parameters
-
-This method has no parameters.
-
-<a name='M-NCube-Controls-Charts-OtdrLogChartControl-ShowChart-NCube-Controls-Charts-OtdrChartModel-'></a>
-### `method` ShowChart(OtdrLogChartModel) [#](#M-NCube-Controls-Charts-OtdrLogChartControl-ShowChart-NCube-Controls-Charts-OtdrChartModel- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-현재 OtdrChartModel 적용된 값을 이용해 차트를 표현합니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| OtdrLogChartModel | [NCube.Controls.Charts.OtdrChartModel](#T-NCube-Controls-Charts-OtdrChartModel 'NCube.Controls.Charts.OtdrChartModel') | 적용할 OtdrChartModel |
 
 <a name='T-NCube-Controls-Charts-OtdrSeriesPoint'></a>
 ## {+ type+} OtdrSeriesPoint [#](#T-NCube-Controls-Charts-OtdrSeriesPoint 'Go To Here') [=](#contents 'Back To Contents')
@@ -3162,12 +3961,16 @@ NCube.Controls.Charts
 
 Interaction logic for OtdrTestChartControl.xaml
 
-<a name='F-NCube-Controls-Charts-OtdrTestChartControl-_enableZoom'></a>
-### `constants` _enableZoom [#](#F-NCube-Controls-Charts-OtdrTestChartControl-_enableZoom 'Go To Here') [=](#contents 'Back To Contents')
+<a name='M-NCube-Controls-Charts-OtdrTestChartControl-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-Charts-OtdrTestChartControl-#ctor 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
-Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
+OtdrTestChartControl 생성자
+
+##### Parameters
+
+This constructor has no parameters.
 
 <a name='P-NCube-Controls-Charts-OtdrTestChartControl-BendValueBrush'></a>
 ### `property` BendValueBrush [#](#P-NCube-Controls-Charts-OtdrTestChartControl-BendValueBrush 'Go To Here') [=](#contents 'Back To Contents')
@@ -3183,12 +3986,26 @@ Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
 
 평균 값의 색을 설정
 
+<a name='P-NCube-Controls-Charts-OtdrTestChartControl-CustomAxisXTextAction'></a>
+### `property` CustomAxisXTextAction [#](#P-NCube-Controls-Charts-OtdrTestChartControl-CustomAxisXTextAction 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+크로스헤어의 AxisXText 값을 수정합니다.
+
+<a name='P-NCube-Controls-Charts-OtdrTestChartControl-CustomCrosshairArgumentTextAction'></a>
+### `property` CustomCrosshairArgumentTextAction [#](#P-NCube-Controls-Charts-OtdrTestChartControl-CustomCrosshairArgumentTextAction 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+크로스헤어의 ArgumentText 값을 수정합니다.
+
 <a name='P-NCube-Controls-Charts-OtdrTestChartControl-CustomCrosshairTextAction'></a>
 ### `property` CustomCrosshairTextAction [#](#P-NCube-Controls-Charts-OtdrTestChartControl-CustomCrosshairTextAction 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
-크로스헤어의 출력 값을 수정합니다.
+크로스헤어의 Text 값을 수정합니다.
 
 <a name='P-NCube-Controls-Charts-OtdrTestChartControl-DistValueBrush'></a>
 ### `property` DistValueBrush [#](#P-NCube-Controls-Charts-OtdrTestChartControl-DistValueBrush 'Go To Here') [=](#contents 'Back To Contents')
@@ -3203,6 +4020,13 @@ Trackbar 이밴트와 Zoom 이밴트의 충돌을 막기 위한 용도
 ##### Summary
 
 현재 차트에 보여줄 Item들을 설정
+
+<a name='P-NCube-Controls-Charts-OtdrTestChartControl-LogCharts'></a>
+### `property` LogCharts [#](#P-NCube-Controls-Charts-OtdrTestChartControl-LogCharts 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+LogCharts
 
 <a name='P-NCube-Controls-Charts-OtdrTestChartControl-MinViewValue'></a>
 ### `property` MinViewValue [#](#P-NCube-Controls-Charts-OtdrTestChartControl-MinViewValue 'Go To Here') [=](#contents 'Back To Contents')
@@ -3222,36 +4046,6 @@ InitializeComponent
 
 This method has no parameters.
 
-<a name='M-NCube-Controls-Charts-OtdrTestChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush-'></a>
-### `method` InitSeries(line,crosshairName,list,brush) [#](#M-NCube-Controls-Charts-OtdrTestChartControl-InitSeries-DevExpress-Xpf-Charts-XYSeries@,System-String,System-Collections-Generic-IEnumerable{DevExpress-Xpf-Charts-SeriesPoint},System-Windows-Media-SolidColorBrush- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-그래프 선을 초기화 시킵니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| line | [DevExpress.Xpf.Charts.XYSeries@](#T-DevExpress-Xpf-Charts-XYSeries@ 'DevExpress.Xpf.Charts.XYSeries@') |  |
-| crosshairName | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') |  |
-| list | [System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Collections.Generic.IEnumerable 'System.Collections.Generic.IEnumerable{DevExpress.Xpf.Charts.SeriesPoint}') |  |
-| brush | [System.Windows.Media.SolidColorBrush](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.Media.SolidColorBrush 'System.Windows.Media.SolidColorBrush') |  |
-
-<a name='M-NCube-Controls-Charts-OtdrTestChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs-'></a>
-### `method` LookUpEditBase_OnSelectedIndexChanged(sender,e) [#](#M-NCube-Controls-Charts-OtdrTestChartControl-LookUpEditBase_OnSelectedIndexChanged-System-Object,System-Windows-RoutedEventArgs- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-콤보박스 Item이 변경되었을 때 동작합니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| sender | [System.Object](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Object 'System.Object') |  |
-| e | [System.Windows.RoutedEventArgs](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.RoutedEventArgs 'System.Windows.RoutedEventArgs') |  |
-
 <a name='M-NCube-Controls-Charts-OtdrTestChartControl-RefreshLabel-System-String,System-String-'></a>
 ### `method` RefreshLabel(maxArg,minArg) [#](#M-NCube-Controls-Charts-OtdrTestChartControl-RefreshLabel-System-String,System-String- 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -3266,40 +4060,37 @@ This method has no parameters.
 | maxArg | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | 최대 Argument 값 |
 | minArg | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | 최소 Argment 값 |
 
-<a name='M-NCube-Controls-Charts-OtdrTestChartControl-ResetAxisX'></a>
-### `method` ResetAxisX() [#](#M-NCube-Controls-Charts-OtdrTestChartControl-ResetAxisX 'Go To Here') [=](#contents 'Back To Contents')
+<a name='T-NCube-PackPath'></a>
+## {+ type+} PackPath [#](#T-NCube-PackPath 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Namespace
+
+NCube
 
 ##### Summary
 
-X축을 초기로 리셋
+PackPath
 
-##### Parameters
-
-This method has no parameters.
-
-<a name='M-NCube-Controls-Charts-OtdrTestChartControl-ShowChart'></a>
-### `method` ShowChart() [#](#M-NCube-Controls-Charts-OtdrTestChartControl-ShowChart 'Go To Here') [=](#contents 'Back To Contents')
+<a name='F-NCube-PackPath-App'></a>
+### `constants` App [#](#F-NCube-PackPath-App 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
-현재 적용된 값을 이용해 차트를 표현합니다.
+"pack://application:,,,/"
 
-##### Parameters
-
-This method has no parameters.
-
-<a name='M-NCube-Controls-Charts-OtdrTestChartControl-ShowChart-NCube-Controls-Charts-OtdrChartModel-'></a>
-### `method` ShowChart(OtdrChartModel) [#](#M-NCube-Controls-Charts-OtdrTestChartControl-ShowChart-NCube-Controls-Charts-OtdrChartModel- 'Go To Here') [=](#contents 'Back To Contents')
+<a name='F-NCube-PackPath-Currrent'></a>
+### `constants` Currrent [#](#F-NCube-PackPath-Currrent 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Summary
 
-현재 OtdrChartModel에 적용된 값을 이용해 차트를 표현합니다.
+$"{App}{Name};component/"
 
-##### Parameters
+<a name='F-NCube-PackPath-Name'></a>
+### `constants` Name [#](#F-NCube-PackPath-Name 'Go To Here') [=](#contents 'Back To Contents')
 
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| OtdrChartModel | [NCube.Controls.Charts.OtdrChartModel](#T-NCube-Controls-Charts-OtdrChartModel 'NCube.Controls.Charts.OtdrChartModel') | 적용할 OtdrChartModel |
+##### Summary
+
+"NCube.v2.0"
 
 <a name='T-NCube-Controls-Charts-PieAreaChart'></a>
 ## {+ type+} PieAreaChart [#](#T-NCube-Controls-Charts-PieAreaChart 'Go To Here') [=](#contents 'Back To Contents')
@@ -3311,6 +4102,101 @@ NCube.Controls.Charts
 ##### Summary
 
 PieAreaChart.xaml에 대한 상호 작용 논리
+
+<a name='M-NCube-Controls-Charts-PieAreaChart-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-Charts-PieAreaChart-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+PieAreaChart 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-Charts-PieAreaChart-AreaData'></a>
+### `property` AreaData [#](#P-NCube-Controls-Charts-PieAreaChart-AreaData 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+AreaData
+
+<a name='P-NCube-Controls-Charts-PieAreaChart-CurrentUsage'></a>
+### `property` CurrentUsage [#](#P-NCube-Controls-Charts-PieAreaChart-CurrentUsage 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+CurrentUsage
+
+<a name='P-NCube-Controls-Charts-PieAreaChart-IsTooltipEnabled'></a>
+### `property` IsTooltipEnabled [#](#P-NCube-Controls-Charts-PieAreaChart-IsTooltipEnabled 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+IsTooltipEnabled
+
+<a name='P-NCube-Controls-Charts-PieAreaChart-LightColor'></a>
+### `property` LightColor [#](#P-NCube-Controls-Charts-PieAreaChart-LightColor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+LightColor
+
+<a name='P-NCube-Controls-Charts-PieAreaChart-MaxTimeTitle'></a>
+### `property` MaxTimeTitle [#](#P-NCube-Controls-Charts-PieAreaChart-MaxTimeTitle 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MaxTimeTitle
+
+<a name='P-NCube-Controls-Charts-PieAreaChart-NormalColor'></a>
+### `property` NormalColor [#](#P-NCube-Controls-Charts-PieAreaChart-NormalColor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+NormalColor
+
+<a name='P-NCube-Controls-Charts-PieAreaChart-PieData'></a>
+### `property` PieData [#](#P-NCube-Controls-Charts-PieAreaChart-PieData 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+PieData
+
+<a name='P-NCube-Controls-Charts-PieAreaChart-TooltipAvailable'></a>
+### `property` TooltipAvailable [#](#P-NCube-Controls-Charts-PieAreaChart-TooltipAvailable 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+TooltipAvailable
+
+<a name='P-NCube-Controls-Charts-PieAreaChart-TooltipInUse'></a>
+### `property` TooltipInUse [#](#P-NCube-Controls-Charts-PieAreaChart-TooltipInUse 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+TooltipInUse
+
+<a name='P-NCube-Controls-Charts-PieAreaChart-TooltipTotal'></a>
+### `property` TooltipTotal [#](#P-NCube-Controls-Charts-PieAreaChart-TooltipTotal 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+TooltipTotal
+
+<a name='P-NCube-Controls-Charts-PieAreaChart-XMaxValue'></a>
+### `property` XMaxValue [#](#P-NCube-Controls-Charts-PieAreaChart-XMaxValue 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+XMaxValue
+
+<a name='P-NCube-Controls-Charts-PieAreaChart-XMinValue'></a>
+### `property` XMinValue [#](#P-NCube-Controls-Charts-PieAreaChart-XMinValue 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+XMinValue
 
 <a name='M-NCube-Controls-Charts-PieAreaChart-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-Charts-PieAreaChart-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
@@ -3345,6 +4231,70 @@ InitializeComponent
 
 This method has no parameters.
 
+<a name='T-NCube-Controls-ProgressRing'></a>
+## {+ type+} ProgressRing [#](#T-NCube-Controls-ProgressRing 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Namespace
+
+NCube.Controls
+
+##### Summary
+
+ProgressRing
+
+<a name='M-NCube-Controls-ProgressRing-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-ProgressRing-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+ProgressRing 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-ProgressRing-BindableWidth'></a>
+### `property` BindableWidth [#](#P-NCube-Controls-ProgressRing-BindableWidth 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+BindableWidth
+
+<a name='P-NCube-Controls-ProgressRing-EllipseDiameter'></a>
+### `property` EllipseDiameter [#](#P-NCube-Controls-ProgressRing-EllipseDiameter 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+EllipseDiameter
+
+<a name='P-NCube-Controls-ProgressRing-EllipseOffset'></a>
+### `property` EllipseOffset [#](#P-NCube-Controls-ProgressRing-EllipseOffset 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+EllipseOffset
+
+<a name='P-NCube-Controls-ProgressRing-IsActive'></a>
+### `property` IsActive [#](#P-NCube-Controls-ProgressRing-IsActive 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+활성화
+
+<a name='P-NCube-Controls-ProgressRing-IsLarge'></a>
+### `property` IsLarge [#](#P-NCube-Controls-ProgressRing-IsLarge 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+IsLarge
+
+<a name='P-NCube-Controls-ProgressRing-MaxSideLength'></a>
+### `property` MaxSideLength [#](#P-NCube-Controls-ProgressRing-MaxSideLength 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MaxSideLength
+
 <a name='T-NCube-Controls-ProgressRingHolder'></a>
 ## {+ type+} ProgressRingHolder [#](#T-NCube-Controls-ProgressRingHolder 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -3356,6 +4306,32 @@ NCube.Controls
 
 ProgressRing을 간단히 사용할 수 있게 도와주는 헬퍼 클래스
 
+<a name='M-NCube-Controls-ProgressRingHolder-#ctor-System-Windows-Controls-Grid,System-Int32,System-Int32-'></a>
+### `constructor` #ctor(target,width,height) [#](#M-NCube-Controls-ProgressRingHolder-#ctor-System-Windows-Controls-Grid,System-Int32,System-Int32- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+ProgressRingHolder 생성자
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| target | [System.Windows.Controls.Grid](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.Controls.Grid 'System.Windows.Controls.Grid') | target Grid |
+| width | [System.Int32](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Int32 'System.Int32') | width |
+| height | [System.Int32](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Int32 'System.Int32') | height |
+
+<a name='M-NCube-Controls-ProgressRingHolder-Dispose'></a>
+### `method` Dispose() [#](#M-NCube-Controls-ProgressRingHolder-Dispose 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Dispose
+
+##### Parameters
+
+This method has no parameters.
+
 <a name='T-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView'></a>
 ## {+ type+} RdlRebootConfirmPopupPageView [#](#T-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -3366,6 +4342,24 @@ NCube.Controls.PageViews
 ##### Summary
 
 RdlRebootConfirmPopupPageView
+
+<a name='M-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+RdlRebootConfirmPopupPageView 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView-IsPasswordMatched'></a>
+### `property` IsPasswordMatched [#](#P-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView-IsPasswordMatched 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+IsPasswordMatched
 
 <a name='M-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
@@ -3389,6 +4383,17 @@ NCube.Controls.Charts
 
 Interaction logic for RealTimeChartControl.xaml
 
+<a name='M-NCube-Controls-Charts-RealTimeChartControl-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-Charts-RealTimeChartControl-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+RealTimeChartControl 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
 <a name='P-NCube-Controls-Charts-RealTimeChartControl-AlwaysShowZeroLevel'></a>
 ### `property` AlwaysShowZeroLevel [#](#P-NCube-Controls-Charts-RealTimeChartControl-AlwaysShowZeroLevel 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -3402,6 +4407,13 @@ Interaction logic for RealTimeChartControl.xaml
 ##### Summary
 
 Y축 범위 위/아래로 margin을 자동으로 넣어줄 것인지를 결정합니다.
+
+<a name='P-NCube-Controls-Charts-RealTimeChartControl-AverageValueBrush'></a>
+### `property` AverageValueBrush [#](#P-NCube-Controls-Charts-RealTimeChartControl-AverageValueBrush 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+AverageValueBrush
 
 <a name='P-NCube-Controls-Charts-RealTimeChartControl-CustomCrosshairTextAction'></a>
 ### `property` CustomCrosshairTextAction [#](#P-NCube-Controls-Charts-RealTimeChartControl-CustomCrosshairTextAction 'Go To Here') [=](#contents 'Back To Contents')
@@ -3431,6 +4443,62 @@ No Data로 그래프를 숨길지 여부를 결정합니다.
 
 표현할 그래프 데이터에서 LowBiasValue 값 높을 시, Y축을 기준으로 LowBiasValue 값을 고정시킴
 
+<a name='P-NCube-Controls-Charts-RealTimeChartControl-MaxValueBrush'></a>
+### `property` MaxValueBrush [#](#P-NCube-Controls-Charts-RealTimeChartControl-MaxValueBrush 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MaxValueBrush
+
+<a name='P-NCube-Controls-Charts-RealTimeChartControl-MinValueBrush'></a>
+### `property` MinValueBrush [#](#P-NCube-Controls-Charts-RealTimeChartControl-MinValueBrush 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MinValueBrush
+
+<a name='P-NCube-Controls-Charts-RealTimeChartControl-SeriesCount'></a>
+### `property` SeriesCount [#](#P-NCube-Controls-Charts-RealTimeChartControl-SeriesCount 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+SeriesCount
+
+<a name='P-NCube-Controls-Charts-RealTimeChartControl-ShowBeginTime'></a>
+### `property` ShowBeginTime [#](#P-NCube-Controls-Charts-RealTimeChartControl-ShowBeginTime 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+ShowBeginTime
+
+<a name='P-NCube-Controls-Charts-RealTimeChartControl-ThresholdMaxBrush'></a>
+### `property` ThresholdMaxBrush [#](#P-NCube-Controls-Charts-RealTimeChartControl-ThresholdMaxBrush 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+ThresholdMaxBrush
+
+<a name='P-NCube-Controls-Charts-RealTimeChartControl-ThresholdMaxValue'></a>
+### `property` ThresholdMaxValue [#](#P-NCube-Controls-Charts-RealTimeChartControl-ThresholdMaxValue 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+ThresholdMaxValue
+
+<a name='P-NCube-Controls-Charts-RealTimeChartControl-ThresholdMinBrush'></a>
+### `property` ThresholdMinBrush [#](#P-NCube-Controls-Charts-RealTimeChartControl-ThresholdMinBrush 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+ThresholdMinBrush
+
+<a name='P-NCube-Controls-Charts-RealTimeChartControl-ThresholdMinValue'></a>
+### `property` ThresholdMinValue [#](#P-NCube-Controls-Charts-RealTimeChartControl-ThresholdMinValue 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+ThresholdMinValue
+
 <a name='P-NCube-Controls-Charts-RealTimeChartControl-ThresholdViewType'></a>
 ### `property` ThresholdViewType [#](#P-NCube-Controls-Charts-RealTimeChartControl-ThresholdViewType 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -3459,63 +4527,23 @@ This method has no parameters.
 <a name='M-NCube-Controls-Charts-RealTimeChartControl-InitView'></a>
 ### `method` InitView() [#](#M-NCube-Controls-Charts-RealTimeChartControl-InitView 'Go To Here') [=](#contents 'Back To Contents')
 
-##### Summary
-
-현재 차트 화면을 초기화 시킵니다.
-
 ##### Parameters
 
 This method has no parameters.
 
 <a name='M-NCube-Controls-Charts-RealTimeChartControl-RefreshAxisXLabel-System-String-'></a>
-### `method` RefreshAxisXLabel(newestTimeStr) [#](#M-NCube-Controls-Charts-RealTimeChartControl-RefreshAxisXLabel-System-String- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-X축 라벨을 정리합니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| newestTimeStr | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | 최신 시간 값 |
-
-<a name='M-NCube-Controls-Charts-RealTimeChartControl-RefreshSeriesPoints'></a>
-### `method` RefreshSeriesPoints() [#](#M-NCube-Controls-Charts-RealTimeChartControl-RefreshSeriesPoints 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-Series를 다시 표현합니다. HighBiasValue, LowBiasValue 값이 변경되었을 때 그래프 상에 보여질 ViewPoint가 변경되도록 합니다.
+### `method` RefreshAxisXLabel() [#](#M-NCube-Controls-Charts-RealTimeChartControl-RefreshAxisXLabel-System-String- 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Parameters
 
 This method has no parameters.
 
-<a name='M-NCube-Controls-Charts-RealTimeChartControl-SetThresholdMax-System-Nullable{System-Double}-'></a>
-### `method` SetThresholdMax(d) [#](#M-NCube-Controls-Charts-RealTimeChartControl-SetThresholdMax-System-Nullable{System-Double}- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-상위 임계치 값을 설정합니다.
+<a name='M-NCube-Controls-Charts-RealTimeChartControl-RefreshSeriesPoints'></a>
+### `method` RefreshSeriesPoints() [#](#M-NCube-Controls-Charts-RealTimeChartControl-RefreshSeriesPoints 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Parameters
 
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| d | [System.Nullable{System.Double}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Nullable 'System.Nullable{System.Double}') |  |
-
-<a name='M-NCube-Controls-Charts-RealTimeChartControl-SetThresholdMin-System-Nullable{System-Double}-'></a>
-### `method` SetThresholdMin(d) [#](#M-NCube-Controls-Charts-RealTimeChartControl-SetThresholdMin-System-Nullable{System-Double}- 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-최소 임계치 값을 설정합니다.
-
-##### Parameters
-
-| Name | Type | Description |
-| ---- | ---- | ----------- |
-| d | [System.Nullable{System.Double}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Nullable 'System.Nullable{System.Double}') |  |
+This method has no parameters.
 
 <a name='T-NCube-Controls-Charts-RealTimeChartModel'></a>
 ## {+ type+} RealTimeChartModel [#](#T-NCube-Controls-Charts-RealTimeChartModel 'Go To Here') [=](#contents 'Back To Contents')
@@ -3533,13 +4561,76 @@ RealTimeChartControl 에 사용할 모델
 
 ##### Summary
 
-/// RealTimeChartControl 에 사용할 모델
+RealTimeChartControl 에 사용할 모델
 
 ##### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | time | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | X축 시간 |
+
+<a name='P-NCube-Controls-Charts-RealTimeChartModel-Avg'></a>
+### `property` Avg [#](#P-NCube-Controls-Charts-RealTimeChartModel-Avg 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Avg
+
+<a name='P-NCube-Controls-Charts-RealTimeChartModel-AvgView'></a>
+### `property` AvgView [#](#P-NCube-Controls-Charts-RealTimeChartModel-AvgView 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+AvgView
+
+<a name='P-NCube-Controls-Charts-RealTimeChartModel-Max'></a>
+### `property` Max [#](#P-NCube-Controls-Charts-RealTimeChartModel-Max 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Max
+
+<a name='P-NCube-Controls-Charts-RealTimeChartModel-MaxView'></a>
+### `property` MaxView [#](#P-NCube-Controls-Charts-RealTimeChartModel-MaxView 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MaxView
+
+<a name='P-NCube-Controls-Charts-RealTimeChartModel-Min'></a>
+### `property` Min [#](#P-NCube-Controls-Charts-RealTimeChartModel-Min 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Min
+
+<a name='P-NCube-Controls-Charts-RealTimeChartModel-MinView'></a>
+### `property` MinView [#](#P-NCube-Controls-Charts-RealTimeChartModel-MinView 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+MinView
+
+<a name='P-NCube-Controls-Charts-RealTimeChartModel-Time'></a>
+### `property` Time [#](#P-NCube-Controls-Charts-RealTimeChartModel-Time 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Time
+
+<a name='P-NCube-Controls-Charts-RealTimeChartModel-Value'></a>
+### `property` Value [#](#P-NCube-Controls-Charts-RealTimeChartModel-Value 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Value
+
+<a name='P-NCube-Controls-Charts-RealTimeChartModel-ValueView'></a>
+### `property` ValueView [#](#P-NCube-Controls-Charts-RealTimeChartModel-ValueView 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+ValueView
 
 <a name='T-NCube-Controls-Charts-RealTimeLinePointModel'></a>
 ## {+ type+} RealTimeLinePointModel [#](#T-NCube-Controls-Charts-RealTimeLinePointModel 'Go To Here') [=](#contents 'Back To Contents')
@@ -3565,6 +4656,27 @@ RealTimeLineSeries2D 에 사용할 데이터 클래스
 | ---- | ---- | ----------- |
 | argument | [System.DateTime](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.DateTime 'System.DateTime') | X축 시간 값 |
 | value | [System.Nullable{System.Double}](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Nullable 'System.Nullable{System.Double}') | Y축 Value 값 |
+
+<a name='P-NCube-Controls-Charts-RealTimeLinePointModel-Argument'></a>
+### `property` Argument [#](#P-NCube-Controls-Charts-RealTimeLinePointModel-Argument 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Argument
+
+<a name='P-NCube-Controls-Charts-RealTimeLinePointModel-ArgumentStr'></a>
+### `property` ArgumentStr [#](#P-NCube-Controls-Charts-RealTimeLinePointModel-ArgumentStr 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+ArgumentStr
+
+<a name='P-NCube-Controls-Charts-RealTimeLinePointModel-Value'></a>
+### `property` Value [#](#P-NCube-Controls-Charts-RealTimeLinePointModel-Value 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Value
 
 <a name='T-NCube-Controls-Charts-RealTimeLineSeries2D'></a>
 ## {+ type+} RealTimeLineSeries2D [#](#T-NCube-Controls-Charts-RealTimeLineSeries2D 'Go To Here') [=](#contents 'Back To Contents')
@@ -3638,6 +4750,31 @@ NCube.Controls.Samples
 
 Interaction logic for SampleBox.xaml
 
+<a name='M-NCube-Controls-Samples-SampleBox-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-Samples-SampleBox-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+SampleBox 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-Samples-SampleBox-Description'></a>
+### `property` Description [#](#P-NCube-Controls-Samples-SampleBox-Description 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Description
+
+<a name='P-NCube-Controls-Samples-SampleBox-Header'></a>
+### `property` Header [#](#P-NCube-Controls-Samples-SampleBox-Header 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Header
+
 <a name='M-NCube-Controls-Samples-SampleBox-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-Samples-SampleBox-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -3660,6 +4797,47 @@ NCube.Controls.Popups.Dialogs
 
 Interaction logic for SavedFileOpenWindow.xaml
 
+<a name='M-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-#ctor-System-String-'></a>
+### `constructor` #ctor(filePath) [#](#M-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-#ctor-System-String- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+SavedFileOpenWindow 생성자
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| filePath | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | 파일 경로 |
+
+<a name='P-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-AlertImage'></a>
+### `property` AlertImage [#](#P-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-AlertImage 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+AlertImage
+
+<a name='P-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-FilePath'></a>
+### `property` FilePath [#](#P-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-FilePath 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+설정된 FilePath
+
+<a name='P-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-Message'></a>
+### `property` Message [#](#P-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-Message 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Message
+
+<a name='P-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-Result'></a>
+### `property` Result [#](#P-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-Result 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Result
+
 <a name='M-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -3681,6 +4859,35 @@ NCube.Controls
 ##### Summary
 
 투명하게 화면 잠금해주는 컨트롤
+
+<a name='M-NCube-Controls-ScreenLock-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-ScreenLock-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+ScreenLock 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-ScreenLock-ScreenHolder'></a>
+### `property` ScreenHolder [#](#P-NCube-Controls-ScreenLock-ScreenHolder 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Static ScreenHolder
+
+<a name='M-NCube-Controls-ScreenLock-Dispose'></a>
+### `method` Dispose() [#](#M-NCube-Controls-ScreenLock-Dispose 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Dispose
+
+##### Parameters
+
+This method has no parameters.
 
 <a name='T-NCube-Assets-Images-StaticImage'></a>
 ## {+ type+} StaticImage [#](#T-NCube-Assets-Images-StaticImage 'Go To Here') [=](#contents 'Back To Contents')
@@ -3717,6 +4924,24 @@ NCube.Controls.PageViews
 
 SysCfgRestoreConfirmPopupPageView
 
+<a name='M-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+SysCfgRestoreConfirmPopupPageView 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView-IsPasswordMatched'></a>
+### `property` IsPasswordMatched [#](#P-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView-IsPasswordMatched 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+IsPasswordMatched
+
 <a name='M-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -3738,6 +4963,24 @@ NCube.Controls
 ##### Summary
 
 Interaction logic for TableGraphTab.xaml
+
+<a name='M-NCube-Controls-TableGraphTab-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-TableGraphTab-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+TableGraphTab 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-TableGraphTab-TabVisibility'></a>
+### `property` TabVisibility [#](#P-NCube-Controls-TableGraphTab-TabVisibility 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+TabVisibility
 
 <a name='M-NCube-Controls-TableGraphTab-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-TableGraphTab-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
@@ -3789,6 +5032,17 @@ NCube.Controls.Windows
 
 Interaction logic for Window1.xaml
 
+<a name='M-NCube-Controls-Windows-ThemeWindow-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-Windows-ThemeWindow-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+
+
+##### Parameters
+
+This constructor has no parameters.
+
 <a name='M-NCube-Controls-Windows-ThemeWindow-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-Windows-ThemeWindow-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -3799,6 +5053,17 @@ InitializeComponent
 ##### Parameters
 
 This method has no parameters.
+
+<a name='T-NCube-Controls-Charts-RealTimeChartControl-ThresholdViewTypes'></a>
+## {+ type+} ThresholdViewTypes [#](#T-NCube-Controls-Charts-RealTimeChartControl-ThresholdViewTypes 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Namespace
+
+NCube.Controls.Charts.RealTimeChartControl
+
+##### Summary
+
+ThresholdViewTypes
 
 <a name='T-NCube-Services-Threading-TimedLock'></a>
 ## {+ type+} TimedLock [#](#T-NCube-Services-Threading-TimedLock 'Go To Here') [=](#contents 'Back To Contents')
@@ -3912,6 +5177,17 @@ NCube.Controls.PageViews
 
 UnderConstructionFlyPageView
 
+<a name='M-NCube-Controls-PageViews-UnderConstructionFlyPageView-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-PageViews-UnderConstructionFlyPageView-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+UnderConstructionFlyPageView 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
 <a name='M-NCube-Controls-PageViews-UnderConstructionFlyPageView-InitializeComponent'></a>
 ### `method` InitializeComponent() [#](#M-NCube-Controls-PageViews-UnderConstructionFlyPageView-InitializeComponent 'Go To Here') [=](#contents 'Back To Contents')
 
@@ -3960,6 +5236,81 @@ Special constructor used for deserialization.
 | ---- | ---- | ----------- |
 | info | [System.Runtime.Serialization.SerializationInfo](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Runtime.Serialization.SerializationInfo 'System.Runtime.Serialization.SerializationInfo') |  |
 | context | [System.Runtime.Serialization.StreamingContext](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Runtime.Serialization.StreamingContext 'System.Runtime.Serialization.StreamingContext') |  |
+
+<a name='T-NCube-Controls-Charts-RealTimeChartControl-ValueViewTypes'></a>
+## {+ type+} ValueViewTypes [#](#T-NCube-Controls-Charts-RealTimeChartControl-ValueViewTypes 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Namespace
+
+NCube.Controls.Charts.RealTimeChartControl
+
+##### Summary
+
+ValueViewTypes
+
+<a name='T-NCube-Controls-WindowLock'></a>
+## {+ type+} WindowLock [#](#T-NCube-Controls-WindowLock 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Namespace
+
+NCube.Controls
+
+##### Summary
+
+WindowLock
+
+<a name='M-NCube-Controls-WindowLock-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Controls-WindowLock-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+WindowLock 생성자
+
+##### Parameters
+
+This constructor has no parameters.
+
+<a name='P-NCube-Controls-WindowLock-WindowLockMainGrid'></a>
+### `property` WindowLockMainGrid [#](#P-NCube-Controls-WindowLock-WindowLockMainGrid 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+WindowLockMainGrid
+
+<a name='M-NCube-Controls-WindowLock-Lock'></a>
+### `method` Lock() [#](#M-NCube-Controls-WindowLock-Lock 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Lock
+
+##### Parameters
+
+This method has no parameters.
+
+<a name='M-NCube-Controls-WindowLock-LockMessage-System-String-'></a>
+### `method` LockMessage(message) [#](#M-NCube-Controls-WindowLock-LockMessage-System-String- 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Lock할 메세지 지정
+
+##### Parameters
+
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| message | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | string |
+
+<a name='M-NCube-Controls-WindowLock-Unlock'></a>
+### `method` Unlock() [#](#M-NCube-Controls-WindowLock-Unlock 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+Unlock
+
+##### Parameters
+
+This method has no parameters.
 
 <a name='T-NCube-Helpers-WindowLockHelper'></a>
 ## {+ type+} WindowLockHelper [#](#T-NCube-Helpers-WindowLockHelper 'Go To Here') [=](#contents 'Back To Contents')
