@@ -59,7 +59,7 @@ NCube에 적용된 테마를 일부 Customize하게 사용하려 할 때, 필요
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:system="clr-namespace:System;assembly=mscorlib">
-  <system:Double x:Key="NCube.NormalFontSize">20</system:Double>
+  <system:Double x:Key="NCube.NormalFontSize">18</system:Double>
 </ResourceDictionary>
 ```
 
