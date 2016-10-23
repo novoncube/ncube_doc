@@ -33,7 +33,7 @@ NCube는 WPF App을 개발하면서 필요한 UI 컨트롤, 유틸리티성 코�
 [보기](APIReference/api)
 
 
-## Themes API References
+## Themes Key References
 [보기](ThemeApiReferences/home)
 
 
