@@ -2,19 +2,13 @@
 
 ## Summary
 
-NCube는 WPF App을 개발하면서 필요한 UI 컨트롤, 유틸리티성 코드, 통신 라이브러리를 포함한 라이브러리 툴팃 입니다. Novo에서 많이 활용되는 UI 컨트롤을 고민했고, 자주 사용되는 UI 컨트롤을 모듈화하여 사용할 수 있도록 만들었습니다. NCube는 Novo에서 WPF 응용프로그램을 개발하는데 유용하기를 원합니다.
-
-// 예제 화면 필요 // 프로젝트 화면으로
+NCube는 WPF App을 개발하면서 필요한 UI 컨트롤, 유틸리티성 코드, 통신 라이브러리를 포함한 라이브러리 ToolKit 입니다. Novo에서 많이 활용되는 UI 컨트롤을 고민했고, 자주 사용되는 UI 컨트롤을 모듈화하여 사용할 수 있도록 만들었습니다. NCube는 Novo에서 WPF 응용프로그램을 개발하기에 유용하기를 원합니다.
 
 
-
----
 ## Getting Started
 [보기](GettingStarted/GettingStarted)
 
 
-
----
 ## Sample Documnetation
 
 이 문서는 NCube를 적용한 샘플을 설명합니다.
@@ -35,36 +29,14 @@ NCube는 WPF App을 개발하면서 필요한 UI 컨트롤, 유틸리티성 코�
 [보기](Sample/Report)
 
 
-
----
 ## API References
-### Asset
-### Builder
-### ControlResources
-### Control
-### Converter
-### Helper
-### Novo
-### Services
-// Wiki Link
-// 각각 클래스와 설명
+[보기](APIReference/api)
 
 
-
----
-## Themes API References
-// Wiki Link
-// Theme 내에 값을 어떤 값이 있는지?
-
-
-
----
 ### Apply Theme Method
-// NCube.Themes.FlatWhite 적용 및 수정 방법
+[보기](ApplyThemeMethod/home)
 
 
-
----
 ## ScreenShots
 // 참고로 보여줄 샘플 화면 다수
 // 실제 프로젝트 스크린샷이면 더 좋겠음
