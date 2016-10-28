@@ -8,7 +8,7 @@ NCube에 적용된 테마를 일부 Customize하게 사용하려 할 때, 필요
 
 이 예제는 NCube.Sample.Control을 기준으로 설명합니다.
 
-![](control1.png)
+<img src="control1.png" width="500"/>
 
 요구사항 : 기본 폰트가 작게 느껴졌습니다. 이를 크게 만들고 싶습니다.
 
@@ -110,4 +110,4 @@ namespace NCube.Sample.Controls
 
 - 기본 폰트가 변경된 것을 볼 수 있습니다.
 
-![](control2.png)
+<img src="control2.png" width="500"/>

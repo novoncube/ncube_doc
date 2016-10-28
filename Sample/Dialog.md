@@ -23,7 +23,7 @@ WindowLockHelper.LockedGrid = GRID;
 
 - 
 
-![](Dialog_ShowMsgBox_Ok.gif)
+<img src="Dialog_ShowMsgBox_Ok.gif" width="500"/>
 
 ### 샘플 코드
 
@@ -52,7 +52,7 @@ private void ButtonBase_ShowMsgBoxOk(object sender, RoutedEventArgs e)
 
 - 
 
-![](Dialog_ShowMsgBox_YesNo.gif)
+<img src="Dialog_ShowMsgBox_YesNo.gif" width="500"/>
 
 ### 샘플 코드
 
@@ -92,7 +92,7 @@ private void ButtonBase_ShowMsgBoxYesNo(object sender, RoutedEventArgs e)
 
 - 
 
-![](Dialog_ShowSysCfgRestoreConfirm.gif)
+<img src="Dialog_ShowSysCfgRestoreConfirm.gif" width="500"/>
 
 ### 샘플 코드
 
@@ -127,7 +127,7 @@ private void ButtonBase_ShowSysCfgRestoreConfirm(object sender, RoutedEventArgs 
 
 -
 
-![](Dialog_ShowInitSysColdConfirm.gif)
+<img src="Dialog_ShowInitSysColdConfirm.gif" width="500"/>
 
 ### 샘플 코드
 ```xml
@@ -170,7 +170,7 @@ private void ButtonBase_ShowInitSysColdConfirm(object sender, RoutedEventArgs e)
 
 - 
 
-![](Dialog_ShowRdlRebootConfirm.gif)
+<img src="Dialog_ShowRdlRebootConfirm.gif" width="500"/>
 
 ### 샘플 코드
 

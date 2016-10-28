@@ -8,7 +8,7 @@
 
 - 카테고리 형식으로 차트를 보여줍니다. Max, Avg, Min 각각 색ㅇ르 설정할 수도 있습니다.
 
-![](Chart_CategoryChartControl.png)
+<img src="Chart_CategoryChartControl.png" width="500"/>
 
 ### 샘플 코드
 
@@ -55,7 +55,7 @@ private void InitItems()
 
 - CvLog를 보여주기 위한 차트입니다.
 
-![](Chart_CvLogChartControl.png)
+<img src="Chart_CvLogChartControl.png" width="500"/>
 
 ### 샘플 코드
 
@@ -104,7 +104,7 @@ private void InitItems()
 
 - EthLog를 보여주기 위한 차트입니다.
 
-![](Chart_EthLogChartControl.png)
+<img src="Chart_EthLogChartControl.png" width="500"/>
 
 ### 샘플 코드
 
@@ -151,7 +151,7 @@ private void InitItems()
 
 - Otdr Log를 보여주기 위한 차트입니다.
 
-![](Chart_OtdrLogChartControl.png)
+<img src="Chart_OtdrLogChartControl.png" width="500"/>
 
 ### 샘플 코드
 
@@ -200,7 +200,7 @@ private void InitItems()
 
 - Otdr Test Log를 보여주기 위한 차트입니다.
 
-![](Chart_OtdrTestChartControl.png)
+<img src="Chart_OtdrTestChartControl.png" width="500"/>
 
 ### 샘플 코드
 
@@ -240,7 +240,7 @@ private void InitItems()
 
 - CPU 및 메모리를 표현하기 위한 파이차트입니다.
 
-![](Chart_PieAreaChartControl.gif)
+<img src="Chart_PieAreaChartControl.gif" width="500"/>
 
 ### 샘플 코드
 
@@ -291,7 +291,7 @@ DataContext = new PieAreaChartPanelViewModel();
 - 각 Series의 색을 지정할 수 있습니다.
 - Sereis 표현을 Line, Area 로 표현가능합니다.
 
-![](Chart_RealTimeChartControl.gif)
+<img src="Chart_RealTimeChartControl.gif" width="500"/>
 
 ##### 샘플 코드
 ```xaml

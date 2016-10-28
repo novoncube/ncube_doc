@@ -8,7 +8,7 @@
 
 - 기본적인 GridControl 에서 Report하는 예제입니다.
 
-![](Report_SimpleGridControl.png)
+<img src="Report_SimpleGridControl.png" width="500"/>
 
 ## Print
 
@@ -78,8 +78,7 @@ reportPrinter.ShowPreviewDialog();
 
 - 결과물
 
-![](Report_SimpleGridControl_Print.png)
-
+<img src="Report_SimpleGridControl_Print.png" width="500"/>
 
 ## Excel
 
@@ -121,7 +120,7 @@ var path = spreadSheet.SaveDocumentAs(defaultFileName);
 
 - TreeKey를 이용하는 GridControl에서 Report하는 예제입니다.
 
-![](Report_TreeListControlPanel.png) 
+<img src="Report_TreeListControlPanel.png" width="500"/>
 
 ## 샘플 코드
 
@@ -264,7 +263,7 @@ public async void ExportExcel(HohSheetTable.TableTypes tableType = HohSheetTable
 
 ### TreeKey 방식 Print
 
-![](Report_TreeListControlPanel_TreeKey_Pinrt.png)
+<img src="Report_TreeListControlPanel_TreeKey_Pinrt.png" width="500"/>
 
 ### TreeKey 방식 Excel
 
@@ -272,7 +271,7 @@ public async void ExportExcel(HohSheetTable.TableTypes tableType = HohSheetTable
 
 ### reeKeyCombineView 방식 Print
 
-![](Report_TreeListControlPanel_TreeKeyCombineView_Print.png)
+<img src="Report_TreeListControlPanel_TreeKeyCombineView_Print.png" width="500"/>
 
 ### reeKeyCombineView 방식 Excel
 
