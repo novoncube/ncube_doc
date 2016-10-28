@@ -226,6 +226,7 @@
   - [Target](#P-NCube-Controls-PageViews-InputNameFlyPageView-Target 'NCube.Controls.PageViews.InputNameFlyPageView.Target')
   - [InitializeComponent()](#M-NCube-Controls-PageViews-InputNameFlyPageView-InitializeComponent 'NCube.Controls.PageViews.InputNameFlyPageView.InitializeComponent')
 - [Iris3Header](#T-NCube-Novo-Core-Iris3Header 'NCube.Novo.Core.Iris3Header')
+  - [#ctor()](#M-NCube-Novo-Core-Iris3Header-#ctor 'NCube.Novo.Core.Iris3Header.#ctor')
 - [JsonAuditMessage](#T-NCube-Services-Audit-JsonAuditMessage 'NCube.Services.Audit.JsonAuditMessage')
 - [JsonAuditServiceAction](#T-NCube-Services-Audit-JsonAuditServiceAction 'NCube.Services.Audit.JsonAuditServiceAction')
 - [JsonAuditServiceActionAsync](#T-NCube-Services-Audit-JsonAuditServiceActionAsync 'NCube.Services.Audit.JsonAuditServiceActionAsync')
@@ -2678,6 +2679,17 @@ NCube.Novo.Core
 ##### Summary
 
 @brief IRIS3 PDU 헤더 IRIS3 PDU 헤더로서 20 octets 크기이다. IRIS3 PDU는 EMS와 장비간에 약속된 바이너리 규격으로서 다음과 같은 형태이다.
+
+<a name='M-NCube-Novo-Core-Iris3Header-#ctor'></a>
+### `constructor` #ctor() [#](#M-NCube-Novo-Core-Iris3Header-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+@brief IRIS3 PDU 헤더 IRIS3 PDU 헤더로서 20 octets 크기이다. IRIS3 PDU는 EMS와 장비간에 약속된 바이너리 규격으로서 다음과 같은 형태이다.
+
+##### Parameters
+
+This constructor has no parameters.
 
 <a name='T-NCube-Services-Audit-JsonAuditMessage'></a>
 ## `type` JsonAuditMessage [#](#T-NCube-Services-Audit-JsonAuditMessage 'Go To Here') [=](#contents 'Back To Contents')
