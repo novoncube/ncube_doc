@@ -10,7 +10,7 @@
 
 - 
 
-<img src="Controls_AlarmCountControl.gif" width="500"/>
+<img src="Controls_AlarmCountControl.gif" width="700"/>
 
 ### 샘플 코드
 
@@ -26,7 +26,7 @@
 
 - 
 
-<img src="Controls_GSGroupControl.gif" width="500"/>
+<img src="Controls_GSGroupControl.gif" width="700"/>
 
 ### 샘플 코드
 
@@ -46,7 +46,7 @@
 
 - 
 
-<img src="Controls_GSNodeControl.gif" width="500"/>
+<img src="Controls_GSNodeControl.gif" width="700"/>
 
 ### 샘플 코드
 
@@ -65,7 +65,7 @@
 
 - 
 
-<img src="Controls_LedControl.gif" width="500"/>
+<img src="Controls_LedControl.gif" width="700"/>
 
 ### 샘플 코드
 
@@ -80,7 +80,7 @@
 
 - 
 
-<img src="Controls_MetroProgressBar.gif" width="500"/>
+<img src="Controls_MetroProgressBar.gif" width="700"/>
 
 ### 샘플 코드
 
@@ -98,7 +98,7 @@
 
 - 
 
-<img src="Controls_ProgressRing.gif" width="500"/>
+<img src="Controls_ProgressRing.gif" width="700"/>
 
 ### 샘플 코드
 
@@ -113,7 +113,7 @@
 
 - 
 
-<img src="Controls_TableGraphTab.gif" width="500"/>
+<img src="Controls_TableGraphTab.gif" width="700"/>
 
 ### 샘플 코드
 
