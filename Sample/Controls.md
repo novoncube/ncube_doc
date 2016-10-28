@@ -1,6 +1,6 @@
 # Summary
 
-- 
+- NCube에서 주로 활용하는 컨트롤입니다.
 
 
 
@@ -78,7 +78,7 @@
 
 ### 컨트롤 목적
 
-- MetroProgressBar
+- 윈도우8 테마의 프로세스바입니다.
 
 <img src="Controls_MetroProgressBar.gif" width="700"/>
 
@@ -94,7 +94,7 @@
 
 # ProgressRing
 
-### 컨트롤 목적
+### 윈도우8 테마의 프로세스바 입니다.
 
 - 
 
@@ -111,7 +111,7 @@
 
 ### 컨트롤 목적
 
-- TableGraphTab
+- 검색 기능을 가진 탭입니다.
 
 <img src="Controls_TableGraphTab.gif" width="700"/>
 
