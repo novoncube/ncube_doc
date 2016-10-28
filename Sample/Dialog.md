@@ -34,14 +34,7 @@ WindowLockHelper.LockedGrid = GRID;
 ```cs
 private void ButtonBase_ShowMsgBoxOk(object sender, RoutedEventArgs e)
 {
-    var d = new FlatPopup
-    {
-        Content = new MsgBoxPopupPageView()
-        {
-            MsgStr = "작업이 완료되었습니다."
-        }
-    };
-    d.ShowDialog();
+    MessagePopup.ShowOK("작업이 완료되었습니다.");
 }
 ```
 
@@ -63,18 +56,9 @@ private void ButtonBase_ShowMsgBoxOk(object sender, RoutedEventArgs e)
 ```cs
 private void ButtonBase_ShowMsgBoxYesNo(object sender, RoutedEventArgs e)
 {
-    var d = new FlatPopup
-    {
-        Content = new MsgBoxPopupPageView()
-        {
-            MsgStr = "설정을 수행하시겠습니까?",
-            MsgIcon = MessageBoxImage.Question,
-            MsgButton = MsgBoxButton.YesNo
-        }
-    };
-    var result = d.ShowDialog();
+    var result = MessagePopup.ShowYesNo("설정을 수행하시겠습니까?");
 
-    if (result != null && result.Value)
+    if (result == MessageBoxResult.Yes)
     {
         MessagePopup.ShowOK("완료");
     }
