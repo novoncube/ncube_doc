@@ -2,7 +2,7 @@
 
 - Panel 내에 삽입하여 쓰는 버튼입니다.
 
-<img src="Button_main.png" width="500"/>
+<img src="Button_main.png" width="700"/>
 
 # AlarmClearButtons
 
