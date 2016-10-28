@@ -168,7 +168,7 @@ private void ButtonBase_ShowInitSysColdConfirm(object sender, RoutedEventArgs e)
 
 ### 컨트롤 목적
 
-- 
+- FlatPopup & RdlRebootConfirmPopupPageView
 
 <img src="Dialog_ShowRdlRebootConfirm.gif" width="700"/>
 
