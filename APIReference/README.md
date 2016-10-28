@@ -227,6 +227,7 @@
   - [InitializeComponent()](#M-NCube-Controls-PageViews-InputNameFlyPageView-InitializeComponent 'NCube.Controls.PageViews.InputNameFlyPageView.InitializeComponent')
 - [Iris3Header](#T-NCube-Novo-Core-Iris3Header 'NCube.Novo.Core.Iris3Header')
   - [#ctor()](#M-NCube-Novo-Core-Iris3Header-#ctor 'NCube.Novo.Core.Iris3Header.#ctor')
+  - [Init()](#M-NCube-Novo-Core-Iris3Header-Init 'NCube.Novo.Core.Iris3Header.Init')
 - [JsonAuditMessage](#T-NCube-Services-Audit-JsonAuditMessage 'NCube.Services.Audit.JsonAuditMessage')
 - [JsonAuditServiceAction](#T-NCube-Services-Audit-JsonAuditServiceAction 'NCube.Services.Audit.JsonAuditServiceAction')
 - [JsonAuditServiceActionAsync](#T-NCube-Services-Audit-JsonAuditServiceActionAsync 'NCube.Services.Audit.JsonAuditServiceActionAsync')
@@ -2690,6 +2691,17 @@ NCube.Novo.Core
 ##### Parameters
 
 This constructor has no parameters.
+
+<a name='M-NCube-Novo-Core-Iris3Header-Init'></a>
+### `method` Init() [#](#M-NCube-Novo-Core-Iris3Header-Init 'Go To Here') [=](#contents 'Back To Contents')
+
+##### Summary
+
+init
+
+##### Parameters
+
+This method has no parameters.
 
 <a name='T-NCube-Services-Audit-JsonAuditMessage'></a>
 ## `type` JsonAuditMessage [#](#T-NCube-Services-Audit-JsonAuditMessage 'Go To Here') [=](#contents 'Back To Contents')
