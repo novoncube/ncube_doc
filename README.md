@@ -6,7 +6,7 @@ NCube는 WPF App을 개발하면서 필요한 UI 컨트롤, 유틸리티성 코�
 
 
 ## Getting Started
-[보기](GettingStarted/GettingStarted)
+[보기](GettingStarted/README.md)
 
 
 ## Sample Documnetation
@@ -14,31 +14,31 @@ NCube는 WPF App을 개발하면서 필요한 UI 컨트롤, 유틸리티성 코�
 이 문서는 NCube를 적용한 샘플을 설명합니다.
 
 ### NCube.Sample.Button
-[보기](Sample/Button)
+[보기](Sample/Button.md)
 ### NCube.Sample.Chart
-[보기](Sample/Chart)
+[보기](Sample/Chart.md)
 ### NCube.Sample.controls
-[보기](Sample/controls)
+[보기](Sample/controls.md)
 ### NCube.Sample.Dialog
-[보기](Sample/Dialog)
+[보기](Sample/Dialog.md)
 ### NCube.Sample.Flyout
-[보기](Sample/Flyout)
+[보기](Sample/Flyout.md)
 ### NCube.Sample.Icon
-[보기](Sample/Icon)
+[보기](Sample/Icon.md)
 ### NCube.Sample.Report
-[보기](Sample/Report)
+[보기](Sample/Report.md)
 
 
 ## API References
-[보기](APIReference/api)
+[보기](APIReference/README.md)
 
 
 ## Themes Key References
-[보기](ThemeApiReferences/home)
+[보기](ThemeApiReferences/README.md)
 
 
 ## Apply Custom Themes
-[보기](ApplyThemeMethod/home)
+[보기](ApplyThemeMethod/README.md)
 
 
 ## ScreenShots
