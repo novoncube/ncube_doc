@@ -10,7 +10,7 @@
 
 - 자동보고 창을 컨트롤 하기 위한 버튼 컨트롤입니다.
 
-<img src="Button_Sample_AlarmClearButtons.gif" style="max-width:50%;"/>
+<img src="Button_Sample_AlarmClearButtons.gif" width="300"/>
 
 ### 샘플 코드
 
