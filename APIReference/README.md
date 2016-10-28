@@ -505,7 +505,7 @@
 # NCube.v2.0 [#](#assembly 'Go To Here') [=](#contents 'Back To Contents')
 
 <a name='T-NCube-Services-ActionResult'></a>
-## {+ type+} ActionResult [#](#T-NCube-Services-ActionResult 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ActionResult [#](#T-NCube-Services-ActionResult 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -516,7 +516,7 @@ NCube.Services
 서비스 action 수행시 리턴 타입 Content는 Type 속성에 따라 달라진다.
 
 <a name='T-NCube-Services-ActionResultType'></a>
-## {+ type+} ActionResultType [#](#T-NCube-Services-ActionResultType 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ActionResultType [#](#T-NCube-Services-ActionResultType 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -562,7 +562,7 @@ Action 수행 응답 body 타입
 응답 body가 없을때
 
 <a name='T-NCube-Services-Alarms-AlarmBuzzer'></a>
-## {+ type+} AlarmBuzzer [#](#T-NCube-Services-Alarms-AlarmBuzzer 'Go To Here') [=](#contents 'Back To Contents')
+## `type` AlarmBuzzer [#](#T-NCube-Services-Alarms-AlarmBuzzer 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -610,7 +610,7 @@ This constructor has no parameters.
 | filePath | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | 파일 경로 |
 
 <a name='T-NCube-Controls-Buttons-AlarmClearButtons'></a>
-## {+ type+} AlarmClearButtons [#](#T-NCube-Controls-Buttons-AlarmClearButtons 'Go To Here') [=](#contents 'Back To Contents')
+## `type` AlarmClearButtons [#](#T-NCube-Controls-Buttons-AlarmClearButtons 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -632,7 +632,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-AlarmCountControl'></a>
-## {+ type+} AlarmCountControl [#](#T-NCube-Controls-AlarmCountControl 'Go To Here') [=](#contents 'Back To Contents')
+## `type` AlarmCountControl [#](#T-NCube-Controls-AlarmCountControl 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -693,7 +693,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Services-Audit-AuditService'></a>
-## {+ type+} AuditService [#](#T-NCube-Services-Audit-AuditService 'Go To Here') [=](#contents 'Back To Contents')
+## `type` AuditService [#](#T-NCube-Services-Audit-AuditService 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -704,7 +704,7 @@ NCube.Services.Audit
 AUDIT 서비스 클래스.
 
 <a name='T-NCube-Services-Audit-AuditServiceActionAsync'></a>
-## {+ type+} AuditServiceActionAsync [#](#T-NCube-Services-Audit-AuditServiceActionAsync 'Go To Here') [=](#contents 'Back To Contents')
+## `type` AuditServiceActionAsync [#](#T-NCube-Services-Audit-AuditServiceActionAsync 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -715,7 +715,7 @@ NCube.Services.Audit
 AUDIT 수행 기본 action (Async 버전). STD.AUDIT.PUSH 명령어를 보내고, 수행 완료되면 리턴.
 
 <a name='T-NCube-Controls-Charts-BaseChartSeriesPoint'></a>
-## {+ type+} BaseChartSeriesPoint [#](#T-NCube-Controls-Charts-BaseChartSeriesPoint 'Go To Here') [=](#contents 'Back To Contents')
+## `type` BaseChartSeriesPoint [#](#T-NCube-Controls-Charts-BaseChartSeriesPoint 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -770,7 +770,7 @@ SeriesPoint 값 이외에 실제 값을 저장하기 위한 용도로 사용하�
 출력 값의 실제 Value 값
 
 <a name='T-NCube-Controls-Charts-CategoryChartControl'></a>
-## {+ type+} CategoryChartControl [#](#T-NCube-Controls-Charts-CategoryChartControl 'Go To Here') [=](#contents 'Back To Contents')
+## `type` CategoryChartControl [#](#T-NCube-Controls-Charts-CategoryChartControl 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -890,7 +890,7 @@ This method has no parameters.
 | categoryChartModel | [NCube.Controls.Charts.CategoryChartModel](#T-NCube-Controls-Charts-CategoryChartModel 'NCube.Controls.Charts.CategoryChartModel') | 적용할 CategoryChartModel |
 
 <a name='T-NCube-Controls-Charts-CategoryChartModel'></a>
-## {+ type+} CategoryChartModel [#](#T-NCube-Controls-Charts-CategoryChartModel 'Go To Here') [=](#contents 'Back To Contents')
+## `type` CategoryChartModel [#](#T-NCube-Controls-Charts-CategoryChartModel 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -945,7 +945,7 @@ CategoryChartControl에 사용하기 위한 Model
 차트를 표현할 이름 CategoryChartControl에서는 콤보박스 Item에 표시됨
 
 <a name='T-NCube-Controls-Icons-ChartIcon'></a>
-## {+ type+} ChartIcon [#](#T-NCube-Controls-Icons-ChartIcon 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ChartIcon [#](#T-NCube-Controls-Icons-ChartIcon 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -967,7 +967,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-PageViews-ConfirmFlyPageView'></a>
-## {+ type+} ConfirmFlyPageView [#](#T-NCube-Controls-PageViews-ConfirmFlyPageView 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ConfirmFlyPageView [#](#T-NCube-Controls-PageViews-ConfirmFlyPageView 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1009,7 +1009,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-Buttons-FlatButton-ControlStatus'></a>
-## {+ type+} ControlStatus [#](#T-NCube-Controls-Buttons-FlatButton-ControlStatus 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ControlStatus [#](#T-NCube-Controls-Buttons-FlatButton-ControlStatus 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1020,7 +1020,7 @@ NCube.Controls.Buttons.FlatButton
 ControlStatus
 
 <a name='T-NCube-Controls-Charts-CvLogChartControl'></a>
-## {+ type+} CvLogChartControl [#](#T-NCube-Controls-Charts-CvLogChartControl 'Go To Here') [=](#contents 'Back To Contents')
+## `type` CvLogChartControl [#](#T-NCube-Controls-Charts-CvLogChartControl 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1144,7 +1144,7 @@ This method has no parameters.
 | max | [System.Int32](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Int32 'System.Int32') | 최대 값 |
 
 <a name='T-NCube-Controls-Charts-CvLogChartModel'></a>
-## {+ type+} CvLogChartModel [#](#T-NCube-Controls-Charts-CvLogChartModel 'Go To Here') [=](#contents 'Back To Contents')
+## `type` CvLogChartModel [#](#T-NCube-Controls-Charts-CvLogChartModel 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1202,7 +1202,7 @@ CategoryChartControl에 사용하기 위한 Model
 최대 값 리스트
 
 <a name='T-NCube-Services-Audit-DefaultAuditMessage'></a>
-## {+ type+} DefaultAuditMessage [#](#T-NCube-Services-Audit-DefaultAuditMessage 'Go To Here') [=](#contents 'Back To Contents')
+## `type` DefaultAuditMessage [#](#T-NCube-Services-Audit-DefaultAuditMessage 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1213,7 +1213,7 @@ NCube.Services.Audit
 AUDIT 메시지. 기본은 STD.AUDIT.PUSH 프로시저 호출
 
 <a name='T-NCube-Services-Audit-DefaultAuditServiceAction'></a>
-## {+ type+} DefaultAuditServiceAction [#](#T-NCube-Services-Audit-DefaultAuditServiceAction 'Go To Here') [=](#contents 'Back To Contents')
+## `type` DefaultAuditServiceAction [#](#T-NCube-Services-Audit-DefaultAuditServiceAction 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1224,7 +1224,7 @@ NCube.Services.Audit
 AUDIT 수행 기본 action. STD.AUDIT.PUSH 명령어를 보내고 끝.
 
 <a name='T-NCube-Controls-DisableControls'></a>
-## {+ type+} DisableControls [#](#T-NCube-Controls-DisableControls 'Go To Here') [=](#contents 'Back To Contents')
+## `type` DisableControls [#](#T-NCube-Controls-DisableControls 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1259,7 +1259,7 @@ Target된 control을 다시 enble 시킵니다.
 This method has no parameters.
 
 <a name='T-NCube-Helpers-EncodingHelper'></a>
-## {+ type+} EncodingHelper [#](#T-NCube-Helpers-EncodingHelper 'Go To Here') [=](#contents 'Back To Contents')
+## `type` EncodingHelper [#](#T-NCube-Helpers-EncodingHelper 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1288,7 +1288,7 @@ unmanaged UTF8 bytes (null-terminated) -> managed UTF16 string
 This method has no parameters.
 
 <a name='T-NCube-Controls-Charts-EthLogChartControl'></a>
-## {+ type+} EthLogChartControl [#](#T-NCube-Controls-Charts-EthLogChartControl 'Go To Here') [=](#contents 'Back To Contents')
+## `type` EthLogChartControl [#](#T-NCube-Controls-Charts-EthLogChartControl 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1373,7 +1373,7 @@ This method has no parameters.
 | minArg | [DevExpress.Xpf.Charts.AxisX2D](#T-DevExpress-Xpf-Charts-AxisX2D 'DevExpress.Xpf.Charts.AxisX2D') | 최소 Argment 값 |
 
 <a name='T-NCube-Controls-Charts-EthLogChartModel'></a>
-## {+ type+} EthLogChartModel [#](#T-NCube-Controls-Charts-EthLogChartModel 'Go To Here') [=](#contents 'Back To Contents')
+## `type` EthLogChartModel [#](#T-NCube-Controls-Charts-EthLogChartModel 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1420,7 +1420,7 @@ CategoryChartControl에 사용하기 위한 Model
 최대 값 리스트
 
 <a name='T-NCube-Controls-Buttons-FilterOnOffButton'></a>
-## {+ type+} FilterOnOffButton [#](#T-NCube-Controls-Buttons-FilterOnOffButton 'Go To Here') [=](#contents 'Back To Contents')
+## `type` FilterOnOffButton [#](#T-NCube-Controls-Buttons-FilterOnOffButton 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1442,7 +1442,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-Buttons-FlatButton'></a>
-## {+ type+} FlatButton [#](#T-NCube-Controls-Buttons-FlatButton 'Go To Here') [=](#contents 'Back To Contents')
+## `type` FlatButton [#](#T-NCube-Controls-Buttons-FlatButton 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1534,7 +1534,7 @@ Runtime 상에서 Theme가 변경시에 동작
 | e | [DevExpress.Xpf.Core.ThemeChangedRoutedEventArgs](#T-DevExpress-Xpf-Core-ThemeChangedRoutedEventArgs 'DevExpress.Xpf.Core.ThemeChangedRoutedEventArgs') |  |
 
 <a name='T-NCube-Controls-Popups-FlatPopup'></a>
-## {+ type+} FlatPopup [#](#T-NCube-Controls-Popups-FlatPopup 'Go To Here') [=](#contents 'Back To Contents')
+## `type` FlatPopup [#](#T-NCube-Controls-Popups-FlatPopup 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1596,7 +1596,7 @@ bool?
 This method has no parameters.
 
 <a name='T-XamlGeneratedNamespace-GeneratedInternalTypeHelper'></a>
-## {+ type+} GeneratedInternalTypeHelper [#](#T-XamlGeneratedNamespace-GeneratedInternalTypeHelper 'Go To Here') [=](#contents 'Back To Contents')
+## `type` GeneratedInternalTypeHelper [#](#T-XamlGeneratedNamespace-GeneratedInternalTypeHelper 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1662,7 +1662,7 @@ SetPropertyValue
 This method has no parameters.
 
 <a name='T-NCube-Controls-GSAlarmCountControl'></a>
-## {+ type+} GSAlarmCountControl [#](#T-NCube-Controls-GSAlarmCountControl 'Go To Here') [=](#contents 'Back To Contents')
+## `type` GSAlarmCountControl [#](#T-NCube-Controls-GSAlarmCountControl 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1716,7 +1716,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-GSGroupControl'></a>
-## {+ type+} GSGroupControl [#](#T-NCube-Controls-GSGroupControl 'Go To Here') [=](#contents 'Back To Contents')
+## `type` GSGroupControl [#](#T-NCube-Controls-GSGroupControl 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1791,7 +1791,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-GSNodeControl'></a>
-## {+ type+} GSNodeControl [#](#T-NCube-Controls-GSNodeControl 'Go To Here') [=](#contents 'Back To Contents')
+## `type` GSNodeControl [#](#T-NCube-Controls-GSNodeControl 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1866,7 +1866,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Services-Report-HohCellModel'></a>
-## {+ type+} HohCellModel [#](#T-NCube-Services-Report-HohCellModel 'Go To Here') [=](#contents 'Back To Contents')
+## `type` HohCellModel [#](#T-NCube-Services-Report-HohCellModel 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1898,7 +1898,7 @@ Cell의 폰트
 Cell에 저장된 값
 
 <a name='T-NCube-Services-Report-HohColumn'></a>
-## {+ type+} HohColumn [#](#T-NCube-Services-Report-HohColumn 'Go To Here') [=](#contents 'Back To Contents')
+## `type` HohColumn [#](#T-NCube-Services-Report-HohColumn 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1930,7 +1930,7 @@ Column의 헤더 이름
 기본 값은 1입니다. 프린트에만 적용이 됩니다.
 
 <a name='T-NCube-Services-Report-HohDataColumn'></a>
-## {+ type+} HohDataColumn [#](#T-NCube-Services-Report-HohDataColumn 'Go To Here') [=](#contents 'Back To Contents')
+## `type` HohDataColumn [#](#T-NCube-Services-Report-HohDataColumn 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -1955,7 +1955,7 @@ Cell의 폰트
 프린트에 쓰일 넓이 비율
 
 <a name='T-NCube-Services-Report-HohReportPrinter'></a>
-## {+ type+} HohReportPrinter [#](#T-NCube-Services-Report-HohReportPrinter 'Go To Here') [=](#contents 'Back To Contents')
+## `type` HohReportPrinter [#](#T-NCube-Services-Report-HohReportPrinter 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2018,7 +2018,7 @@ PreviewDialog를 보여줍니다.
 This method has no parameters.
 
 <a name='T-NCube-Services-Report-HohReportTemplate'></a>
-## {+ type+} HohReportTemplate [#](#T-NCube-Services-Report-HohReportTemplate 'Go To Here') [=](#contents 'Back To Contents')
+## `type` HohReportTemplate [#](#T-NCube-Services-Report-HohReportTemplate 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2105,7 +2105,7 @@ This method has no parameters.
 This method has no parameters.
 
 <a name='T-NCube-Services-Report-HohSheetControl'></a>
-## {+ type+} HohSheetControl [#](#T-NCube-Services-Report-HohSheetControl 'Go To Here') [=](#contents 'Back To Contents')
+## `type` HohSheetControl [#](#T-NCube-Services-Report-HohSheetControl 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2153,7 +2153,7 @@ The first parent item that matches the submitted type parameter. If not matching
 | T | The type of the queried item. |
 
 <a name='T-NCube-Services-Report-HohSheetModel'></a>
-## {+ type+} HohSheetModel [#](#T-NCube-Services-Report-HohSheetModel 'Go To Here') [=](#contents 'Back To Contents')
+## `type` HohSheetModel [#](#T-NCube-Services-Report-HohSheetModel 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2178,7 +2178,7 @@ HohSheetData에 기본으로 지정된 폰트입니다. 글꼴 : "Segoe UI" 크�
 HohSheetData에 기본으로 지정된 폰트입니다. 글꼴 : "Segoe UI" 크기 : 12 스타일 : Bold
 
 <a name='T-NCube-Services-Report-HohSheetProgress'></a>
-## {+ type+} HohSheetProgress [#](#T-NCube-Services-Report-HohSheetProgress 'Go To Here') [=](#contents 'Back To Contents')
+## `type` HohSheetProgress [#](#T-NCube-Services-Report-HohSheetProgress 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2205,7 +2205,7 @@ NCube.Services.Report
 성능을 위해, 특정 Row갯수일 때만 Progressing 이밴트를 호출하기 위해 사용함
 
 <a name='T-NCube-Services-Report-HohSheetProgressArgs'></a>
-## {+ type+} HohSheetProgressArgs [#](#T-NCube-Services-Report-HohSheetProgressArgs 'Go To Here') [=](#contents 'Back To Contents')
+## `type` HohSheetProgressArgs [#](#T-NCube-Services-Report-HohSheetProgressArgs 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2230,7 +2230,7 @@ Sheet 처리에 대한 이밴트값들
 처리된 현재 Rows 값
 
 <a name='T-NCube-Services-Report-HohSheetTable'></a>
-## {+ type+} HohSheetTable [#](#T-NCube-Services-Report-HohSheetTable 'Go To Here') [=](#contents 'Back To Contents')
+## `type` HohSheetTable [#](#T-NCube-Services-Report-HohSheetTable 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2291,7 +2291,7 @@ Table 데이터로 변환합니다.
 | token | [System.Threading.CancellationToken](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Threading.CancellationToken 'System.Threading.CancellationToken') | 취소 |
 
 <a name='T-NCube-Services-Report-HohSpreadSheet'></a>
-## {+ type+} HohSpreadSheet [#](#T-NCube-Services-Report-HohSpreadSheet 'Go To Here') [=](#contents 'Back To Contents')
+## `type` HohSpreadSheet [#](#T-NCube-Services-Report-HohSpreadSheet 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2369,7 +2369,7 @@ Sheet를 비동기로 생성합니다.
 | token | [System.Threading.CancellationToken](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Threading.CancellationToken 'System.Threading.CancellationToken') | 취소 토큰 |
 
 <a name='T-NCube-Services-Account-ILoginUserModel'></a>
-## {+ type+} ILoginUserModel [#](#T-NCube-Services-Account-ILoginUserModel 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ILoginUserModel [#](#T-NCube-Services-Account-ILoginUserModel 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2474,7 +2474,7 @@ User Access Point Info (사용자 액세스 지점 정보) : OS 버전, OS 이�
 로그인 접속 IP
 
 <a name='T-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView'></a>
-## {+ type+} InitSysColdConfirmPopupPageView [#](#T-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView 'Go To Here') [=](#contents 'Back To Contents')
+## `type` InitSysColdConfirmPopupPageView [#](#T-NCube-Controls-PageViews-InitSysColdConfirmPopupPageView 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2514,7 +2514,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-Popups-Dialogs-InnerDialog'></a>
-## {+ type+} InnerDialog [#](#T-NCube-Controls-Popups-Dialogs-InnerDialog 'Go To Here') [=](#contents 'Back To Contents')
+## `type` InnerDialog [#](#T-NCube-Controls-Popups-Dialogs-InnerDialog 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2579,7 +2579,7 @@ This method has no parameters.
 This method has no parameters.
 
 <a name='T-NCube-Controls-PageViews-InputErrorFlyPageView'></a>
-## {+ type+} InputErrorFlyPageView [#](#T-NCube-Controls-PageViews-InputErrorFlyPageView 'Go To Here') [=](#contents 'Back To Contents')
+## `type` InputErrorFlyPageView [#](#T-NCube-Controls-PageViews-InputErrorFlyPageView 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2619,7 +2619,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-PageViews-InputNameFlyPageView'></a>
-## {+ type+} InputNameFlyPageView [#](#T-NCube-Controls-PageViews-InputNameFlyPageView 'Go To Here') [=](#contents 'Back To Contents')
+## `type` InputNameFlyPageView [#](#T-NCube-Controls-PageViews-InputNameFlyPageView 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2669,7 +2669,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Novo-Core-Iris3Header'></a>
-## {+ type+} Iris3Header [#](#T-NCube-Novo-Core-Iris3Header 'Go To Here') [=](#contents 'Back To Contents')
+## `type` Iris3Header [#](#T-NCube-Novo-Core-Iris3Header 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2677,10 +2677,10 @@ NCube.Novo.Core
 
 ##### Summary
 
-@brief IRIS3 PDU 헤더 IRIS3 PDU 헤더로서 20 octets 크기이다. IRIS3 PDU는 EMS와 장비간에 약속된 바이너리 규격으로서 다음과 같은 형태이다. @code IRIS3 PDU 일반 형식 +--------+---------------------+-----------------------+ | header | message 1 payload | message 2 payload | +--------+---------------------+-----------------------+ IRIS3 Request PDU 형식 1 +--------+------------+----------------+--------------+ | header | cmd_header | msg1 (str|bin) | msg2(opt) | +--------+------------+----------------+--------------+ header.msg_type := PTYPE_REQUEST header.msg1_style := PSTYLE_CMD (opt) header.msg2_style := ... IRIS3 Request PDU 형식 2 +--------+----------------------+---------------------+ | header | msg1(str|bin) | msg2(opt) | +--------+----------------------+---------------------+ header.msg_type := PTYPE_REQUEST header.msg1_style := PSTYLE_STRING | PSTYLE_BINARY | PSTYLE_BIN_CRS (opt) header.msg2_style := ... IRIS3 Response Packet Format +--------+---------------------+--------------------------+ | header | message 1 payload | message 2 payload(opt) | +--------+---------------------+--------------------------+ header.msg_type := PTYPE_RESPONSE header.msg1_style := PSTYLE_CALLA | PSTYLE_STRING | PSTYLE_BINARY | .. (opt) header.msg2_style := PSTYLE_BIN_STATUS, PSTYLE_BIN_CRS etc... IRIS3 Event Packet Format +--------+---------------------+--------------------------+ | header | message 1 payload | message 2 payload (opt) | +--------+---------------------+--------------------------+ header.msg_type := PTYPE_EVENT header.msg1_style := PSTYLE_CALLA | PSTYLE_STRING | PSTYLE_BINARY (opt) header.msg2_style := PSTYLE_BIN_STATUS, PSTYLE_BIN_CRS etc... IRIS3 Status Packet Format +--------+-------------------------------------------+ | header | message 1 payload (only binary) | +--------+-------------------------------------------+ header.msg_type := PTYPE_STATUS header.msg1_style := PSTYLE_BINARY header.msg2_style := PSTYPE_NONE header.msg2_length := 0 @endcode
+@brief IRIS3 PDU 헤더 IRIS3 PDU 헤더로서 20 octets 크기이다. IRIS3 PDU는 EMS와 장비간에 약속된 바이너리 규격으로서 다음과 같은 형태이다.
 
 <a name='T-NCube-Services-Audit-JsonAuditMessage'></a>
-## {+ type+} JsonAuditMessage [#](#T-NCube-Services-Audit-JsonAuditMessage 'Go To Here') [=](#contents 'Back To Contents')
+## `type` JsonAuditMessage [#](#T-NCube-Services-Audit-JsonAuditMessage 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2691,7 +2691,7 @@ NCube.Services.Audit
 AUDIT 메시지 (JSON 형식). 만약 JSON 형식의 요청이라면 참고바람
 
 <a name='T-NCube-Services-Audit-JsonAuditServiceAction'></a>
-## {+ type+} JsonAuditServiceAction [#](#T-NCube-Services-Audit-JsonAuditServiceAction 'Go To Here') [=](#contents 'Back To Contents')
+## `type` JsonAuditServiceAction [#](#T-NCube-Services-Audit-JsonAuditServiceAction 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2702,7 +2702,7 @@ NCube.Services.Audit
 AUDIT 수행 JSON action. JSON 형태로 audit push 요청을 보낸다
 
 <a name='T-NCube-Services-Audit-JsonAuditServiceActionAsync'></a>
-## {+ type+} JsonAuditServiceActionAsync [#](#T-NCube-Services-Audit-JsonAuditServiceActionAsync 'Go To Here') [=](#contents 'Back To Contents')
+## `type` JsonAuditServiceActionAsync [#](#T-NCube-Services-Audit-JsonAuditServiceActionAsync 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2713,7 +2713,7 @@ NCube.Services.Audit
 AUDIT 수행 JSON action (Async 버전). JSON 형태로 audit push 요청을 보내고, 수행 완료되면 리턴.
 
 <a name='T-NCube-Controls-LedControl'></a>
-## {+ type+} LedControl [#](#T-NCube-Controls-LedControl 'Go To Here') [=](#contents 'Back To Contents')
+## `type` LedControl [#](#T-NCube-Controls-LedControl 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2764,7 +2764,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-LoadingScreen'></a>
-## {+ type+} LoadingScreen [#](#T-NCube-Controls-LoadingScreen 'Go To Here') [=](#contents 'Back To Contents')
+## `type` LoadingScreen [#](#T-NCube-Controls-LoadingScreen 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2804,7 +2804,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Services-Threading-LockTimeoutException'></a>
-## {+ type+} LockTimeoutException [#](#T-NCube-Services-Threading-LockTimeoutException 'Go To Here') [=](#contents 'Back To Contents')
+## `type` LockTimeoutException [#](#T-NCube-Services-Threading-LockTimeoutException 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2925,7 +2925,7 @@ Returns a string representation of the exception.
 This method has no parameters.
 
 <a name='T-NCube-Controls-Icons-LogIcon'></a>
-## {+ type+} LogIcon [#](#T-NCube-Controls-Icons-LogIcon 'Go To Here') [=](#contents 'Back To Contents')
+## `type` LogIcon [#](#T-NCube-Controls-Icons-LogIcon 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -2947,7 +2947,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-Charts-LogSeriesPoint'></a>
-## {+ type+} LogSeriesPoint [#](#T-NCube-Controls-Charts-LogSeriesPoint 'Go To Here') [=](#contents 'Back To Contents')
+## `type` LogSeriesPoint [#](#T-NCube-Controls-Charts-LogSeriesPoint 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3009,7 +3009,7 @@ SeriesPoint 값 이외에 실제 값을 저장하기 위한 용도로 사용하�
 Label
 
 <a name='T-NCube-Controls-Popups-Dialogs-MessageBoxPanel'></a>
-## {+ type+} MessageBoxPanel [#](#T-NCube-Controls-Popups-Dialogs-MessageBoxPanel 'Go To Here') [=](#contents 'Back To Contents')
+## `type` MessageBoxPanel [#](#T-NCube-Controls-Popups-Dialogs-MessageBoxPanel 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3085,7 +3085,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-Popups-Dialogs-MessageBoxWindow'></a>
-## {+ type+} MessageBoxWindow [#](#T-NCube-Controls-Popups-Dialogs-MessageBoxWindow 'Go To Here') [=](#contents 'Back To Contents')
+## `type` MessageBoxWindow [#](#T-NCube-Controls-Popups-Dialogs-MessageBoxWindow 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3146,7 +3146,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Services-MetaFacade-MetaManager'></a>
-## {+ type+} MetaManager [#](#T-NCube-Services-MetaFacade-MetaManager 'Go To Here') [=](#contents 'Back To Contents')
+## `type` MetaManager [#](#T-NCube-Services-MetaFacade-MetaManager 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3193,7 +3193,7 @@ Item1 : 수행 완료 여부, 성공이든 실패든 응답이 오면 true, 응�
 | timeout | [System.Int32](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Int32 'System.Int32') | 타임아웃 기본 30초 |
 
 <a name='T-NCube-Controls-MetroProgressBar'></a>
-## {+ type+} MetroProgressBar [#](#T-NCube-Controls-MetroProgressBar 'Go To Here') [=](#contents 'Back To Contents')
+## `type` MetroProgressBar [#](#T-NCube-Controls-MetroProgressBar 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3229,7 +3229,7 @@ Gets/sets the diameter of the ellipses used in the indeterminate animation.
 Gets/sets the offset of the ellipses used in the indeterminate animation.
 
 <a name='T-NCube-Controls-PageViews-MmiMsgBoxPageView'></a>
-## {+ type+} MmiMsgBoxPageView [#](#T-NCube-Controls-PageViews-MmiMsgBoxPageView 'Go To Here') [=](#contents 'Back To Contents')
+## `type` MmiMsgBoxPageView [#](#T-NCube-Controls-PageViews-MmiMsgBoxPageView 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3290,7 +3290,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-PageViews-MsgBoxButton'></a>
-## {+ type+} MsgBoxButton [#](#T-NCube-Controls-PageViews-MsgBoxButton 'Go To Here') [=](#contents 'Back To Contents')
+## `type` MsgBoxButton [#](#T-NCube-Controls-PageViews-MsgBoxButton 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3301,7 +3301,7 @@ NCube.Controls.PageViews
 MsgBoxButton
 
 <a name='T-NCube-Controls-PageViews-MsgBoxPopupPageView'></a>
-## {+ type+} MsgBoxPopupPageView [#](#T-NCube-Controls-PageViews-MsgBoxPopupPageView 'Go To Here') [=](#contents 'Back To Contents')
+## `type` MsgBoxPopupPageView [#](#T-NCube-Controls-PageViews-MsgBoxPopupPageView 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3362,7 +3362,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-NCubeBuilder'></a>
-## {+ type+} NCubeBuilder [#](#T-NCube-NCubeBuilder 'Go To Here') [=](#contents 'Back To Contents')
+## `type` NCubeBuilder [#](#T-NCube-NCubeBuilder 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3478,7 +3478,7 @@ NCubeBuilder
 | selector | [NCube.NCubeThemeSelector](#T-NCube-NCubeThemeSelector 'NCube.NCubeThemeSelector') | NCubeThemeSelector |
 
 <a name='T-NCube-NCubeSetting'></a>
-## {+ type+} NCubeSetting [#](#T-NCube-NCubeSetting 'Go To Here') [=](#contents 'Back To Contents')
+## `type` NCubeSetting [#](#T-NCube-NCubeSetting 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3544,7 +3544,7 @@ Title
 Width
 
 <a name='T-NCube-Builder-NCubeStartup'></a>
-## {+ type+} NCubeStartup [#](#T-NCube-Builder-NCubeStartup 'Go To Here') [=](#contents 'Back To Contents')
+## `type` NCubeStartup [#](#T-NCube-Builder-NCubeStartup 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3592,7 +3592,7 @@ NCubeBuilder
 | key | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | Application Resrouce에 등록된 Key값 |
 
 <a name='T-NCube-NCubeThemeSelector'></a>
-## {+ type+} NCubeThemeSelector [#](#T-NCube-NCubeThemeSelector 'Go To Here') [=](#contents 'Back To Contents')
+## `type` NCubeThemeSelector [#](#T-NCube-NCubeThemeSelector 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3610,7 +3610,7 @@ NCubeBuilder에서 테마를 선택하기 위한 enum
 기본 FlatWhite 테마
 
 <a name='T-NCube-Controls-Icons-NetworkIcon'></a>
-## {+ type+} NetworkIcon [#](#T-NCube-Controls-Icons-NetworkIcon 'Go To Here') [=](#contents 'Back To Contents')
+## `type` NetworkIcon [#](#T-NCube-Controls-Icons-NetworkIcon 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3632,7 +3632,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-Icons-OamIcon'></a>
-## {+ type+} OamIcon [#](#T-NCube-Controls-Icons-OamIcon 'Go To Here') [=](#contents 'Back To Contents')
+## `type` OamIcon [#](#T-NCube-Controls-Icons-OamIcon 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3654,7 +3654,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-PageViews-OkFlyPageView'></a>
-## {+ type+} OkFlyPageView [#](#T-NCube-Controls-PageViews-OkFlyPageView 'Go To Here') [=](#contents 'Back To Contents')
+## `type` OkFlyPageView [#](#T-NCube-Controls-PageViews-OkFlyPageView 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3703,14 +3703,14 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Services-Threading-OneShotTimerHelper'></a>
-## {+ type+} OneShotTimerHelper [#](#T-NCube-Services-Threading-OneShotTimerHelper 'Go To Here') [=](#contents 'Back To Contents')
+## `type` OneShotTimerHelper [#](#T-NCube-Services-Threading-OneShotTimerHelper 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
 NCube.Services.Threading
 
 <a name='T-NCube-Controls-Buttons-OpenCloseButtons'></a>
-## {+ type+} OpenCloseButtons [#](#T-NCube-Controls-Buttons-OpenCloseButtons 'Go To Here') [=](#contents 'Back To Contents')
+## `type` OpenCloseButtons [#](#T-NCube-Controls-Buttons-OpenCloseButtons 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3739,7 +3739,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-Charts-OtdrChartModel'></a>
-## {+ type+} OtdrChartModel [#](#T-NCube-Controls-Charts-OtdrChartModel 'Go To Here') [=](#contents 'Back To Contents')
+## `type` OtdrChartModel [#](#T-NCube-Controls-Charts-OtdrChartModel 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3801,7 +3801,7 @@ CategoryChartControl에 사용하기 위한 Model
 최소 값 리스트
 
 <a name='T-NCube-Controls-Charts-OtdrLogChartControl'></a>
-## {+ type+} OtdrLogChartControl [#](#T-NCube-Controls-Charts-OtdrLogChartControl 'Go To Here') [=](#contents 'Back To Contents')
+## `type` OtdrLogChartControl [#](#T-NCube-Controls-Charts-OtdrLogChartControl 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3911,7 +3911,7 @@ This method has no parameters.
 | minArg | [DevExpress.Xpf.Charts.AxisX2D](#T-DevExpress-Xpf-Charts-AxisX2D 'DevExpress.Xpf.Charts.AxisX2D') | 최소 Argment 값 |
 
 <a name='T-NCube-Controls-Charts-OtdrSeriesPoint'></a>
-## {+ type+} OtdrSeriesPoint [#](#T-NCube-Controls-Charts-OtdrSeriesPoint 'Go To Here') [=](#contents 'Back To Contents')
+## `type` OtdrSeriesPoint [#](#T-NCube-Controls-Charts-OtdrSeriesPoint 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -3951,7 +3951,7 @@ SeriesPoint 값 이외에 실제 값을 저장하기 위한 용도로 사용하�
 출력 값의 실제 Value 값
 
 <a name='T-NCube-Controls-Charts-OtdrTestChartControl'></a>
-## {+ type+} OtdrTestChartControl [#](#T-NCube-Controls-Charts-OtdrTestChartControl 'Go To Here') [=](#contents 'Back To Contents')
+## `type` OtdrTestChartControl [#](#T-NCube-Controls-Charts-OtdrTestChartControl 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4061,7 +4061,7 @@ This method has no parameters.
 | minArg | [System.String](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.String 'System.String') | 최소 Argment 값 |
 
 <a name='T-NCube-PackPath'></a>
-## {+ type+} PackPath [#](#T-NCube-PackPath 'Go To Here') [=](#contents 'Back To Contents')
+## `type` PackPath [#](#T-NCube-PackPath 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4093,7 +4093,7 @@ $"{App}{Name};component/"
 "NCube.v2.0"
 
 <a name='T-NCube-Controls-Charts-PieAreaChart'></a>
-## {+ type+} PieAreaChart [#](#T-NCube-Controls-Charts-PieAreaChart 'Go To Here') [=](#contents 'Back To Contents')
+## `type` PieAreaChart [#](#T-NCube-Controls-Charts-PieAreaChart 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4210,7 +4210,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-Icons-ProgressChartIcon'></a>
-## {+ type+} ProgressChartIcon [#](#T-NCube-Controls-Icons-ProgressChartIcon 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ProgressChartIcon [#](#T-NCube-Controls-Icons-ProgressChartIcon 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4232,7 +4232,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-ProgressRing'></a>
-## {+ type+} ProgressRing [#](#T-NCube-Controls-ProgressRing 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ProgressRing [#](#T-NCube-Controls-ProgressRing 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4296,7 +4296,7 @@ IsLarge
 MaxSideLength
 
 <a name='T-NCube-Controls-ProgressRingHolder'></a>
-## {+ type+} ProgressRingHolder [#](#T-NCube-Controls-ProgressRingHolder 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ProgressRingHolder [#](#T-NCube-Controls-ProgressRingHolder 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4333,7 +4333,7 @@ Dispose
 This method has no parameters.
 
 <a name='T-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView'></a>
-## {+ type+} RdlRebootConfirmPopupPageView [#](#T-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView 'Go To Here') [=](#contents 'Back To Contents')
+## `type` RdlRebootConfirmPopupPageView [#](#T-NCube-Controls-PageViews-RdlRebootConfirmPopupPageView 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4373,7 +4373,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-Charts-RealTimeChartControl'></a>
-## {+ type+} RealTimeChartControl [#](#T-NCube-Controls-Charts-RealTimeChartControl 'Go To Here') [=](#contents 'Back To Contents')
+## `type` RealTimeChartControl [#](#T-NCube-Controls-Charts-RealTimeChartControl 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4546,7 +4546,7 @@ This method has no parameters.
 This method has no parameters.
 
 <a name='T-NCube-Controls-Charts-RealTimeChartModel'></a>
-## {+ type+} RealTimeChartModel [#](#T-NCube-Controls-Charts-RealTimeChartModel 'Go To Here') [=](#contents 'Back To Contents')
+## `type` RealTimeChartModel [#](#T-NCube-Controls-Charts-RealTimeChartModel 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4633,7 +4633,7 @@ Value
 ValueView
 
 <a name='T-NCube-Controls-Charts-RealTimeLinePointModel'></a>
-## {+ type+} RealTimeLinePointModel [#](#T-NCube-Controls-Charts-RealTimeLinePointModel 'Go To Here') [=](#contents 'Back To Contents')
+## `type` RealTimeLinePointModel [#](#T-NCube-Controls-Charts-RealTimeLinePointModel 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4679,7 +4679,7 @@ ArgumentStr
 Value
 
 <a name='T-NCube-Controls-Charts-RealTimeLineSeries2D'></a>
-## {+ type+} RealTimeLineSeries2D [#](#T-NCube-Controls-Charts-RealTimeLineSeries2D 'Go To Here') [=](#contents 'Back To Contents')
+## `type` RealTimeLineSeries2D [#](#T-NCube-Controls-Charts-RealTimeLineSeries2D 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4715,7 +4715,7 @@ This constructor has no parameters.
 실시간 그래프 데이터
 
 <a name='T-NCube-Properties-Resources'></a>
-## {+ type+} Resources [#](#T-NCube-Properties-Resources 'Go To Here') [=](#contents 'Back To Contents')
+## `type` Resources [#](#T-NCube-Properties-Resources 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4740,7 +4740,7 @@ Overrides the current thread's CurrentUICulture property for all resource lookup
 Returns the cached ResourceManager instance used by this class.
 
 <a name='T-NCube-Controls-Samples-SampleBox'></a>
-## {+ type+} SampleBox [#](#T-NCube-Controls-Samples-SampleBox 'Go To Here') [=](#contents 'Back To Contents')
+## `type` SampleBox [#](#T-NCube-Controls-Samples-SampleBox 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4787,7 +4787,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow'></a>
-## {+ type+} SavedFileOpenWindow [#](#T-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow 'Go To Here') [=](#contents 'Back To Contents')
+## `type` SavedFileOpenWindow [#](#T-NCube-Controls-Popups-Dialogs-SavedFileOpenWindow 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4850,7 +4850,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-ScreenLock'></a>
-## {+ type+} ScreenLock [#](#T-NCube-Controls-ScreenLock 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ScreenLock [#](#T-NCube-Controls-ScreenLock 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4890,7 +4890,7 @@ Dispose
 This method has no parameters.
 
 <a name='T-NCube-Assets-Images-StaticImage'></a>
-## {+ type+} StaticImage [#](#T-NCube-Assets-Images-StaticImage 'Go To Here') [=](#contents 'Back To Contents')
+## `type` StaticImage [#](#T-NCube-Assets-Images-StaticImage 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4914,7 +4914,7 @@ Dialog에 사용될 아이콘의 BitmapImage를 리턴합니다.
 | boxImage | [System.Windows.MessageBoxImage](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Windows.MessageBoxImage 'System.Windows.MessageBoxImage') | DIalog에 적용된 MessageBoxImage 값 |
 
 <a name='T-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView'></a>
-## {+ type+} SysCfgRestoreConfirmPopupPageView [#](#T-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView 'Go To Here') [=](#contents 'Back To Contents')
+## `type` SysCfgRestoreConfirmPopupPageView [#](#T-NCube-Controls-PageViews-SysCfgRestoreConfirmPopupPageView 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4954,7 +4954,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-TableGraphTab'></a>
-## {+ type+} TableGraphTab [#](#T-NCube-Controls-TableGraphTab 'Go To Here') [=](#contents 'Back To Contents')
+## `type` TableGraphTab [#](#T-NCube-Controls-TableGraphTab 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -4994,7 +4994,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Services-Report-HohSheetTable-TableTypes'></a>
-## {+ type+} TableTypes [#](#T-NCube-Services-Report-HohSheetTable-TableTypes 'Go To Here') [=](#contents 'Back To Contents')
+## `type` TableTypes [#](#T-NCube-Services-Report-HohSheetTable-TableTypes 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -5022,7 +5022,7 @@ Tree로 표현된 경우, Tree를 각각의 컬럼으로 표시
 Tree로 표현된 경우, Tree를 하나의 컬럼으로 표시
 
 <a name='T-NCube-Controls-Windows-ThemeWindow'></a>
-## {+ type+} ThemeWindow [#](#T-NCube-Controls-Windows-ThemeWindow 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ThemeWindow [#](#T-NCube-Controls-Windows-ThemeWindow 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -5055,7 +5055,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Controls-Charts-RealTimeChartControl-ThresholdViewTypes'></a>
-## {+ type+} ThresholdViewTypes [#](#T-NCube-Controls-Charts-RealTimeChartControl-ThresholdViewTypes 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ThresholdViewTypes [#](#T-NCube-Controls-Charts-RealTimeChartControl-ThresholdViewTypes 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -5066,7 +5066,7 @@ NCube.Controls.Charts.RealTimeChartControl
 ThresholdViewTypes
 
 <a name='T-NCube-Services-Threading-TimedLock'></a>
-## {+ type+} TimedLock [#](#T-NCube-Services-Threading-TimedLock 'Go To Here') [=](#contents 'Back To Contents')
+## `type` TimedLock [#](#T-NCube-Services-Threading-TimedLock 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -5167,7 +5167,7 @@ Attempts to obtain a lock on the specified object for up to the specified timeou
 | timeout | [System.TimeSpan](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.TimeSpan 'System.TimeSpan') |  |
 
 <a name='T-NCube-Controls-PageViews-UnderConstructionFlyPageView'></a>
-## {+ type+} UnderConstructionFlyPageView [#](#T-NCube-Controls-PageViews-UnderConstructionFlyPageView 'Go To Here') [=](#contents 'Back To Contents')
+## `type` UnderConstructionFlyPageView [#](#T-NCube-Controls-PageViews-UnderConstructionFlyPageView 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -5200,7 +5200,7 @@ InitializeComponent
 This method has no parameters.
 
 <a name='T-NCube-Services-Threading-UndisposedLockException'></a>
-## {+ type+} UndisposedLockException [#](#T-NCube-Services-Threading-UndisposedLockException 'Go To Here') [=](#contents 'Back To Contents')
+## `type` UndisposedLockException [#](#T-NCube-Services-Threading-UndisposedLockException 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -5238,7 +5238,7 @@ Special constructor used for deserialization.
 | context | [System.Runtime.Serialization.StreamingContext](http://msdn.microsoft.com/query/dev14.query?appId=Dev14IDEF1&l=EN-US&k=k:System.Runtime.Serialization.StreamingContext 'System.Runtime.Serialization.StreamingContext') |  |
 
 <a name='T-NCube-Controls-Charts-RealTimeChartControl-ValueViewTypes'></a>
-## {+ type+} ValueViewTypes [#](#T-NCube-Controls-Charts-RealTimeChartControl-ValueViewTypes 'Go To Here') [=](#contents 'Back To Contents')
+## `type` ValueViewTypes [#](#T-NCube-Controls-Charts-RealTimeChartControl-ValueViewTypes 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -5249,7 +5249,7 @@ NCube.Controls.Charts.RealTimeChartControl
 ValueViewTypes
 
 <a name='T-NCube-Controls-WindowLock'></a>
-## {+ type+} WindowLock [#](#T-NCube-Controls-WindowLock 'Go To Here') [=](#contents 'Back To Contents')
+## `type` WindowLock [#](#T-NCube-Controls-WindowLock 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -5313,7 +5313,7 @@ Unlock
 This method has no parameters.
 
 <a name='T-NCube-Helpers-WindowLockHelper'></a>
-## {+ type+} WindowLockHelper [#](#T-NCube-Helpers-WindowLockHelper 'Go To Here') [=](#contents 'Back To Contents')
+## `type` WindowLockHelper [#](#T-NCube-Helpers-WindowLockHelper 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
@@ -5324,7 +5324,7 @@ NCube.Helpers
 MainWindow 화면 잠금 기능
 
 <a name='T-NCube-Controls-Icons-WizardIcon'></a>
-## <span background="#f9f2f4"> type </span> WizardIcon [#](#T-NCube-Controls-Icons-WizardIcon 'Go To Here') [=](#contents 'Back To Contents')
+## `type` WizardIcon [#](#T-NCube-Controls-Icons-WizardIcon 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
