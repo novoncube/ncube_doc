@@ -13,28 +13,6 @@
 ``` 
 
 
-# ShowUnderConstruction
-
-### 컨트롤 목적
-
-- ShowUnderConstruction
-
-<img src="Flyout_ShowUnderConstruction.gif" width="500"/>
-
-### 샘플 코드
-
-```xml
-<Button Click="ButtonBase_OnClick" Content="ShowUnderConstruction" />
-``` 
-
-```cs
-private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
-{
-    FlyoutHelper.ShowUnderConstruction(fly, (UIElement)sender);
-}
-```
-
-
 # ShowOk
 
 ### 컨트롤 목적
@@ -125,5 +103,28 @@ private void ButtonBase_OnClick5(object sender, RoutedEventArgs e)
     {
         MessageBox.Show(name);
     });
+}
+```
+
+
+
+# ShowUnderConstruction
+
+### 컨트롤 목적
+
+- ShowUnderConstruction
+
+<img src="Flyout_ShowUnderConstruction.gif" width="500"/>
+
+### 샘플 코드
+
+```xml
+<Button Click="ButtonBase_OnClick" Content="ShowUnderConstruction" />
+``` 
+
+```cs
+private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+{
+    FlyoutHelper.ShowUnderConstruction(fly, (UIElement)sender);
 }
 ```
