@@ -2,7 +2,7 @@
 
 - Panel 내에 삽입하여 쓰는 버튼입니다.
 
-![](Button_main.png)
+<img src="Button_main.png" width="500"/>
 
 # AlarmClearButtons
 
