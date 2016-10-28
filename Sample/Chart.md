@@ -55,7 +55,7 @@ private void InitItems()
 
 - CvLog를 보여주기 위한 차트입니다.
 
-![](Chart_CvLogChartPanel.png)
+![](Chart_CvLogChartControl.png)
 
 ### 샘플 코드
 

@@ -113,8 +113,7 @@ var path = spreadSheet.SaveDocumentAs(defaultFileName);
 
 - 결과물
 
-![](Report_SimpleGridControl_Excel.png)
-
+<img src="Report_SimpleGridControl_Excel.png" width="300"/>
 
 # AlarmCountControl
 
@@ -269,7 +268,7 @@ public async void ExportExcel(HohSheetTable.TableTypes tableType = HohSheetTable
 
 ### TreeKey 방식 Excel
 
-![](Report_TreeListControlPanel_TreeKey_Excel.png)
+<img src="Report_TreeListControlPanel_TreeKey_Excel.png" width="300"/>
 
 ### reeKeyCombineView 방식 Print
 
@@ -277,4 +276,4 @@ public async void ExportExcel(HohSheetTable.TableTypes tableType = HohSheetTable
 
 ### reeKeyCombineView 방식 Excel
 
-![](Report_TreeListControlPanel_TreeKeyCombineView_Excel.png)
+<img src="Report_TreeListControlPanel_TreeKeyCombineView_Excel.png" width="300"/>

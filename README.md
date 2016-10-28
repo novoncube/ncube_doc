@@ -17,8 +17,8 @@ NCube는 WPF App을 개발하면서 필요한 UI 컨트롤, 유틸리티성 코�
 [보기](Sample/Button.md)
 ### NCube.Sample.Chart
 [보기](Sample/Chart.md)
-### NCube.Sample.controls
-[보기](Sample/controls.md)
+### NCube.Sample.Controls
+[보기](Sample/Controls.md)
 ### NCube.Sample.Dialog
 [보기](Sample/Dialog.md)
 ### NCube.Sample.Flyout

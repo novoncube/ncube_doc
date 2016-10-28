@@ -19,7 +19,7 @@
 
 -
 
-![](Flyout_ShowUnderConstruction.gif)
+<img src="Flyout_ShowUnderConstruction.gif" width="500"/>
 
 ### 샘플 코드
 
@@ -41,7 +41,7 @@ private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
 
 - 
 
-![](Flyout_ShowOk.gif)
+<img src="Flyout_ShowOk.gif" width="500"/>
 
 ### 샘플 코드
 
@@ -63,7 +63,7 @@ private void ButtonBase_OnClick2(object sender, RoutedEventArgs e)
 
 - 
 
-![](Flyout_ShowCofirm.gif)
+<img src="Flyout_ShowCofirm.gif" width="500"/>
 
 ### 샘플 코드
 
@@ -88,7 +88,7 @@ private void ButtonBase_OnClick3(object sender, RoutedEventArgs e)
 
 -
 
-![](Flyout_ShowInputError.gif)
+<img src="Flyout_ShowInputError.gif" width="500"/>
 
 ### 샘플 코드
 
@@ -110,7 +110,7 @@ private void ButtonBase_OnClick4(object sender, RoutedEventArgs e)
 
 - 
 
-![](Flyout_ShowInputName.gif)
+<img src="Flyout_ShowInputName.gif" width="500"/>
 
 ### 샘플 코드
 
