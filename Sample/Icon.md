@@ -8,7 +8,7 @@
 
 - ChartIcon
 
-<img src="Icon_ChartIcon.png" width="500"/>
+<img src="Icon_ChartIcon.png" width="700"/>
 
 ### 샘플 코드
 
@@ -24,7 +24,7 @@
 
 -LogIcon
 
-<img src="Icon_LogIcon.png" width="500"/>
+<img src="Icon_LogIcon.png" width="700"/>
 
 ### 샘플 코드
 
@@ -39,7 +39,7 @@
 
 -NetworkIcon
 
-<img src="Icon_NetworkIcon.png" width="500"/>
+<img src="Icon_NetworkIcon.png" width="700"/>
 
 ### 샘플 코드
 
@@ -54,7 +54,7 @@
 
 - OamIcon
 
-<img src="Icon_OamIcon.png" width="500"/>
+<img src="Icon_OamIcon.png" width="700"/>
 
 ## 샘플 코드
 
@@ -69,7 +69,7 @@
 
 - ProgressChartIcon
 
-<img src="Icon_ProgressChartIcon.png" width="500"/>
+<img src="Icon_ProgressChartIcon.png" width="700"/>
 
 ### 샘플 코드
 
@@ -84,7 +84,7 @@
 
 - WizardIcon
 
-<img src="Icon_WizardIcon.png" width="500"/>
+<img src="Icon_WizardIcon.png" width="700"/>
 
 ### 샘플 코드
 
