@@ -21,7 +21,7 @@ WindowLockHelper.LockedGrid = GRID;
 
 ### 컨트롤 목적
 
-- FlatPopup & MsgBoxPopupPageView
+- OK 버튼 팝업입니다.
 
 <img src="Dialog_ShowMsgBox_Ok.gif" width="700"/>
 
@@ -43,7 +43,7 @@ private void ButtonBase_ShowMsgBoxOk(object sender, RoutedEventArgs e)
 
 ### 컨트롤 목적
 
-- FlatPopup & MsgBoxPopupPageView 2
+- Yes or No 팝업입니다.
 
 <img src="Dialog_ShowMsgBox_YesNo.gif" width="700"/>
 
