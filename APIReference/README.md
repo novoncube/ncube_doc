@@ -226,8 +226,6 @@
   - [Target](#P-NCube-Controls-PageViews-InputNameFlyPageView-Target 'NCube.Controls.PageViews.InputNameFlyPageView.Target')
   - [InitializeComponent()](#M-NCube-Controls-PageViews-InputNameFlyPageView-InitializeComponent 'NCube.Controls.PageViews.InputNameFlyPageView.InitializeComponent')
 - [Iris3Header](#T-NCube-Novo-Core-Iris3Header 'NCube.Novo.Core.Iris3Header')
-  - [#ctor()](#M-NCube-Novo-Core-Iris3Header-#ctor 'NCube.Novo.Core.Iris3Header.#ctor')
-  - [Init()](#M-NCube-Novo-Core-Iris3Header-Init 'NCube.Novo.Core.Iris3Header.Init')
 - [JsonAuditMessage](#T-NCube-Services-Audit-JsonAuditMessage 'NCube.Services.Audit.JsonAuditMessage')
 - [JsonAuditServiceAction](#T-NCube-Services-Audit-JsonAuditServiceAction 'NCube.Services.Audit.JsonAuditServiceAction')
 - [JsonAuditServiceActionAsync](#T-NCube-Services-Audit-JsonAuditServiceActionAsync 'NCube.Services.Audit.JsonAuditServiceActionAsync')
@@ -2681,27 +2679,55 @@ NCube.Novo.Core
 
 @brief IRIS3 PDU 헤더 IRIS3 PDU 헤더로서 20 octets 크기이다. IRIS3 PDU는 EMS와 장비간에 약속된 바이너리 규격으로서 다음과 같은 형태이다.
 
-<a name='M-NCube-Novo-Core-Iris3Header-#ctor'></a>
-### `constructor` #ctor() [#](#M-NCube-Novo-Core-Iris3Header-#ctor 'Go To Here') [=](#contents 'Back To Contents')
+##### Example
 
-##### Summary
-
-@brief IRIS3 PDU 헤더 IRIS3 PDU 헤더로서 20 octets 크기이다. IRIS3 PDU는 EMS와 장비간에 약속된 바이너리 규격으로서 다음과 같은 형태이다.
-
-##### Parameters
-
-This constructor has no parameters.
-
-<a name='M-NCube-Novo-Core-Iris3Header-Init'></a>
-### `method` Init() [#](#M-NCube-Novo-Core-Iris3Header-Init 'Go To Here') [=](#contents 'Back To Contents')
-
-##### Summary
-
-init
-
-##### Parameters
-
-This method has no parameters.
+```
+IRIS3 PDU 일반 형식 
+                +--------+---------------------+-----------------------+
+                | header |  message 1 payload  |  message 2 payload    |   
+                +--------+---------------------+-----------------------+ 
+             
+            IRIS3 Request PDU 형식 1
+                +--------+------------+----------------+--------------+
+                | header | cmd_header | msg1 (str|bin) |  msg2(opt)  |
+                +--------+------------+----------------+--------------+
+                    header.msg_type := PTYPE_REQUEST
+                    header.msg1_style := PSTYLE_CMD
+                    (opt) header.msg2_style := ...
+                    
+                IRIS3 Request PDU 형식 2
+                +--------+----------------------+---------------------+
+                | header |    msg1(str|bin)    |     msg2(opt)      |
+                +--------+----------------------+---------------------+
+                    header.msg_type := PTYPE_REQUEST
+                    header.msg1_style := PSTYLE_STRING | PSTYLE_BINARY | PSTYLE_BIN_CRS
+                    (opt) header.msg2_style := ...
+             
+                IRIS3 Response Packet Format
+                +--------+---------------------+--------------------------+
+                | header |  message 1 payload  | message 2 payload(opt)  |
+                +--------+---------------------+--------------------------+ 
+                    header.msg_type   := PTYPE_RESPONSE
+                    header.msg1_style := PSTYLE_CALLA | PSTYLE_STRING | PSTYLE_BINARY | .. 
+                    (opt) header.msg2_style := PSTYLE_BIN_STATUS, PSTYLE_BIN_CRS etc...
+             
+                IRIS3 Event Packet Format
+                +--------+---------------------+--------------------------+
+                | header |  message 1 payload  |  message 2 payload (opt) |
+                +--------+---------------------+--------------------------+
+                    header.msg_type   := PTYPE_EVENT
+                    header.msg1_style := PSTYLE_CALLA | PSTYLE_STRING | PSTYLE_BINARY
+                    (opt) header.msg2_style := PSTYLE_BIN_STATUS, PSTYLE_BIN_CRS etc...
+             
+                IRIS3 Status Packet Format
+                +--------+-------------------------------------------+
+                | header |  message 1 payload (only binary)          |
+                +--------+-------------------------------------------+
+                    header.msg_type    := PTYPE_STATUS
+                    header.msg1_style  := PSTYLE_BINARY
+                    header.msg2_style  := PSTYPE_NONE
+                    header.msg2_length := 0
+```
 
 <a name='T-NCube-Services-Audit-JsonAuditMessage'></a>
 ## `type` JsonAuditMessage [#](#T-NCube-Services-Audit-JsonAuditMessage 'Go To Here') [=](#contents 'Back To Contents')
