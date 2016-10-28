@@ -21,7 +21,7 @@ WindowLockHelper.LockedGrid = GRID;
 
 ### 컨트롤 목적
 
-- 
+- FlatPopup & MsgBoxPopupPageView
 
 <img src="Dialog_ShowMsgBox_Ok.gif" width="700"/>
 
@@ -50,7 +50,7 @@ private void ButtonBase_ShowMsgBoxOk(object sender, RoutedEventArgs e)
 
 ### 컨트롤 목적
 
-- 
+- FlatPopup & MsgBoxPopupPageView 2
 
 <img src="Dialog_ShowMsgBox_YesNo.gif" width="700"/>
 
@@ -90,7 +90,7 @@ private void ButtonBase_ShowMsgBoxYesNo(object sender, RoutedEventArgs e)
 
 ### 컨트롤 목적
 
-- 
+- FlatPopup & SysCfgRestoreConfirmPopupPageView
 
 <img src="Dialog_ShowSysCfgRestoreConfirm.gif" width="700"/>
 
@@ -125,7 +125,7 @@ private void ButtonBase_ShowSysCfgRestoreConfirm(object sender, RoutedEventArgs 
 
 ### 컨트롤 목적
 
--
+- FlatPopup & InitSysColdConfirmPopupPageView
 
 <img src="Dialog_ShowInitSysColdConfirm.gif" width="700"/>
 

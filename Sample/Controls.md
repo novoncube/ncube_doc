@@ -8,7 +8,7 @@
 
 ### 컨트롤 목적
 
-- 
+- AlarmCountControl
 
 <img src="Controls_AlarmCountControl.gif" width="700"/>
 
@@ -24,7 +24,7 @@
 
 ### 컨트롤 목적
 
-- 
+- GSGroupControl
 
 <img src="Controls_GSGroupControl.gif" width="700"/>
 
@@ -44,7 +44,7 @@
 
 ### 컨트롤 목적
 
-- 
+- GSNodeControl
 
 <img src="Controls_GSNodeControl.gif" width="700"/>
 
@@ -63,7 +63,7 @@
 
 ### 컨트롤 목적
 
-- 
+- LedControl
 
 <img src="Controls_LedControl.gif" width="700"/>
 
@@ -78,7 +78,7 @@
 
 ### 컨트롤 목적
 
-- 
+- MetroProgressBar
 
 <img src="Controls_MetroProgressBar.gif" width="700"/>
 
@@ -111,7 +111,7 @@
 
 ### 컨트롤 목적
 
-- 
+- TableGraphTab
 
 <img src="Controls_TableGraphTab.gif" width="700"/>
 

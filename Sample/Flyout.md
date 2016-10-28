@@ -17,7 +17,7 @@
 
 ### 컨트롤 목적
 
--
+- ShowUnderConstruction
 
 <img src="Flyout_ShowUnderConstruction.gif" width="500"/>
 
@@ -39,7 +39,7 @@ private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
 
 ### 컨트롤 목적
 
-- 
+- ShowOk
 
 <img src="Flyout_ShowOk.gif" width="500"/>
 
@@ -61,7 +61,7 @@ private void ButtonBase_OnClick2(object sender, RoutedEventArgs e)
 
 ### 컨트롤 목적
 
-- 
+- ShowConfirm
 
 <img src="Flyout_ShowCofirm.gif" width="500"/>
 
@@ -86,7 +86,7 @@ private void ButtonBase_OnClick3(object sender, RoutedEventArgs e)
 
 ### 컨트롤 목적
 
--
+- ShowInputError
 
 <img src="Flyout_ShowInputError.gif" width="500"/>
 
@@ -108,7 +108,7 @@ private void ButtonBase_OnClick4(object sender, RoutedEventArgs e)
 
 ### 컨트롤 목적
 
-- 
+- ShowInputName
 
 <img src="Flyout_ShowInputName.gif" width="500"/>
 
