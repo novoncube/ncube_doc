@@ -137,7 +137,7 @@ private void FlatButton_OnClickProgressBar(object sender, RoutedEventArgs e)
 
 - 파일을 여는 버튼입니다. filePath를 지정하여, 해당 파일의 폴더나 파일을 열고 닫을 수 있습니다.
 
-![](Button_Sample_OpenCloseButton.gif)
+<img src="Button_Sample_OpenCloseButton.gif" width="300"/>
 
 ### 샘플 코드
 
