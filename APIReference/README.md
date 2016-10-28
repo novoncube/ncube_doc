@@ -5324,7 +5324,7 @@ NCube.Helpers
 MainWindow 화면 잠금 기능
 
 <a name='T-NCube-Controls-Icons-WizardIcon'></a>
-## {+ type+} WizardIcon [#](#T-NCube-Controls-Icons-WizardIcon 'Go To Here') [=](#contents 'Back To Contents')
+## <span background="#f9f2f4"> type </span> WizardIcon [#](#T-NCube-Controls-Icons-WizardIcon 'Go To Here') [=](#contents 'Back To Contents')
 
 ##### Namespace
 
