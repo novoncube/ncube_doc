@@ -49,7 +49,7 @@ private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
 
 - GridControl의 필터를 켜고 끌때 사용하는 버튼입니다.
 
-<img src="Button_Sample_FilterOnOffButton.gif" width="500"/>
+<img src="Button_Sample_FilterOnOffButton.gif" width="700"/>
 
 ### 샘플 코드
 
@@ -84,7 +84,7 @@ private void BTN_AlmFilter_Click(object sender, RoutedEventArgs e)
 
 - FlatButton 입니다. Progress를 이용하여 동작시킬 수 있습니다.
 
-<img src="Button_Sample_FlatButton.gif" width="500"/>
+<img src="Button_Sample_FlatButton.gif" width="700"/>
 
 ### 샘플 코드
 
