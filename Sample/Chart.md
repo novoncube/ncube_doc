@@ -6,7 +6,7 @@
 
 ### 컨트롤 목적
 
-- 카테고리 형식으로 차트를 보여줍니다. Max, Avg, Min 각각 색ㅇ르 설정할 수도 있습니다.
+- 카테고리 형식으로 차트를 보여줍니다. Max, Avg, Min 각각 색 설정할 수도 있습니다.
 
 <img src="Chart_CategoryChartControl.png" width="700"/>
 
@@ -40,8 +40,7 @@ private void InitItems()
             avrPoints.Add(new BaseChartSeriesPoint(nowDate, avr, nowStr, avr));
             int min = ram.Next(20, 50);
             minPoints.Add(new BaseChartSeriesPoint(nowDate, min, nowStr, min));
-        }
-
+        }
         var category = new CategoryChartModel("테스트" + count, maxPoints, avrPoints, minPoints);
         chart.Items.Add(category);
     }
